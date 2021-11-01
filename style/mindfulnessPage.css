@@ -42,13 +42,14 @@
 }
 
 #therapyDiv{
-    color: rgb(252, 46, 113);
+    color: #404040; 
     box-sizing: border-box;
     padding: 5.6% 0 0 81% ;
     
 }
 #mindfulnessDiv{
-    color: #404040; 
+    
+    color: rgb(252, 46, 113);
     box-sizing: border-box;
     padding: 5.6% 0 0 31.5% ;
 }
