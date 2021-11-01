@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .navbar{
     display: flex;
@@ -98,20 +98,28 @@
 
 
 
-/* slideshow */
-
-.slider-box{
-    width: 90%;
-    height: 90vh;
-    margin: 30px auto;
-    position: relative;
-    overflow: hidden;
-
-}
+/* slideshow start */
 #slider{
-    width:100%;
+    width:300%;
     display: flex;
-    transition: 0.7s;
+    transition: 0.7s ;
+    
+}
+
+@keyframes slider{
+ 0%{
+    /* transition: 1s; */
+    transform:translateX(0px) ;
+ }
+ 35%{
+    /* transition: 1s; */
+    transform:translateX(-33.33%) ;
+ }
+75%{
+    /* transition: 1s; */
+    transform:translateX(-66.66%) ;
+}
+
 }
 #slider img{
     width: 100%;
@@ -130,7 +138,20 @@
     border-radius: 50%;
     background: rgba(119, 117, 117, 0.611);
     cursor: pointer;
+    /* animation: changecg 9s infinite ; */
 }
 .active{
     background: black !important;
 }
+/* @keyframes changecg{
+    0%{ 
+        background: black 
+    }
+       
+     35%{
+        background: black 
+     }
+    75%{
+        background: black 
+    }
+} */

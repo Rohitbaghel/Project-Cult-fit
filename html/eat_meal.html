@@ -58,7 +58,36 @@
 
 
 
-    
+    <script>
+
+        function slider1(){
+            console.log("slider1")
+        }
+        function slider2(){
+            console.log("slider2")
+        }
+        function slider3(){
+            console.log("slider3")
+        }
+        
+
+
+        function slideshow(){
+
+            console.log("start")
+            setTimeout(slider1,2000)
+            setTimeout(slider2,4000)
+            setTimeout(slider3,6000)
+            //     // setInterval(slider1(),3000)
+            //     // setInterval(slider2(),6000)
+            //     // setInterval(slider3(),9000)
+
+            console.log("end")
+
+        }
+    let inverval=setInterval(slideshow,5000)
+  
+    </script>
 </body>
 
 </html>
