@@ -171,11 +171,13 @@ SecondPart of my Page */
 
 #allBoxes>div{
     border-radius: 10px;
+
+}
+#allBoxes>div:hover{
+    cursor: pointer;
 }
 
-#div1{
-    height: 200px;
-}
+
 
 
 
@@ -277,6 +279,175 @@ SecondPart of my Page */
    font-weight: 600;
 }
 
+
+
+#bookNowBox{
+     width: 74%;
+     height: 160px;
+     margin: 80px auto auto auto;
+     border-radius: 5px;
+}
+
+#onlineCons{
+    width: 100%;
+    height: 430px;
+    background-color: rgb(203, 230, 255);
+    margin: 80px 0 0 0;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+
+#div1{
+    height: 500px;
+}
+
+
+
+#onlineConsHeading{
+    
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+#ocText{
+    color: rgb(136, 142, 158);
+    text-align: center;
+    font-size: 1.01vw;
+    font-weight: 500;
+    margin: .25% 0 0 0;
+}
+
+#packBox{
+    width:45%;
+    margin:1.5% auto auto auto ;
+    display: grid;
+    grid-template-columns: 40% 20% 40%  ;
+    /* height: 30px; */
+}
+
+#whyPack{
+    text-align: center;
+    font-size: .95vw;
+    font-weight: 600;
+
+}
+
+
+
+#threeDiv{
+    margin: 40px auto auto auto ;
+    width: 75%;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#threeDiv>div{
+    display: flex;
+    font-weight: 100;
+    font-size: 1vw;
+    color: #616263;
+}
+
+.threeText{
+    padding: .8% 0 0 0;
+    box-sizing: border-box;
+    margin: 0 0 0 1%;
+}
+
+.mr1{
+    margin: 0 0 0 8%;
+}
+
+.mr2{
+    margin: 0 0 0 23%;
+}
+
+.mr3{
+    margin: 0 0 0 30%;
+}
+
+
+
+#selectText{
+    margin: 2.5%  0 0 0 ;
+    text-align: center;
+    font-size: .95vw;
+    font-weight: 600;
+}
+
+#priceBox{
+    width: 80%;
+    margin: 2% auto auto auto;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    height: 60px;
+    grid-gap: 2%;
+
+}
+#priceBox>div{
+    background-color:white;
+    border-radius: 10px;
+    border-bottom: 1px dashed black;
+}
+#priceBox>div:hover{
+    cursor: pointer;
+}
+.monthsBox{
+    display: flex;
+
+}
+
+.monthText{
+    width: 80%;
+}
+.sessionText{
+    width: 70%;
+    font-size: .95vw;
+    margin: 4% 0 0 5%;
+    font-weight: 500;
+}
+
+.prText{
+    font-size: .95vw;
+    font-weight: 600;
+    margin: 1% 0 0 6%;
+}
+.colour1{
+    color: rgba(0,0,0,0.34);
+}
+
+.buyTextBox{
+    margin:6% 0 0 6% ;
+    font-size: 1vw;
+    color: rgb(255, 50, 120);
+    font-weight: 600;
+}
+
+
 div{
     /* border: 1px solid black; */
+}
+
+#discBox{
+    width: 80%;
+    margin: 0 auto auto auto;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    height: 40px;
+    grid-gap: 2%;
+}
+
+#discBox>div{
+    background-color: rgb(216, 232, 255);
+    border-radius: 10px;
+}
+
+.discTextBox{
+    display: flex;
+}
+.disc20{
+    font-size: .8vw;
+    margin: 3% 0 0 1%;
 }
