@@ -229,6 +229,37 @@ SecondPart of my Page */
    
 }
 
-/* div{
+
+
+.textOnImgBox{
+    width: 80%;
+    height: 90%;
+    margin: 3% 0 0 4%;
+}
+
+.headingTextBox{
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+.line{
+    width: 3%;
+    height: 2px;
+    margin: 15px 0 0 2px;
+    background-color: #94a3ad;
+}
+
+div{
     border: 1px solid black;
-} */
+}
+
+.infoText{
+    font-size: .7vw;
+    font-weight: 600;
+    margin: 15px 0 0 2px;
+    color: #404040;
+}
+
+.timingBox{
+   margin: 15px 0 0 7px; 
+}
