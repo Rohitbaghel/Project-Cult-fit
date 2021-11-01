@@ -233,7 +233,7 @@ SecondPart of my Page */
 
 .textOnImgBox{
     width: 80%;
-    height: 90%;
+    height: 60%;
     margin: 3% 0 0 4%;
 }
 
@@ -249,17 +249,34 @@ SecondPart of my Page */
     background-color: #94a3ad;
 }
 
-div{
-    border: 1px solid black;
-}
+
 
 .infoText{
-    font-size: .7vw;
+    font-size: .72vw;
     font-weight: 600;
     margin: 15px 0 0 2px;
     color: #404040;
+    width: 87%;
 }
 
 .timingBox{
-   margin: 15px 0 0 7px; 
+   margin: 13px 0 0 7px; 
+   display: flex;
+}
+.timingSec{
+    font-size: .8vw;
+    font-weight: 600;
+    margin: 0 0 0 1%;
+    box-sizing: border-box;
+    color: #404040;
+}
+
+.priceBox{
+   margin: 7% 0 0 4%;
+   font-size: 1vw;
+   font-weight: 600;
+}
+
+div{
+    /* border: 1px solid black; */
 }
