@@ -25,11 +25,11 @@
         </div>
         <div class="icons">
             <div id="therapyDiv">
-                Therapy
+                <span id="th">Therapy</span>
 
             </div>
             <div id="mindfulnessDiv">
-                Mindfulness
+            <span id="mf">Mindfulness</span>
             </div>
 
         </div>
@@ -52,3 +52,15 @@
 </body>
 
 </html>
+
+<script>
+    let changePagetoTherapy = document.getElementById("th");
+
+        changePagetoTherapy.addEventListener("click", therapyPage)
+
+        function therapyPage() {
+            window.location.href = "therapyPage.html";
+        }
+
+       
+</script>
