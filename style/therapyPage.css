@@ -474,9 +474,6 @@ div{
 }
 
 
-div{
-    /* border: 1px solid black; */
-}
 
 #discBox{
     width: 80%;
@@ -504,4 +501,87 @@ div{
     width: 100%;
     height: 160px;
     margin: 40px 0 0 0;
+}
+
+
+
+#FAQsBox{
+    height: 680px;
+    background-color: rgb(242, 244, 248);
+    padding: 3% 0 0 0;
+    box-sizing: border-box;
+}
+
+#faqText{
+    margin:  auto ;
+    width: 79%;
+    display: flex;
+}
+
+#ft{
+    font-size: 1.65vw;
+    font-weight: 600;
+}
+
+#seeText{
+    font-size: 1vw;
+    font-weight: 600;
+    color: rgb(255, 50, 120);
+    margin: 0 0 0  88.5%;
+    padding: 7px 0 0 0;
+    box-sizing: border-box;
+}
+#seeText:hover{
+    cursor: pointer;
+}
+
+
+#sevenQue{
+    width: 79%;
+    margin: 1.5% auto auto auto;
+    font-weight: 600;
+    color: rgb(106,106,106);
+    font-size: 1.1vw;
+}
+
+#quesBox{
+    width: 77.5%;
+    margin: 2% auto auto 12%;
+
+}
+
+.ques{
+    display: grid;
+    height: 70px;
+    border-bottom: 1px solid rgb(212, 212, 212) ;
+    grid-template-columns: 90% 8%;
+    grid-gap: 1.5%;
+}
+
+.sid{
+    width: 70%;
+    display: list-item;
+    margin: 0 0 0 3%;
+    color:rgb(106,106,106) ;
+    box-sizing: border-box;
+    font-size: 1.2vw;
+    padding: 2.3% 0 0 0 ;
+    
+    
+}
+
+.downArrowQue{
+    width: 80%;
+   transform: rotateZ(270deg);
+  
+}
+
+.downArrowq{
+     margin: 0 0 0 83%;
+     box-sizing: border-box;
+     padding: 25px 0  0 0 ;
+}
+
+div{
+    /* border: 1px solid black; */
 }
