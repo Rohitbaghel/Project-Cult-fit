@@ -159,6 +159,11 @@
     grid-template-columns: 33% 67%;
 }
 
+
+span:hover{
+    cursor: pointer;
+}
+
 .imgBox{
     width: 90%;
     height: 88.6%;
@@ -196,6 +201,7 @@ div{
     color: rgb(78, 78, 78);
     line-height: 18px;
 }
+
 
 .number{
     color: rgb(58, 58, 58);
