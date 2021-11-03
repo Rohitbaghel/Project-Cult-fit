@@ -1,5 +1,7 @@
 
-
+*{
+    font-family: sans-serif;
+}
 .navbar{
     display: flex;
     /* justify-content: space-between; */
@@ -97,3 +99,107 @@
     margin: 0 0 0 10%;
 }
 
+#secondPart{
+    overflow: scroll;
+    height: 642px;
+    margin: 8px -8px 0px -8px;
+   
+}
+
+#grayBox{
+    background-color: rgb(243, 243, 250);
+    width: 100%;
+    height: 5900px;
+    padding-top:45px;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+   display: none;
+}
+
+
+
+#mindLibText{
+    width: 80%;
+    margin: auto;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+}
+
+#preRecText{
+    width: 80%;
+    margin: 4px auto auto auto;
+    font-size: .9vw;
+    font-weight: 200;
+    color: rgb(144, 142, 142);
+}
+
+
+#allDivs{
+    width: 80%;
+    height: 6000px;
+    margin: 35px auto auto auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+
+#div1{
+    height: 300px;
+}
+
+.innerDiv{
+    height: 91%;
+    background-color: white;
+    width: 97%;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 33% 67%;
+}
+
+.imgBox{
+    width: 90%;
+    height: 88.6%;
+    margin: 7.5% 0 0 7.5%;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+div{
+    /* border: 1px solid black; */
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.textDiv{
+    width: 93%;
+    height: 87.5%;
+    margin: 4% 0 0 2.5%;
+}
+
+.headText{
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    height: 94%;
+}
+
+.desc{
+    font-size: .9vw;
+    font-weight: 200;
+    margin: 42px 0 0 0;
+    color: rgb(78, 78, 78);
+    line-height: 18px;
+}
+
+.number{
+    color: rgb(58, 58, 58);
+    /* margin: 15.5% 0 0 0 ; */
+    font-size: 1vw;
+    font-weight: 200;
+}
