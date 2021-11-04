@@ -2,7 +2,7 @@
 //Timer Part =>
 //Set the date we're counting down to 
 
-var countDownDate = new Date("Nov 3, 2021 15:37:25").getTime();
+var countDownDate = new Date("Nov 15, 2021 15:37:25").getTime();
 // console.log(countDownDate);
 //Update the count down every 1 sec
 
