@@ -209,3 +209,12 @@ div{
     font-size: 1vw;
     font-weight: 200;
 }
+/* 
+ .innerDiv:hover{
+     width: 96%;
+     height: 89%;
+     cursor: pointer;
+     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+      transition: all .2s ease-in-out;
+     
+ } */

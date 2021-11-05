@@ -1,3 +1,5 @@
+
+
 let changePagetoTherapy = document.getElementById("th");
 
 changePagetoTherapy.addEventListener("click", therapyPage)
@@ -7,7 +9,7 @@ function therapyPage() {
 }
 
 
-var innerDiv = document.querySelector(".innerDiv");
+var innerDiv = document.getElementById("innerDiv");
 
 innerDiv.addEventListener("mouseover",small)
 
@@ -19,9 +21,10 @@ function small(){
     let numbText = document .getElementById ("numb")
 
     headText.style.fontSize = "1.2vw"
-    descText.style.fontSize = ".8vw"
+    descText.style.fontSize = ".75vw"
     numbText.style.fontSize = ".9vw"
     
+    innerDiv.style.transition = "all .2s ease-in-out";
     innerDiv.style.width = "96.5%"
     innerDiv.style.height = "89.5%"
     innerDiv.style.cursor = "pointer"
@@ -37,10 +40,3 @@ innerDiv.addEventListener("mouseleave",removeSmall);
 
 
 
-// .innerDiv:hover{
-//     width: 96 %;
-//     height: 89 %;
-//     cursor: pointer;
-//     box - shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-
-// }
