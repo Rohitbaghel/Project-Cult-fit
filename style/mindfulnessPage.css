@@ -198,6 +198,7 @@ div{
     margin: 42px 0 0 0;
     color: rgb(78, 78, 78);
     line-height: 18px;
+    /* justify-content: left; */
 }
 
 
@@ -206,6 +207,9 @@ div{
     /* margin: 15.5% 0 0 0 ; */
     font-size: 1vw;
     font-weight: 200;
+}
+div{
+    /* border: 1px solid black; */
 }
 
  .innerDiv:hover{
@@ -216,6 +220,10 @@ div{
       transition: all .2s ease-in-out;
      
  }
+
+ /* .desc:hover{
+     font-size: 0.5vw;
+ } */
 
  #care-17 {
             width:80%;

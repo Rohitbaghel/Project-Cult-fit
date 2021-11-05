@@ -78,3 +78,21 @@ changePagetoMind.addEventListener("click", mindPage)
 function mindPage() {
     window.location.href = "mindfulnessPage.html";
 }
+
+
+//accordion=>
+
+var acc = document.getElementsByClassName("ques")
+
+for(var i = 0; i < acc.length; i++){
+    acc[i].addEventListener("click", function(){
+        this.classList.toggle("active");
+        var panel =   this.nextElementSibling;
+        
+        if(panel.style.display === "block"){
+            panel.style.display == "none"
+        } else{
+            panel.style.display == "block"
+        }
+    });
+}
