@@ -5,7 +5,7 @@
 .navbar{
     display: flex;
     /* justify-content: space-between; */
-    padding: 3px;
+    padding: .5rem;
     box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -146,9 +146,7 @@
    
 }
 
-#div1{
-    height: 300px;
-}
+
 
 .innerDiv{
     height: 91%;
@@ -209,7 +207,7 @@ div{
     font-size: 1vw;
     font-weight: 200;
 }
-/* 
+
  .innerDiv:hover{
      width: 96%;
      height: 89%;
@@ -217,4 +215,296 @@ div{
      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
       transition: all .2s ease-in-out;
      
- } */
+ }
+
+ #care-17 {
+            width:80%;
+            margin: 3% auto auto auto;
+            height:180px;
+        }
+        #care-17 > h1 {
+            font-size: 1.5vw;
+            color: #404040;
+            letter-spacing:0.3px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        #care-17 > h2 {
+            margin-bottom: 10px;
+            font-size : 1.15vw;
+        }
+        #care-17a {
+            width: 100%;
+            border-bottom: 2px solid rgb(163, 163, 163);
+            margin-bottom: 15px;
+        }
+
+         #care-17b {
+            width: 100%;
+            border-bottom: 1px solid rgb(163, 163, 163);
+            margin-bottom: 15px;
+        }
+
+        #bigText{
+            width: 80%;
+            margin: 3% auto auto auto;
+        }
+        div{
+            /* border: 1px solid black; */
+        }
+
+        #div1{
+            margin-top: 50px;
+             height: 300px;
+        }
+
+        #firstText{
+            font-size: 4.75vw;
+            color: rgb(110,110,110);
+            font-weight: 600;
+        }
+
+         #secondText{
+            font-size: 3.75vw;
+            color: rgb(178, 178, 178);
+            font-weight: 600;
+        }
+
+        #thirdText{
+            font-size: 2.75vw;
+            color: rgb(204, 204, 204);
+            font-weight: 600;
+        }
+
+
+        
+#footer {
+    background-color: black;
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    margin-top: 40px;
+    height:350px;
+  }
+  .logo-footer {
+    width: 800px;
+    /* margin-left: 140px; */
+    margin-top: 85px;
+  }
+  .text-Footer-P {
+    color: #A2A2A2;
+    text-align: left;
+    line-height: 20px;
+    font-family: 'BrandonTextWeb-Regular';
+  }
+  .logo-footer > img {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  .fText {
+    font-size: 19px;
+    text-align: right;
+    color: white;
+    line-height: 30px;
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    /* word-spacing: 10px; */
+    letter-spacing: 1.2px;
+  }
+  .right {
+    display: flex;
+    gap: 80px;
+    margin-top: 80px;
+    margin-right: 140px;
+  }
+  .playStore {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 60px;
+  }
+  .playStore > img {
+    width: 160px;
+  }  
+  /* ---customer box part */
+  #customerbox{
+      width:100%;
+      height:350px;
+      /* border:1px solid black; */
+  }
+  .rouimg{
+      border-radius: 50%;
+  }
+  #customerflex{
+      width:90%;
+      /* border:1px solid blue; */
+      height:300px;
+      margin: auto;
+      display: flex;
+  }
+  /* #part1{
+      width:40%;
+      border:1px solid yellow;
+      height: 300px;
+      display: flex;
+      padding: 30px;
+  }
+  #part2{
+    width:30%;
+    border:1px solid yellow;
+    height: 300px;
+    padding: 40px;
+} */
+   #customerflex > div{
+       width:48%;
+       /* margin:5%; */
+       /* border:1px solid red; */
+       display: flex;
+       padding: 30px;
+       padding-left: 30px;
+   }
+   .custpara{
+       margin-left: 20px;
+       font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+       color:rgb(67, 67, 67);
+       font-size: 5vw;
+    line-height: 1.7;
+}
+  .custpara > p{
+      margin-bottom: 10px;
+      color:rgb(67, 67, 67);
+  }
+  .speak{
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    margin-left: 110px;
+    margin-bottom: 5px;
+  }
+  .readmore{
+      color:rgb(255, 50, 120);
+      margin-left: 25px;
+      font-size: 14px;
+  }
+
+  div{
+      /* border: 1px solid wheat; */
+  }
+  .authorname{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    
+    background-color: black;
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    /* margin-top: 140px; */
+    height:350px;
+  }
+  .logo-footer {
+    width: 800px;
+    /* margin-left: 140px; */
+    margin-top: 85px;
+  }
+  .text-Footer-P {
+    color: #A2A2A2;
+    text-align: left;
+    line-height: 20px;
+    font-family: 'BrandonTextWeb-Regular';
+    font-size: 1vw;
+  }
+  .logo-footer > img {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  .fText {
+    font-size: 1vw;
+    text-align: right;
+    color: white;
+    line-height: 30px;
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    /* word-spacing: 10px; */
+    letter-spacing: 1.2px;
+  }
+  .right {
+    display: flex;
+    gap: 80px;
+    margin-top: 80px;
+    margin-right: 140px;
+  }
+  .playStore {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 60px;
+  }
+  .playStore > img {
+    width: 160px;
+  }  
+  /* ---customer box part */
+  #customerbox{
+      width:100%;
+      height:350px;
+      /* border:1px solid black; */
+  }
+  .rouimg{
+      border-radius: 50%;
+  }
+  #customerflex{
+      width:90%;
+      /* border:1px solid blue; */
+      height:300px;
+      margin: auto;
+      display: flex;
+  }
+  /* #part1{
+      width:40%;
+      border:1px solid yellow;
+      height: 300px;
+      display: flex;
+      padding: 30px;
+  }
+  #part2{
+    width:30%;
+    border:1px solid yellow;
+    height: 300px;
+    padding: 40px;
+} */
+   #customerflex > div{
+       width:48%;
+       /* margin:5%; */
+       /* border:1px solid red; */
+       display: flex;
+       padding: 30px;
+       padding-left: 30px;
+   }
+   .custpara{
+       margin-left: 20px;
+       font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+       color:rgb(67, 67, 67);
+       font-size: 16px;
+    line-height: 1.7;
+}
+  .custpara > p{
+      margin-bottom: 10px;
+      color:rgb(67, 67, 67);
+  }
+  .speak{
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    margin-left: 110px;
+    margin-bottom: 5px;
+  }
+  .readmore{
+      color:rgb(255, 50, 120);
+      margin-left: 25px;
+      font-size: 14px;
+  }
+  .authorname{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;}
+
