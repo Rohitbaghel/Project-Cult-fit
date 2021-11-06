@@ -44,7 +44,7 @@ function sid(e){
 
     var desc = document.getElementById("desc");
 
-    desc.style.fontSize= ".87vw";
+    desc.style.fontSize= ".89vw";
     desc.style.transition= "all .2s ease-in-out";
     // console.log(desc)
 

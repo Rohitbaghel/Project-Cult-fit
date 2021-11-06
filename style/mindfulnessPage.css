@@ -198,7 +198,7 @@ div{
     margin: 42px 0 0 0;
     color: rgb(78, 78, 78);
     line-height: 18px;
-    /* justify-content: left; */
+    text-align: left;
 }
 
 
@@ -217,13 +217,11 @@ div{
      height: 89%;
      cursor: pointer;
      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-      transition: all .2s ease-in-out;
+      transition: all .2s linear;
      
  }
 
- /* .desc:hover{
-     font-size: 0.5vw;
- } */
+ 
 
  #care-17 {
             width:80%;

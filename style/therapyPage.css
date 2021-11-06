@@ -562,8 +562,33 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
 }
 
 .panel{
-        display: none;
+        /* display: none; */
+    font-size: .9vw;
+    color: rgb(136, 142, 158);
+    font-weight: 500;
+    width: 55%;
+    margin: 0 0 0 2.5%;
+    line-height: 20px;
+    padding-bottom: 20px;
+      transition: all .2s linear;
+    }
 
+   details>summary{
+       list-style: circle;
+   }
+  
+
+
+    .yesNo{
+        font-weight: 300;
+        font-size: 1.1vw;
+        margin: 20px 0 0 0;
+        
+    }
+
+    .pinkC{
+        color: rgb(255, 50, 120);
+        cursor: pointer;
     }
 
 
