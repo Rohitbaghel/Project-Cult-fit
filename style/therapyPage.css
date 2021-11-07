@@ -24,6 +24,7 @@
 .imgMF{
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 #downArrowBox{
     box-sizing: border-box;
@@ -31,7 +32,7 @@
 
 }
 #downArrowBox:hover{
-    transform: rotateX(150deg);
+    /* transform: rotateX(150deg); */
 }
 
 
@@ -549,13 +550,15 @@ div{
     margin: 2% auto auto 12%;
 
 }
-
+div{
+    /* border: 1px solid black; */
+}
 .ques{
     display: grid;
     height: 70px;
     cursor: pointer;
     grid-template-columns: 90% 8%;
-    grid-gap: 1.5%;
+    grid-gap: 0px;
 }
 .ques1{
 border-bottom: 1px solid rgb(212, 212, 212) ;
@@ -574,7 +577,7 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
     }
 
    details>summary{
-       list-style: circle;
+       list-style: none;
    }
   
 
@@ -595,7 +598,7 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
 .sid{
     width: 100%;
     display: list-item;
-    margin: 0 0 0 3%;
+    margin: 0 0 0 2%;
     color:rgb(106,106,106) ;
     box-sizing: border-box;
     font-size: 1.2vw;
@@ -603,9 +606,17 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
     
     
 }
+.sid::before{
+    content: "\2022";
+    font-size: 1.75vw;
+    color: rgb(106,106,106);
+    position: relative;
+    left: -1rem;
+    top: .2rem;
+}
 
 .downArrowQue{
-    width: 80%;
+    width: 70%;
    /* transform: rotateZ(270deg); */
   
 }
@@ -613,7 +624,7 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
 
 
 .downArrowq{
-     margin: 0 0 0 83%;
+     margin: 0 0 0 85%;
      box-sizing: border-box;
      padding: 25px 0  0 0 ;
 }

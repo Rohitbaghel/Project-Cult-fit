@@ -92,7 +92,27 @@ ques.forEach((el) => {
            
                 
                 downArrow.style.transform = `rotate(${count}deg)`
-                
+                // downArrow.style.padding = "0 0 0 0"
     })
 })
 
+
+let mindFitBox = document.getElementById("mindFitImgBox")
+var c = 0;
+mindFitBox.addEventListener("click", () => {
+    
+    let dAB = document.getElementById("imgMf");
+        c -= 180;
+    dAB.style.transform = `rotate(${c}deg)`;
+    dAB.style.transition = " 0.2s ease-in-out";
+     
+})
+let imgMf = document.getElementById("imgMf")
+
+imgMf.addEventListener("click", () => {
+
+    let dAB = document.getElementById("imgMf")
+    c -= 180
+    dAB.style.transform = `rotate(${c}deg)`
+     
+})
