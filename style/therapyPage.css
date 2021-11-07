@@ -553,7 +553,7 @@ div{
 .ques{
     display: grid;
     height: 70px;
-    
+    cursor: pointer;
     grid-template-columns: 90% 8%;
     grid-gap: 1.5%;
 }
@@ -593,7 +593,7 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
 
 
 .sid{
-    width: 70%;
+    width: 100%;
     display: list-item;
     margin: 0 0 0 3%;
     color:rgb(106,106,106) ;
@@ -606,9 +606,11 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
 
 .downArrowQue{
     width: 80%;
-   transform: rotateZ(270deg);
+   /* transform: rotateZ(270deg); */
   
 }
+
+
 
 .downArrowq{
      margin: 0 0 0 83%;

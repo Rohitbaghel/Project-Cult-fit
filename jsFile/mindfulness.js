@@ -60,8 +60,11 @@ function sidLeave(e) {
 
     desc.style.fontSize = ".9vw";
     desc.style.transition = "all .2s ease-in-out";
+    
     // console.log(desc)
 
 }
+
+
 
 

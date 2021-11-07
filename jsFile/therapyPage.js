@@ -82,25 +82,17 @@ function mindPage() {
 
 //accordion=>
 
-let arrow = document.querySelectorAll(".ques");
-
-var flag = true;
-// console.log(arrow);
-
-arrow.forEach((el) =>{
-   
-    el.addEventListener("click", downArrow)
-
-    function downArrow() {
-        flag = false
-        let dA = document.querySelector(".downArrowq");
-        dA.style.transform="rotateX(150deg)";
-    }
-})
-if(flag == false){
-
-    arrow.forEach((el) => {
-        el.removeEventListener(downArrow);
-        
+const ques = document.querySelectorAll(".sid");
+var count = 0;
+ques.forEach((el) => {
+    el.addEventListener("click", event =>{
+        count += 180
+        const downArrow = el.nextElementSibling;
+       
+           
+                
+                downArrow.style.transform = `rotate(${count}deg)`
+                
     })
-}
+})
+
