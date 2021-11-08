@@ -145,6 +145,8 @@ SecondPart of my Page */
     background-color: rgb(236, 236, 236);
     display: flex;
 }
+
+
 div{
     /* border: 1px solid black; */
 }
@@ -182,8 +184,12 @@ div{
     width: 3%;
     box-sizing: border-box;
 }
+
+
+
 .arrowImg{
     transform: rotateY(180deg);
+    cursor: pointer;    
 }
 
 #helpYouBox{
@@ -558,14 +564,15 @@ div{
     height: 70px;
     cursor: pointer;
     grid-template-columns: 90% 8%;
-    grid-gap: 0px;
+    /* grid-gap: 20%; */
+
 }
 .ques1{
 border-bottom: 1px solid rgb(212, 212, 212) ;
 }
 
 .panel{
-        /* display: none; */
+        
     font-size: .9vw;
     color: rgb(136, 142, 158);
     font-weight: 500;
@@ -573,11 +580,15 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
     margin: 0 0 0 2.5%;
     line-height: 20px;
     padding-bottom: 20px;
-      transition: all .2s linear;
+    
     }
+    
+    
+
 
    details>summary{
        list-style: none;
+      
    }
   
 
@@ -618,7 +629,7 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
 .downArrowQue{
     width: 70%;
    /* transform: rotateZ(270deg); */
-  
+    margin: 0 0 0 2px;
 }
 
 

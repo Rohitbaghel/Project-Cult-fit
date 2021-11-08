@@ -92,7 +92,7 @@ ques.forEach((el) => {
            
                 
                 downArrow.style.transform = `rotate(${count}deg)`
-                // downArrow.style.padding = "0 0 0 0"
+        // downArrow.style.transition = " 0.2s ease-in-out";
     })
 })
 
