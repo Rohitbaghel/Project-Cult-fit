@@ -30,7 +30,8 @@
     height: 165px;
     margin: 0 0 0 38px;
     background-color: white;
-    box-shadow: rgb(0 0 0 / 15%) 0px 4px 7px 5px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 7px 9px;
+    
     animation: fadeIn  1s;
 }
 @-webkit-keyframes fadeIn {
@@ -41,6 +42,22 @@
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+
+#myPopup::before{
+     content: "";
+  position: absolute;
+  bottom: 99.9999%;
+  left: 45%;
+  margin-left: -14px;
+
+  border-width: 14px;
+ 
+  border-left: 15px;
+  border-right: 15px; 
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+  transform: rotateZ(180deg);
 }
 
 

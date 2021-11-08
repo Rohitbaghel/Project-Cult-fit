@@ -136,8 +136,8 @@ yes.forEach((el) => {
 var d = 0;
 
 function myFunction() {
-    var popup = document.getElementById("myPopup");
-    
+   
+    let popup = document.getElementById("myPopup");
     d++;
     if(d%2==1){
         popup.style.display = "block"
@@ -149,4 +149,22 @@ function myFunction() {
     
     
 }
+
+function myFunction() {
+
+    let popup = document.getElementById("myPopup");
+    d++;
+    if (d % 2 == 1) {
+        popup.style.display = "block"
+
+    }
+    if (d % 2 == 0) {
+        popup.style.display = "none"
+    }
+
+
+}
+
+
+
 
