@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-"start": "npx tailwindcss -i ./style/style.css -o ./html/tailwind.css"
+    "start": "npx tailwindcss -i ./style/style.css -o ./html/tailwind.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap-icons": "^1.7.0",
     "tailwindcss": "^2.2.19"
   }
 }
