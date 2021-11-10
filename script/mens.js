@@ -259,7 +259,7 @@ price.textContent = pr.price
 div1.appendChild(price)
 let div2= document.createElement("div")
 let main_price = document.createElement("p")
-main_price.setAttribute("class","text-xs py-1")
+main_price.setAttribute("class","text-xs py-1 line-through text-gray-400")
 main_price.textContent = pr.mainPrice
 div2.appendChild(main_price)
 let div3= document.createElement("div")
