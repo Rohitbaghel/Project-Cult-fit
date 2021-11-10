@@ -26,7 +26,7 @@
 #myPopup{
     position: absolute;
     display: none;
-    width: 250px;
+    width: 250px;   
     height: 165px;
     margin: 0 0 0 38px;
     background-color: white;

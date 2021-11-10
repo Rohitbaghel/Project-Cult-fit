@@ -116,7 +116,7 @@ imgMf.addEventListener("click", () => {
     let dAB = document.getElementById("imgMf")
     c += 180
     dAB.style.transform = `rotate(${c}deg)`
-    dAB.style.transition = " 0.2s linear";
+    dAB.style.transition = " 0.1s linear";
 })
 
 
