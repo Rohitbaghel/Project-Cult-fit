@@ -1,4 +1,12 @@
-
+*{   
+    margin: 0;
+    padding: 0;
+ line-height: normal !important;
+    /* overflow-x: hidden; */
+    font-family: sans-serif;
+    /* border: 1px dotted black; */
+    box-sizing: border-box;
+}
 
 .navbar{
         display: flex;
@@ -7,6 +15,7 @@
         box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
         box-sizing: border-box;
         font-family: sans-serif;
+       
     }
     .logo{
         margin: 0 0 0 .5%;
@@ -35,18 +44,23 @@
         font-weight: 500;
         font-size: 1vw;
         margin: 0 0 0 18%;
+        align-items: center;
     }
     
-    #orderDiv{ 
-              color: #404040; 
+    #orderDiv a{
+        color: #404040; 
         box-sizing: border-box;
         padding: 5.6% 0 0 81% ;
+        text-decoration: none ;
+        align-self: center;
         
     }
-    #mealDiv{
+    #mealDiv a{
         color: rgb(252, 46, 113);
+       
         box-sizing: border-box;
         padding: 5.6% 0 0 31.5% ;
+        text-decoration: none ;
     }
     
     .head{
@@ -92,4 +106,37 @@
         margin: 0 0 0 10%;
     }
     
+
+    .slideshow{
+    overflow-x: hidden !important;
+
+    }
+    #slider{
+        width:300%;
+        display: flex;
+        transition: 0.7s ;
+        
+    }
     
+    #slider img{
+        width: 100%;
+        height: 42vh;
+    }
+    
+    .indicators{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .indicators span{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(119, 117, 117, 0.611);
+        cursor: pointer;
+        /* animation: changecg 9s infinite ; */
+    }
+    .active{
+        background: black !important;
+    }
