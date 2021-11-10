@@ -21,3 +21,11 @@ function startslideshow(){
     },3000)
 }
 startslideshow()
+
+function mens_store(){
+    window.location.href = "../html/mens-store.html"
+}
+
+function mensPage(){
+    window.location.href = "../html/mens-store.html"
+}
