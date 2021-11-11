@@ -61,16 +61,10 @@ input{
     margin-bottom: 2%;
 }
 #alt{
-    background-color: #d3a3bf;
-    border-radius: 10px;
-    justify-content: space-around;
-    width: 30%;
-    margin-top: 300px;
+    justify-content: center;
+    padding-left: 30%;
+    margin-top: 3%;
     margin: auto;
-    font-size: 30px;
-    color: aliceblue;
-    padding: 5%;
-    margin-top: 20%;
 }
 #pay{
     display: flex;

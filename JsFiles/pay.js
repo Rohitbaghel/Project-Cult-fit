@@ -46,12 +46,16 @@ function makepay(){
     }else if(btn.innerText== "ORDER"){
       let div=document.createElement('div');
       parent.innerText=null;
+      let img=document.createElement("img")
+      img.src="https://i.pinimg.com/originals/0d/e4/1a/0de41a3c5953fba1755ebd416ec109dd.gif";
+      div.append(img)
       parent.append(div);
       div.setAttribute("id","alt");
-      div.textContent="PAYMENT SUCESSFUL"
+    //   div.textContent="PAYMENT SUCESSFUL"
+
     setInterval(function () {
-        window.location.href="../html/nav.html";
-    },1000);
+        window.location.href="../html/home.html";
+    },3000);
     }else{
         alert("Chose the payment option")
     }
