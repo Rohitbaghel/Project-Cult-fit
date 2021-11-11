@@ -162,7 +162,7 @@ function Clicked_Product(p) {
     let cart_data = JSON.parse(localStorage.getItem("ClickedProduct"));
     cart_data[0] = p;
     localStorage.setItem("ClickedProduct", JSON.stringify(cart_data));
-    window.location = "ProductDiscription.html"
+    // window.location = "ProductDiscription.html"
 }
 
 // if (localStorage.getItem("cart") === null) {
@@ -188,10 +188,17 @@ function updateCart() {
     document.getElementById("shopping-cart-count").innerText = cart_len
 }
 
+
+// updateLocation
 updateLocation()
 function updateLocation(){
     let Currentcity = JSON.parse(localStorage.getItem("currentcity"));
     console.log('Currentcity:', Currentcity)
     
-    document.getElementById("nameCity").innerText = Currentcity;
+    if(Currentcity===null){
+        document.getElementById("nameCity").innerText = "location";
+    }else{
+
+        document.getElementById("nameCity").innerText = Currentcity;
+    }
 }
