@@ -1,0 +1,829 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.material-icons{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-color:whitesmoke;
+    justify-content: space-between;
+    padding-top: .8rem;
+    padding-bottom:.2rem;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
+    box-sizing: border-box;
+}
+.icons{
+    display: flex;
+    margin-left:10%;
+    width:36%;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.icons-div:hover{
+    opacity: 0.4;
+}
+.navbar:hover{
+    cursor: pointer;
+}
+.icons-div{
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.head{
+    margin: 0;
+}
+.images{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.login-icon{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    padding: 10px;
+}
+.location{
+    display: flex;
+}
+.dot{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: rgb(15, 209, 255);
+    vertical-align: sub;
+}
+/* signinpage style */
+
+#login{
+    top: -800px;
+}
+
+.login{
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    width: 400px;
+    height:auto;
+    border-radius: 10px;
+    position:absolute;
+    transition: 0.3s;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+.cross{
+  display: flex;
+  padding: 5px;
+   padding-left: 370px;
+}
+.login-div{
+    display: flex;
+    padding-top: 40px;
+    flex-direction:column
+}
+
+.log-img1{
+    width:28%;
+    align-self: center;
+}
+.log-img2{
+    margin-top:10px;
+    width:28%;
+    align-self: center;
+}
+.num-div{
+   
+    margin-top: 60px;
+}
+.phn{
+    display: flex;
+    width:60%;
+    margin: auto;
+    border-bottom: 2px solid rgb(151, 151, 151);
+}
+.num{
+    border: none;
+    width:80%;
+    outline: none;
+}
+.btn-div{
+    margin-top: 40px;
+}
+.terms{
+    width:70%;
+    font-size:12px;
+    margin: auto;
+    margin-top: 30px;
+    display: list-item;
+    color: rgb(102, 102, 102);
+}
+.continue{
+    display: flex;
+    width:69%;
+    margin: auto;
+    border: none;
+    border-radius: 31px;
+    justify-content: center;
+    padding: 1rem;
+    background-image: linear-gradient(101deg, rgb(247, 69, 48), rgb(255, 46, 115));;
+}
+.google{
+    width: 69%;
+    font-size: 18px;
+    color: rgb(43, 40, 40);
+    border-radius: 31px;
+    box-shadow: rgb(202 202 202) 0px 3px 16px 0px;
+    padding: 1rem;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+}
+#otp{
+    border: none;
+    outline: none;
+}
+
+/* main container
+
+.parent{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.trans1{
+   width: 80%;
+   border: 1px solid black;
+   height: 470px;
+   margin: auto;
+   display: flex;
+ 
+   object-fit: 50% 0;
+   overflow:hidden;
+   
+}
+
+
+
+.trans1-image{
+    position: relative;
+    height: 100%;
+}
+#trans1-image1:hover{
+    width: 100%;
+    
+}
+#trans1-image2:hover{
+    width: 100%;
+  
+}
+#trans1-image3:hover{
+    width: 100%;
+   
+} */
+/* middle box */
+        
+/* .container{
+    z-index: -1;
+    position: relative;
+    top: 80px;
+} */
+.container{
+    width: 100%;
+    padding-top: 100px;
+}
+.bg {
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    height: 470px;
+    margin: auto;
+    box-sizing: border-box;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+
+.bg>div {
+    
+    height: 470px;
+    margin: -4px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+
+.bg1 {
+    
+    width: 60%;
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/d2ceda2f-0362-43f6-9a5a-d1c57f54e7f9.png");
+    background-size: auto 100%;
+    box-sizing: border-box;
+    background-position-x: 80%;
+    background-position-y: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.bg2 {
+    width: 20%;
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/0fedd809-8ebf-4c79-8306-0207522155fe.png");
+    background-size: auto 100%;
+    background-position-x: 80%;
+    background-position-y: center;
+}
+
+.bg3 {
+
+    width: 20%;
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/4041957e-947a-4cba-b9ac-940316910888.png");
+    background-size: auto 100%;
+    background-position-x: 80%;
+    background-position-y: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bg1 .txt{
+    visibility: visible;
+}
+.txt{
+    visibility: hidden;
+    width: 51%;
+    padding-left: 30px;
+}
+.txt-btn{
+    background: none;
+    border: none;
+    padding: 0.4rem;
+    border-radius :20px;
+
+}
+.txt-btn:hover{
+    transform: translateY(-5px);
+    transition: 300ms;
+}
+.heading{
+    font-size: 1.3vw;
+    font-weight: bold;
+    padding: 30px 0 0 30px ; 
+}
+#dis{
+    visibility:visible;
+}
+#hid{
+   visibility:hidden;
+}
+
+.trans {
+padding-left: 10px;
+display: flex;
+width: 100%;
+height: 470px;
+margin: auto;
+box-sizing: border-box;
+color: whitesmoke;
+}
+
+.trans>div {
+height: 470px;
+margin: -4px;
+box-sizing: border-box;
+background-repeat: no-repeat;
+transition: 0.8s;
+}
+
+.trans1 {
+
+width: 60%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/6285c073-5e3d-4abf-9189-21403628a1f4.png");
+background-size: auto 100%;
+box-sizing: border-box;
+background-position-x: 80%;
+background-position-y: center;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+.trans2 {
+width: 20%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/f66c717a-bcb9-4d64-b227-115d1010b610.jpeg");
+background-size: auto 100%;
+background-position-x: 80%;
+background-position-y: center;
+}
+
+.trans3 {
+
+width: 20%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/aedcb538-777e-4564-b422-30eb8dc220d2.png");
+background-size: auto 100%;
+background-position-x: 80%;
+background-position-y: center;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.tr {
+padding-left: 10px;
+display: flex;
+width: 100%;
+height: 470px;
+margin: auto;
+box-sizing: border-box;
+color: whitesmoke;
+}
+
+.tr>div {
+height: 470px;
+margin: -4px;
+box-sizing: border-box;
+background-repeat: no-repeat;
+transition: 0.8s;
+}
+
+.tr1 {
+
+width: 60%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/5c333536-cc72-4e5a-8648-9dcb8006f7c0.png");
+background-size: auto 100%;
+box-sizing: border-box;
+background-position-x: 80%;
+background-position-y: center;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+.tr2 {
+width: 20%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/631e1299-7ad1-4e06-b410-f77671c2c540.png");
+background-size: auto 100%;
+background-position-x: 80%;
+background-position-y: center;
+}
+
+.tr3 {
+
+width: 20%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/dec83eee-b999-4058-ac0f-6d346b8d071a.png");
+background-size: auto 100%;
+background-position-x: 80%;
+background-position-y: center;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.fit {
+padding-left: 10px;
+display: flex;
+width: 100%;
+height: 470px;
+margin: auto;
+box-sizing: border-box;
+
+}
+
+.fit>div {
+height: 470px;
+margin: -4px;
+box-sizing: border-box;
+background-repeat: no-repeat;
+transition: 0.8s;
+}
+
+.fit1 {
+
+width: 60%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/0f4c194a-3d2c-453c-8a3a-fdf20bd03699.png");
+background-size: auto 100%;
+box-sizing: border-box;
+background-position-x: 80%;
+background-position-y: center;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+.fit2 {
+width: 20%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/a319056a-2fbb-4d0f-a12d-6b47bf79deef.png");
+background-size: auto 100%;
+background-position-x: 80%;
+background-position-y: center;
+}
+
+.fit3 {
+
+width: 20%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/d9ef0d11-72e1-4e80-b1df-683a82fd692d.png");
+background-size: auto 100%;
+background-position-x: 80%;
+background-position-y: center;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+
+.mind {
+padding-left: 10px;
+display: flex;
+width: 100%;
+height: 470px;
+margin: auto;
+box-sizing: border-box;
+color:whitesmoke;
+}
+
+.mind>div {
+height: 470px;
+margin: -4px;
+box-sizing: border-box;
+background-repeat: no-repeat;
+transition: 0.8s;
+}
+
+.mind1 {
+
+width: 60%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/9f1b091f-b0ee-4920-8172-fb095c2d7a0b.png");
+background-size: auto 100%;
+box-sizing: border-box;
+background-position-x: 80%;
+background-position-y: center;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+.mind2 {
+width: 20%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/83ea52e7-666f-4f60-8027-4f03e5bf9605.png");
+background-size: auto 100%;
+background-position-x: 80%;
+background-position-y: center;
+}
+
+.mind3 {
+
+width: 20%;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/6f98a852-e6ea-463c-8372-49dc8991b952.png");
+background-size: auto 100%;
+background-position-x: 80%;
+background-position-y: center;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.container{
+   width: 80%;
+   margin: auto;
+}
+.img-box{
+   padding-left: 1%;
+    width: 96.5%;
+    margin-top:10%;
+}
+.h-txt{
+    margin: 3% 0% 3% 0%;
+}
+.h-txt1{
+   color: #4c4c4c;
+   font-size: 20px;
+   font-weight: bold;
+}
+.h-txt2{
+    font-size: 14px;
+    color: #6c6c6c;
+    line-height: 27px;
+    margin-top: 2%;
+}
+.img-div{
+   width:90px;
+   height: 50px;
+}
+.h-img{
+   width: 100%;
+   height:100%;
+}
+.img-cult-div{
+width:197.5px;
+height:50px;
+}
+.h-img-cultsport{
+   width:197.5px;
+   height:50px;
+}
+.ph{
+   background-image:linear-gradient(to right,#6f69aa,#378ac5);
+   width: 100%;
+   height: 600px;
+   margin-top: 5%;
+}
+.middle-box{
+   width:70%;
+   padding: 5%;
+   margin: auto;
+   display: flex;
+}
+.middle-box-txt{
+   padding: 10%;
+   width: 70%;
+}
+.middle-box-txt1{
+   font-size: 36px;
+   font-weight: bold;
+   line-height:1.5;
+   color: whitesmoke;
+}
+.middle-box-txt2{
+font-size: 19px;
+color: whitesmoke;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.middle-box-txt-image{
+width: 100%;
+display: flex;
+gap: 5%;
+}
+.middle-box-image{
+   padding-top: 5%;
+   width: 30%;
+}
+.btr{
+   width: 50%;
+   padding-top: 10%;
+   padding-left: 15%;
+}
+.btr1{
+   font-size:8vw;
+    color: #6e6e6e;
+    font-weight: bold;
+}
+.btr2{
+font-size:6vw;
+color: #b2b2b2;
+font-weight: bold;
+}
+.txt1{
+   line-height: 1.5rem;
+   font-size:0.9vw;
+}
+
+.trans-txt{
+visibility: hidden;
+width: 49%;
+padding-left: 30px;
+}
+.trans1 .trans-txt{
+visibility: visible;
+}
+
+.tr-txt{
+visibility: hidden;
+width: 51%;
+padding-left: 30px;
+}
+.tr1 .tr-txt{
+visibility: visible;
+}
+
+.fit-txt{
+visibility: hidden;
+width: 51%;
+padding-left: 30px;
+}
+.fit1 .fit-txt{
+visibility: visible;
+}
+
+.mind-txt{
+visibility: hidden;
+width: 40%;
+padding-left: 30px;
+}
+.mind1 .mind-txt{
+visibility: visible;
+}
+.h-mid{
+display: flex;
+justify-content: space-between;
+}
+.h-exp{
+gap: 5px;
+display: flex;
+}
+.h-txt-exp{
+font-size: 1.5vw;
+font-weight: bold;
+color: #4c4c4c;
+}
+
+.h-txt-img{
+height: 18px;
+transform: rotate(180deg);
+}
+.v{
+display:flex;
+
+}
+.v-txt{
+width: 30%;
+}
+.v-txt1{
+display: flex;
+gap: 8px;
+}
+#v-txt1-one{
+font-size: 3vw;
+font-weight: bold;
+}
+#v-txt1-two{
+    position: absolute;
+    left: 20%;
+    top: 16%;
+    transform: translate(22%, 22%);
+   height: 8%;
+    overflow: hidden;
+    /* background-color: #6c6c6c; */
+   
+}
+#v-txt1-fun{
+
+font-size: 3vw;
+font-weight: bold;
+color: #00abe9;
+}
+#v-txt1-fun div div{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#v-txt1-fun div:nth-child(1){
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0%{margin-top: -150%}
+}
+.v-txt2{
+font-size: 3vw;
+font-weight: bold;
+}
+.v-txt3{
+font-size: 18px;
+font-weight: bold;
+color: #6e6d6d;
+line-height: 3vw;
+}
+
+.vedio{
+    width:80%;
+    padding-top:3%;
+    border-radius: 10px;
+    margin-left: 4%;
+    background-color: #A1B0C5;
+    padding-bottom: 3%;
+}
+
+.vedio-icon{
+    top:78% ;
+    left: 78%;
+    color: whitesmoke;
+    position: absolute;
+}
+#alt{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-size: 10px;
+    color:red
+}
+.select-location{
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: whitesmoke;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
+    padding: 2%;
+    border-radius: 10px;
+}
+#select-location{
+    visibility:hidden;
+}
+.popularcity-m{
+    padding-top: 4%;
+   
+}
+.popularcity{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-bottom: 4%;
+    display: flex;
+    width: 40%;
+    /* background-color: #00abe9; */
+    gap: 10%;
+    
+}
+.popularcity>div{
+    
+    width: 25%;
+    font-size: 10px;
+    text-align: center;
+}
+.popularcity>div>img{
+    width: 100%;
+}
+.city{
+    padding-top: 2%;
+    padding-left: 1%;
+    display: grid;
+    grid-template-columns: repeat(6,15%);
+    gap: 2%;
+    font-size: 12px;
+}
+#select-location:hover{
+    cursor: pointer;
+}
+/* cart */
+
+.cart-div{
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 11.5%;
+    left: 75%;
+    background-color:white;
+    box-shadow: rgb(0 0 0 / 22%) 0px 2px 4px 2px;
+    padding: 1%;
+}
+#cart-div{
+    visibility: hidden;
+}
+.cart-div-title{
+    font-size: 1.5vw;
+    margin-bottom:3%;
+}
+.cart-div-class{
+    display: flex;
+    font-size: 15px;
+    gap: 10%;
+}
+#cart-container{
+    background-image:url("https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco/image/home/empty-cart%403x.jpg");
+    height: 80%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* text-align: center; */
+}
+@media (min-width: 0px) and (max-width: 800px){
+    .container{
+        width: 100%;
+        margin: auto;
+        padding-top: 20%;
+        padding-left: 5%;
+    }
+    .v{
+        flex-direction: column;
+    }
+    .v>div{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+    .v-txt3{
+        font-size: 10px;
+    }
+    .h-txt-exp{
+        display: none;
+    }
+    .icons{
+        display: none;
+       margin-left: 0px;
+    }
+    .navbar{
+        display: flex;
+        gap: 2%;
+       justify-content: left;
+
+    }
+    .ph{
+        display: none;
+    }
+    .v-txt1{
+        display: none;
+    }
+    .v-txt2{
+        display: none;
+    }
+}
