@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://static.cure.fit/styles.3b6e65630acce81c3b2d.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+   <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png" data-rh="true">
     <title>Order Food Online &amp; Get Healthy Food Delivered to Your Home from Eat.Fit</title>
    
     <link rel="stylesheet" href="../style/eat_order.css">
-    <script src="..\jsfiles\sildeshow.js" async></script>
+    <script rel="preload" src="..\JsFiles\sildeshow.js" async></script>
+    <script rel="preload" src="..\JsFiles\eat_order.js" async></script>
+   
 </head>
 
 <body>
+
+    <!-- Navigation bar -->
     <nav class="navbar">
         <div class="logo">
             <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" class="imgMF">
@@ -26,14 +30,16 @@
         </div>
         <div class="eat_section">
             <div id="orderDiv">
-                Order
+               <a href="../html/eat_order.html"> Order</a>
             </div>
             <div id="mealDiv">
-                Meal plans
+                <a href="../html/eat_meal.html">Meal plans</a>
             </div>
 
         </div>
 
+
+        <!-- login Section -->
         <div class="login">
 
             <div class="location">
@@ -52,24 +58,57 @@
 
 
     <!-- Sliding Images -->
-    <!-- <div id="slider-box"> -->
+ 
        
-           <div id="slider">
+        <div class="slideshow">
+            <div id="slider">
             
-            <img src="..\images\eat\sliding_img\Sliding_img1.jpg" alt="">
-            <img src="..\images\eat\sliding_img\Sliding_img2.jpg" alt="">
-            <img src="..\images\eat\sliding_img\Sliding_img3.jpg" alt="">
-           
-          
-           </div>
-           <div class="indicators">
-               <span id="btn1" class="action"></span>
-               <span id="btn2" ></span>
-               <span id="btn3" ></span>
-           </div>
-    <!-- </div> -->
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:595/dpr_2/image/vm/b34d09d6-ec88-4af0-ad1f-7850b8c793e7.jpg" alt="">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:595/dpr_2/image/vm/3883e29f-07c5-448c-a747-45e2f65e32a7.jpg" alt="">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:595/dpr_2/image/vm/5d12e900-9b52-41ce-aa39-c43fad945f0a.jpg" alt="">
+               
+              
+               </div>
+               <div class="indicators">
+                   <span id="btn1" class="action"></span>
+                   <span id="btn2" ></span>
+                   <span id="btn3" ></span>
+               </div>
+        </div> 
+    
+    <!-- Meal section -->
+
+    <hr>
+
+    <div class="meal_section">
+        <div id="menu">
+            <div>Bestsellers</div>
+            <div>All-Day-Breakfast</div>
+            <div>Kulchaburger</div>
+            <div>Indian Meal</div>
+            <div>Rolls & Pao</div>
+            <div>Desserts</div>
+            <div>Snacks</div>
+        </div>
+        
+       <div class="food_item">
+        <h2>Bestsellers</h2>
+        <div id="mymeal">
+            
+        </div>
+       </div>
+    </div>
+
+
+    <!-- Bottom Heading -->
+   <div class="bottom_head">
+        <p>EAT HEALTHY</p>
+        <p>STAY FIT</p>
+    </div> 
 
 </body>
 
+<script>
 
+</script>
 </html>
