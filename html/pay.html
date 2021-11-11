@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/pay.css">
+    
+    <script src="../JsFiles/pay.js" async></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="images">
+            <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" alt="">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/image/header-web/store_fit.svg" alt="">
+        </div>
+       <div class="mid-box">cultsport</div>
+        <div class="login-icon"> 
+            <img src="https://static.cure.fit/assets/images/user-image.svg" alt="">
+        </div>
+    </nav>
+
+    <div class="details">
+        <div class="address">
+            <label for="">Full Name</label>
+            <input required type="text">
+            <label for="">Mobile Number</label>
+            <input required type="number" placeholder="10-digit mobile number without prefixes">
+            <label for="">PIN code</label>
+            <input required type="number" placeholder="6-digits [0-9] PIN code">
+            <label for="">Flat, House no., Building,Company,Apartment</label>
+            <input required type="text">
+            <label for="">Area, Colony, Street, Sector, Village</label>
+            <input required type="text">
+            <label for="">Landmark</label>
+            <input required type="text" placeholder="Eg. Near AIMS Flyover, Behind Regal Cinema, etc.">
+            <label for="">Town/City</label>
+            <input required type="text">
+            <label for="">State/Province/Region</label>
+            <input required type="text">
+        </div>
+        <div class="payment">
+            <form class="choose" action="">
+                <input id="a" type="radio" onclick="cardpay()">
+                <label for="" id="card">CARD PAYMENT</label>
+                <input id="a" type="radio"  onclick="cod()">
+                <label for="" id="cod" >CASH ON DELIVERY</label>
+            </form>
+            <form class="enter" action="" id="form">
+                <label for="">CARD NUMBER</label>
+                <input id="cardnum" type="text" placeholder="ENTER CARD NUMBER">
+                <label for="">CVV</label>
+                <input id="cvv"  type="text" placeholder="ENTER CVV">
+                <label for="">EXP. DATE</label>
+                <input id="date" type="text" placeholder="ENTER EXP. DATE">
+            </form>
+        </div>
+    </div>
+    <button id="pay">Make Payment</button>
+    
+</body>
+</html>

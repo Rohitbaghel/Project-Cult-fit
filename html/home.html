@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png"
+        data-rh="true">
+    <title>Get Fitness Workouts, Gyms, Health Care, &amp; Healthy Food in India by Cult.fit</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../style/home.css">
+    <script  rel="preload" src="../jsFiles/home.js" async></script>
+</head>
+
+<body>
+    <div id="blur">
+        <nav class="navbar">
+           <a href="../html/home.html">
+            <div class="logo">
+                <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" alt="">
+            </div>
+           </a>
+            <div class="icons">
+                <a href="#">
+                    <div class="icons-div">
+                        <div>
+                            <img class="images" src="https://static.cure.fit/assets/images/cult-icon.svg" alt="">
+                        </div>
+                        <p class="head">CULT</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="icons-div">
+                        <div>
+                            <img class="images" src="https://static.cure.fit/assets/images/Livefit.svg" alt="">
+                        </div>
+                        <p class="head">LIVE</p>
+                    </div>
+                </a>
+
+                <a href="eat_order.html">
+                    <div class="icons-div">
+                        <div>
+                            <img class="images" src="https://static.cure.fit/assets/images/eat-icon.svg" alt="">
+                        </div>
+                        <p style="padding-left: 22%" class="head">EAT</p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="icons-div">
+                        <div>
+                            <img class="images" src="https://static.cure.fit/assets/images/mind-icon.svg" alt="">
+                        </div>
+                        <p class="head">MIND</p>
+                    </div>
+                </a>
+
+                <a href="care.html">
+                    <div class="icons-div">
+                        <div>
+                            <img class="images" src="https://static.cure.fit/assets/images/carefit-blk.svg" alt="">
+                        </div>
+                        <p class="head">CARE</p>
+                    </div>
+                </a>
+
+                <a href="store.html">
+                    <div class="icons-div">
+                        <div>
+                            <img style="padding-left: 22%" class="images"
+                                src="https://static.cure.fit/assets/images/store-icon.svg" alt="">
+                        </div>
+                        STORE
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="login-icon" id="login-icon">
+
+                <div class="location">
+                    <div class="dot"></div>
+                    <div id="login-location" onclick="locate()">location</div>
+                </div>
+                <div onclick="login()">
+                    <img src="https://static.cure.fit/assets/images/user-image.svg" alt="">
+
+                </div>
+                <div style="font-size: 14px">Login</div>
+                <div id="cart-icon" onclick="cart()">
+                    <img src="https://static.cure.fit/assets/images/cart-image.svg" alt="">
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <div id="container" class="container">
+
+            <div class="v">
+                <div class="v-txt">
+                    <div class="v-txt1">
+                        <div id="v-txt1-one"> For the</div>
+
+                        <div id="v-txt1-two">
+                            <div id="v-txt1-fun">
+                                <div>
+                                    <div>fun</div>
+                                </div>
+                                <div>
+                                    <div>love</div>
+                                </div>
+                                <div>
+                                    <div>ease</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="v-txt2">
+                        of fit.
+                    </div>
+                    <div class="v-txt3">
+                        At cult.fit, we strive to keep you fit & healthy through a range of holistic offerings that
+                        include
+                        fitness and yoga, healthy meals, mental wellbeing and primary care. Now anyone can now stay
+                        healthy
+                        from the safety of their homes with just a single app that helps you to
+                    </div>
+                    <div class="v-txt3">#BeBetterEveryDay</div>
+                </div>
+                <div class="v-vedio">
+                    <video autoPlay loop muted playsInline class="vedio" id="vedio"
+                        src="../images/cultfit-vedio.mp4"></video>
+                    <div class="material-icons vedio-icon" id="vedio-icon" onclick="sound()">
+                        volume_off
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="img-box">
+                <div class="img-div">
+                    <img class="h-img" src="https://static.cure.fit/assets/images/cult-brand.svg" alt="">
+                </div>
+                <div class="h-txt">
+                    <div class="h-mid">
+                        <div class="h-txt1">Makes fitness fun and easy</div>
+                        <div class="h-exp">
+                            <div class="h-txt-exp">Explore</div>
+                            <img class="h-txt-img" src="https://static.cure.fit/assets/images/back-arrow-pink.svg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="h-txt2">Try our fun group classes at our cult centers or work out at best-in-class gyms
+                    </div>
+                </div>
+            </div>
+
+            <div class="trans" onmouseover="changet(event)">
+                <div id="trans1" class="trans1">
+                    <p class="heading">Find a cult center near you</p>
+                    <div class="trans-txt">
+                        <p class="txt1">Work out at our world class cult centers with the safest measures. From ample
+                            workout space to ensure social distancing to frequent sanitisation, cult is playing it safe
+                            so
+                            you don't have to.</p>
+                        <button class="txt-btn" style="border: 1px solid whitesmoke;color: whitesmoke;">EXPLORE</button>
+                    </div>
+                </div>
+                <div id="trans2" class="trans2">
+                    <p class="heading">Introducing Gyms by cult</p>
+                    <div class="trans-txt">
+                        <p class="txt1">Get unlimited access to the best gyms in town with a cultpass. Carefully
+                            handpicked
+                            by cult, these select gyms boast of cult certified trainers, best-in-class safety and
+                            equipment
+                            standards.</p>
+                        <button class="txt-btn" style="border: 1px solid whitesmoke; color: whitesmoke">EXPLORE</button>
+                    </div>
+                </div>
+                <div id="trans3" class="trans3">
+                    <p class="heading">Online PT</p>
+                    <div class="trans-txt">
+                        <p class="txt1">Personalised workout sessions with the best of cult trainers to help you achieve
+                            your fitness goals from the comfort of home.</p>
+                        <button class="txt-btn" style="border: 1px solid whitesmoke; color: whitesmoke">Know
+                            more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-box">
+                <div class="img-div">
+                    <img class="h-img" src="https://static.cure.fit/assets/images/live-brand.svg" alt="">
+                </div>
+                <div class="h-txt">
+                    <div class="h-mid">
+                        <div class="h-txt1">At-home health & fitness made easy</div>
+                        <div class="h-exp">
+                            <div class="h-txt-exp">Explore</div>
+                            <img class="h-txt-img" src="https://static.cure.fit/assets/images/back-arrow-pink.svg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="h-txt2">Get fit and stay healthy from the comfort of your home with live workouts</div>
+                </div>
+            </div>
+
+            <div class="bg" onmouseover="change(event)">
+                <div id="bg1" class="bg1">
+                    <p class="heading">Fitness</p>
+                    <div class="txt" id="txt">
+                        <p class="txt1">Stay fit from home with online fitness classes led by celebs and certified cult
+                            coaches.</p>
+                        <button class="txt-btn" style="border: 1px solid black;">Know more</button>
+                    </div>
+
+                </div>
+                <div id="bg2" class="bg2">
+
+                    <p class="heading">Mindfulness</p>
+                    <div class="txt" id="txt">
+                        <p class="txt1">Relax your mind, body and soul with guided meditation & reach your full
+                            potential.
+                        </p>
+                        <button class="txt-btn" style="border: 1px solid black;">Know more</button>
+                    </div>
+
+                </div>
+                <div id="bg3" class="bg3">
+
+                    <p class="heading">Recipes</p>
+                    <div class="txt" id="txt">
+                        <p class="txt1">Easy-to-follow healthy recipes designed by our in-house experts and
+                            nutritionists.
+                        </p>
+                        <button class="txt-btn" style="border: 1px solid black;">Know more</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="img-box">
+                <div class="img-cult-div">
+                    <img class="h-img-cultsport" src="https://static.cure.fit/assets/images/cult-sports.svg" alt="">
+                </div>
+                <div class="h-txt">
+                    <div class="h-mid">
+                        <div class="h-txt1">Collection of premium athleisure wear</div>
+                        <div class="h-exp">
+                            <div class="h-txt-exp">Explore</div>
+                            <img class="h-txt-img" src="https://static.cure.fit/assets/images/back-arrow-pink.svg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="h-txt2">Browse through our collection to help you ace your workouts in style</div>
+                </div>
+            </div>
+
+            <div class="tr" onmouseover="changeu(event)">
+                <div id="tr1" class="tr1">
+                    <p class="heading">Equipments</p>
+                    <div class="tr-txt">
+                        <p class="txt1">Get your hands on cult branded workout equipment and slay your fitness goals.
+                        </p>
+                        <button class="txt-btn" style="border: 1px solid whitesmoke;color: whitesmoke;">Know
+                            more</button>
+                    </div>
+                </div>
+                <div id="tr2" class="tr2">
+                    <p class="heading">Footwear</p>
+                    <div class="tr-txt">
+                        <p class="txt1">Exclusive footgear designed for workouts and leisure use.</p>
+                        <button class="txt-btn" style="border: 1px solid whitesmoke;color: whitesmoke;">Know
+                            more</button>
+                    </div>
+                </div>
+                <div id="tr3" class="tr3">
+                    <p class="heading">Apparel</p>
+                    <div class="tr-txt">
+                        <p class="txt1">Browse through a range of collections that’s been tested on athletes and
+                            designed
+                            for you.</p>
+                        <button class="txt-btn" style="border: 1px solid whitesmoke;color: whitesmoke;">Know
+                            more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-box">
+                <div class="img-div-cult">
+                    <img class="h-img-cultsport" src="https://static.cure.fit/assets/images/care-title.svg" alt="">
+                </div>
+                <div class="h-txt">
+                    <div class="h-mid">
+                        <div class="h-txt1">Making health easy and accessible</div>
+                        <div class="h-exp">
+                            <div class="h-txt-exp">Explore</div>
+                            <img class="h-txt-img" src="https://static.cure.fit/assets/images/back-arrow-pink.svg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="h-txt2">Book online doctor consultations and schedule diagnostic tests at home.</div>
+                </div>
+            </div>
+
+            <div class="fit" onmouseover="changefit(event)">
+                <div id="fit1" class="fit1">
+                    <p class="heading">Online Doctor Consultation</p>
+                    <div class="fit-txt">
+                        <p class="txt1">Consult with our doctors and specialists like orthopedics, pediatricians and
+                            gynaecologists for all your medical needs with minimum wait time.</p>
+                        <button class="txt-btn" style="border: 1px solid black;">Consult Now</button>
+                    </div>
+                </div>
+                <div id="fit2" class="fit2">
+                    <p class="heading">Home Lab Tests</p>
+                    <div class="fit-txt">
+                        <p class="txt1">Assess & monitor your health from the comfort of your home - get full body
+                            comprehensive health-checkup with actionable medical and lifestyle care advice.</p>
+                        <button class="txt-btn" style="border: 1px solid black;">Book Now</button>
+                    </div>
+                </div>
+                <div id="fit3" class="fit3">
+                    <p class="heading">Online Dietician Consultation</p>
+                    <div class="fit-txt">
+                        <p class="txt1">Our nutritionist will help you manage your health with personalised diets and
+                            fitness plans based on your lifestyle preferences.</p>
+                        <button class="txt-btn" style="border: 1px solid black;">Consult Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-box">
+                <div class="img-div-cult">
+                    <img class="h-img-cultsport" src="https://static.cure.fit/assets/images/mind-title.svg" alt="">
+                </div>
+                <div class="h-txt">
+                    <div class="h-mid">
+                        <div class="h-txt1">Mind and Body fitness</div>
+                        <div class="h-exp">
+                            <div class="h-txt-exp">Explore</div>
+                            <img class="h-txt-img" src="https://static.cure.fit/assets/images/back-arrow-pink.svg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="h-txt2">Experience mindfulness with our guided yoga, meditation & therapy sessions.
+                    </div>
+                </div>
+            </div>
+
+            <div class="mind" onmouseover="changemind(event)">
+                <div id="mind1" class="mind1">
+                    <p class="heading">Online Therapy</p>
+                    <div class="mind-txt">
+                        <p class="txt1">Take care of your mental and emotional fitness in a safe, calm, and
+                            non-judgemental
+                            environment.</p>
+                        <button class="txt-btn" style="border: 1px solid whitesmoke;color: whitesmoke;">Book
+                            Now</button>
+                    </div>
+                </div>
+                <div id="mind2" class="mind2">
+                    <p class="heading">Meditation</p>
+                    <div class="mind-txt">
+                        <p class="txt1">Let go of stressful thoughts and feelings with guided meditations that will
+                            relax
+                            your mind and body.</p>
+                        <button class="txt-btn" style="border: 1px solid whitesmoke;color: whitesmoke;">Know
+                            more</button>
+                    </div>
+                </div>
+                <div id="mind3" class="mind3">
+                    <p class="heading">Sleep</p>
+                    <div class="mind-txt">
+                        <p class="txt1">Soothing guided meditations, stories and music that will help you sleep better.
+                        </p>
+                        <button class="txt-btn" style="border: 1px solid whitesmoke;color: whitesmoke;">Know
+                            more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ph">
+            <div class="middle-box">
+                <div class="middle-box-txt">
+                    <div class="middle-box-txt1">Get the cult.fit app for your mobile device</div>
+                    <div class="middle-box-txt2">Be better everyday with cult.fit app</div>
+                    <div class="middle-box-txt-image">
+                        <img width="30%" src="https://static.cure.fit/assets/images/app-store.svg" alt="">
+                        <img width="30%" src="https://static.cure.fit/assets/images/play-store.svg" alt="">
+                    </div>
+                </div>
+                <div class="middle-box-image">
+                    <img style="width: 300px; height: 356px;"
+                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/w_300,h_350,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/364bf400-9855-4345-a63e-63c31432a6b8.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class="h-img"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,c_fit/dpr_2/image/clp/business-cult.png"
+                alt="">
+        </div>
+        <div>
+            <img class="h-img"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,c_fit/dpr_2/image/clp/careers-cult.png"
+                alt="">
+        </div>
+        <div class="btr">
+            <div class="btr1">BE BETTER</div>
+            <div class="btr2">EVERYDAY</div>
+        </div>
+    </div>
+
+
+    <div class="login" id="login">
+        <div class="material-icons cross" onclick="cancel()">
+            close
+        </div>
+        <div class="login-div">
+            <img src="https://static.cure.fit/assets/images/curefit_login_logo.svg" class="log-img1" alt="">
+            <img src="https://static.cure.fit/assets/images/cult_name.svg" class="log-img2" alt="">
+        </div>
+
+        <div class="num-div">
+            <div id="alt"></div>
+            <div class="phn" id="phn">
+                <div>+91</div>
+                <div class="material-icons">
+                    expand_more
+                </div>
+                <input type="number" placeholder="Enter your phone number" class="num" id="mobile">
+            </div>
+
+            <div id="continue" class="btn-div">
+                <button onclick="num()" class="continue">Continue</button>
+            </div>
+
+            <div class="terms">
+                By Continuing you agree to the Terms of Services and Privacy policy.
+            </div>
+
+            <div>
+                <div class="google">
+                    <div style="padding-right: 5px;">Continue with</div>
+                    <div>
+                        <img src="https://static.cure.fit/assets/images/google-logo.svg" alt="">
+                        <img src="https://static.cure.fit/assets/images/facebook.svg" alt="">
+                        <img src="https://static.cure.fit/assets/images/email.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="select-location" class="select-location">
+        <div>Select your Location</div>
+        <div class="popularcity-m">
+            <div>POPULAR CITY</div>
+            <div id="popularcity" class="popularcity">
+                <div>
+                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/blr_new.png"
+                        alt="">
+                    <div onclick="txt_select(event)">Bangalore</div>
+                </div>
+                <div>
+                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/ncr_new.png"
+                        alt="">
+                    <div onclick="txt_select(event)">Delhi NCR</div>
+                </div>
+                <div>
+                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/hyd_new.png"
+                        alt="">
+                    <div onclick="txt_select(event)">Hyderabad</div>
+                </div>
+                <div>
+                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/mumbai_selected.png"
+                        alt="">
+                    <div onclick="txt_select(event)">Mumbai</div>
+                </div>
+
+            </div class="other-m">
+            <div>OTHER CITY</div>
+            <div id="city" class="city">
+                <div onclick="txt_select(event)">Ranchi</div>
+                <div onclick="txt_select(event)">Chennai</div>
+                <div onclick="txt_select(event)">Visakhapatnam</div>
+                <div onclick="txt_select(event)">Jaipur</div>
+                <div onclick="txt_select(event)">Vadodra</div>
+                <div onclick="txt_select(event)">Pune</div>
+                <div onclick="txt_select(event)">Kolkata</div>
+                <div onclick="txt_select(event)">Ahmedabad</div>
+                <div onclick="txt_select(event)">Mysore</div>
+                <div onclick="txt_select(event)">Chandigarh</div>
+                <div onclick="txt_select(event)">Kota</div>
+                <div onclick="txt_select(event)">Kochi</div>
+                <div onclick="txt_select(event)">Ludhiana</div>
+                <div onclick="txt_select(event)">Surat</div>
+                <div onclick="txt_select(event)">Jammu</div>
+                <div onclick="txt_select(event)">Amritsar</div>
+                <div onclick="txt_select(event)">Indore</div>
+                <div onclick="txt_select(event)">Coimbatore</div>
+                <div onclick="txt_select(event)">Manglore</div>
+                <div onclick="txt_select(event)">Bhopal</div>
+                <div onclick="txt_select(event)">Nagpur</div>
+                <div onclick="txt_select(event)">Kanpur</div>
+                <div onclick="txt_select(event)">Agra</div>
+                <div onclick="txt_select(event)">Lucknow</div>
+                <div onclick="txt_select(event)">Other</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="cart-div" class="cart-div">
+        <div class="cart-div-title">Your Cart</div>
+        <div class="cart-div-class">
+            <div>lab test</div>
+            <div>Eatfit</div>
+            <div>Wholefit</div>
+            <div>Cultgear</div>
+        </div>
+        <br>
+        <hr>
+        <div id="cart-container">Your cart is empty</div>
+    </div>
+
+
+</body>
+
+</html>
