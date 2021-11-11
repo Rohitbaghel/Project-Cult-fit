@@ -69,6 +69,44 @@ body {
 		'Segoe UI Emoji';
 }
 
+/* for cart */
+.cart-div{
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  top: 8%;
+  left: 75%;
+  background-color:white;
+  box-shadow: rgb(0 0 0 / 22%) 0px 2px 4px 2px;
+  padding: 1%;
+}
+#cart-div{
+  visibility: hidden;
+}
+.cart-div-title{
+  font-size: 1.5vw;
+  margin-bottom:3%;
+}
+.cart-div-class{
+  display: flex;
+  font-size: 15px;
+  gap: 10%;
+}
+#cart-container{
+  background-image:url("https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco/image/home/empty-cart%403x.jpg");
+  height: 80%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+}
+#dot{
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background-color: rgb(15, 209, 255);
+  vertical-align: sub;
+}
 /*
 Grouping content
 ================

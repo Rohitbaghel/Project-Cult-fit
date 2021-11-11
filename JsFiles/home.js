@@ -313,6 +313,11 @@ function locate_cancel() {
     a.style.visibility = "hidden";
 }
 
+let a = JSON.parse(localStorage.getItem("currentcity"));
+let location_div =document.getElementById("login-location");
+location_div.textContent=a[0];
+console.log(location_div)
+
 function txt_select(e) {
     let a = e.target;
     console.log(a);

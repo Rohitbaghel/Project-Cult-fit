@@ -71,3 +71,19 @@ function checkpincode(){
         alert("Invalid pincode or Delivey not available")
     }
 }
+
+//cart one
+function cart() {
+    let a = document.getElementById("cart-div");
+    console.log(a)
+    let btn = document.getElementById("cart-icon");
+    a.style.visibility = "visible";
+    btn.onclick = () => { cart_null() };
+}
+function cart_null() {
+    let a = document.getElementById("cart-div");
+    console.log(a)
+    a.style.visibility = "hidden";
+    let btn = document.getElementById("cart-icon");
+    btn.onclick = () => { cart() };
+}
