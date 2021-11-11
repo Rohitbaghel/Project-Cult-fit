@@ -38,3 +38,5 @@ function slideshow(){
     setTimeout(slider2,2000)
     setTimeout(slider3,4000)
 }
+
+
