@@ -79,7 +79,7 @@ function mindPage() {
     window.location.href = "mindfulnessPage.html";
 }
 
-
+// faqBox =>
 //accordion=>
 
 const ques = document.querySelectorAll(".sid");
@@ -97,6 +97,21 @@ ques.forEach((el) => {
 })
 
 
+//feedback=>
+let yes = document.querySelectorAll(".pinkC");
+
+yes.forEach((el) => {
+    el.addEventListener("click", event => {
+        el.style.opacity = "0.2";
+        el.style.cursor = "not-allowed";
+        alert("Thanks for your feedback")
+    })
+})
+
+// faqBox =>
+
+
+// arrow=>
 let mindFitBox = document.getElementById("mindFitImgBox")
 var c = 0;
 mindFitBox.addEventListener("click", () => {
@@ -120,16 +135,6 @@ imgMf.addEventListener("click", () => {
 })
 
 
-//feedback=>
-let yes = document.querySelectorAll(".pinkC");
-
-yes.forEach((el) => {
-    el.addEventListener("click", event =>{
-        el.style.opacity =  "0.2";
-        el.style.cursor= "not-allowed";
-        alert("Thanks for your feedback")
-    })
-})
 
 
 // popUp=>
@@ -165,6 +170,6 @@ function myFunction() {
 
 }
 
-
+// arrow=>
 
 
