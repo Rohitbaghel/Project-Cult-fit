@@ -87,3 +87,9 @@ function cart_null() {
     let btn = document.getElementById("cart-icon");
     btn.onclick = () => { cart() };
 }
+
+
+
+function backtohome(){
+    window.location.href = "../html/home.html"
+}

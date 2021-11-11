@@ -294,3 +294,6 @@ function addtocart(pr){
 showproduct(data)
 
 
+function backtohome(){
+    window.location.href = "../html/home.html"
+}
