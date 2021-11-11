@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/tailwind.css">
+    <title>Product Display</title>
+</head>
+<body>
+    <div class="container">
+   <div class="grid grid-cols-2" id="flex">
+       <div id="grid1"></div>
+
+       <!-- grid2 -->
+       <div id="grid2">
+           <div>
+           <h4 id="brand"></h4>
+           <h1 id="name"></h1>
+           <div class="grid grid-cols-4 gap-1" id="price_div">
+               <div id="price"></div>
+               <div id="mainprice"></div>
+               <div id="discount"></div>
+           </div>
+          <p id="description">These shorts from Cultsport combine the best of styling and performance. Supersoft breathable fabric takes your performance to the next level . Its branded waist elastic adds a fashion quotient while preventing slipping and the drawstring makes it convenient for you to slip into.
+        </p>
+
+        <!-- button div -->
+        <div >
+            <div class=""> Choose Size (Size Guide)</div>
+            <div class="grid grid-cols-5 gap-1">
+                <button class="" style="border: 1px solid yellow ;">S</button>
+                <button class="rounded hover:border-yellow-400 border">M</button>
+                <button class="rounded hover:border-yellow-400 border">L</button>
+                <button class="rounded hover:border-yellow-400 border">XL</button>
+                <button class="rounded hover:border-yellow-400 border">XXl</button>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-2">
+            <button class="border text-white bg-red-700 rounded">Add to cart</button>
+            <button class="border text-white bg-red-700 rounded">Buy Now</button>
+        </div>
+        <!-- button div -->
+
+        <!-- product -->
+        <div>
+            <h4>product</h4>
+            <p>&#8594; Color: Black</p>
+            <p>&#8594; Fabric: 95% Cotton, 5% Spandex</p>
+            <p>&#8594; Breathable fabric</p>
+            <p>&#8594; Supersoft</p>
+            <p>&#8594; Branded Elastic at Back Waistband</p>
+        </div>
+         <!-- product -->
+       
+         <!-- pincode -->
+         <div class="">
+        <input type="text" placeholder="Enter pincode">
+        <input type="submit" >
+    </div>
+          <!-- pincode -->
+
+          <!-- delivery -->
+        <div>
+            <p>&#8594;  Free delivery within 5-7 days</p> 
+            <p>&#8594;  Easy 30 days return available</p> 
+            <p>&#8594;   30 days exchange available</p> 
+            <p>&#8594;  To minimise contact between you and the delivery partner, Pay on Delivery option is temporarily disabled.</p> 
+        </div>
+           <!-- delivery -->
+ 
+           <!-- fabric -->
+         <div>
+             <h4>Fabric</h4>
+            <p>&#8594;  95% Cotton 5% Spandex</p> 
+         </div>
+               <!-- fabric -->
+
+               <!-- material and care -->
+            <div>
+                <h4>material and care</h4>
+                <p>&#8594; Color: Black</p>
+                <p>&#8594; Fabric: 95% Cotton, 5% Spandex</p>
+                <p>&#8594; Breathable fabric</p>
+                <p>&#8594; Supersoft</p>
+                <p>&#8594; Branded Elastic at Back Waistband</p>
+            </div>
+
+                 <!-- material and care -->
+       </div>
+       
+       <!-- grid2 -->
+   </div>
+    </div>
+</body>
+</html>
+<script src="../script/product_display.js"></script>
