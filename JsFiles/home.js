@@ -5,7 +5,7 @@ function login() {
     let a = document.getElementById("login")
     a.style.top = "30px";
     a.style.left = "33%";
-    blur.setAttribute("style", "filter:blur(2.5px)")
+    blur.setAttribute("style", "filter:blur(1.5px)")
 }
 
 function cancel() {

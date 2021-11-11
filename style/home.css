@@ -41,7 +41,11 @@ button{
     font-size: 12px;
 }
 .head{
-    margin: 0;
+    margin: 0; 
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .images{
     width: 1.5rem;
@@ -817,6 +821,7 @@ line-height: 3vw;
        justify-content: left;
 
     }
+   
     .ph{
         display: none;
     }
