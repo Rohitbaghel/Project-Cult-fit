@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style/care.css">
-    <script src="..\jsfile\care.js" async></script>
+    <script src="..\JsFiles\care.js" async></script>
 </head>
 <body>
     <div id="care">
@@ -47,19 +47,9 @@
         <div id="care-2">
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:150/dpr_2/image/vm/56d1fd51-41b0-40a3-8ba3-9a33094e49a3.png">
         </div>
-        <div id="slider">
-            
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:595/dpr_2/image/vm/0b29ae9e-2cac-4647-bd95-a6ebe23cc020.png" alt="">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:595/dpr_2/image/vm/ef63655c-ca5a-4b18-a3e9-c0ee011313e2.png" alt="">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:595/dpr_2/image/vm/b61295ea-03f1-4920-947b-04316c659bba.png" alt="">
-         
-            <!-- indicators  to control slideshow manualy-->
-           </div>
-           <div class="indicators">
-               <span id="btn1" class="action"></span>
-               <span id="btn2" ></span>
-               <span id="btn3" ></span>
-           </div>  
+        <div id="bestDealBox">
+
+        </div>
             <!-- </div> -->
         <div id="care-5">
             <h1>Specialists</h1>
@@ -165,62 +155,130 @@
                 7 QUESTIONS
             </div>
             <div id="quesBox">
-                <div class="ques">
-                    <div class="sid">
-                        Is therapy for me?
+                <details class="ques1" >
+                    <summary class="ques">
+                        <div class="sid">
+                            Is therapy for me?
+                        </div>
+                        <div class="downArrowq" id="dA1" >
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)" >
+                        </div>
+                    </summary>
+                    <div class="panel" >
+                        Everyone goes through challenging situations in life, and while you may have successfully navigated through other
+                        difficulties you’ve faced, Therapy provides the extra support when you most need it. In fact, therapy is for people
+                        who
+                        have enough self-awareness to realize they need a helping hand, and that is something to be admired.
+                        <div class="yesNo" >
+                            Do you find this helpful? <span class="pinkC">  &nbsp;  Yes &nbsp; No</span>
+                        </div>
                     </div>
-                    <div class="downArrowq">
-                        <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue">
-                    </div>
-                </div>
-                <div class="ques">
-                    <div class="sid">
+                </details>
+                <details class="ques1">
+                    <summary class="ques">
+                        <div class="sid">
                         What should I expect during my first 1 on 1 therapy session?
+                        </div>
+                        <div class="downArrowq" id="dA2">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                    <div class="panel">
+                    The first session is about building trust. Therapy works best when you can trust your Therapist and vice versa. We,
+                    therefore, use the first session to understand your problems better and define a goal based journey on what to expect
+                    from therapy and by when.
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                        </div>
                     </div>
-                    <div class="downArrowq">
-                        <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue">
-                    </div>
-                </div>
-                <div class="ques">
-                    <div class="sid">
+                </details>
+                <details class="ques1">
+                    <summary class="ques">
+                        <div class="sid">
                         What is the difference between a Therapist and a Psychiatrist?
+                        </div>
+                        <div class="downArrowq" id="dA3">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                    <div class="panel">
+                    A Therapists' goal is to help patients make decisions and clarify their feelings in order to solve problems without any
+                    medication. A Psychiatrist, on the other hand, helps diagnose mental health issues, and prescribes medicines if needed.
+                    However, Therapists often works in tandem with a Psychiatrist to provide comprehensive care as needed by any user.
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                        </div>
                     </div>
-                    <div class="downArrowq">
-                        <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue">
-                    </div>
-                </div>
-                <div class="ques">
-                    <div class="sid">
+                </details>
+                <details class="ques1">
+                    <summary class="ques">
+                        <div class="sid">
                         What does a Therapy pack offer?
+                        </div>
+                        <div class="downArrowq" id="dA4">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                    <div class="panel">
+                        A Therapy pack helps with continuity of your wellness journey, without having to bother about booking sessions one at a
+                        time. Your Therapist will recommend the number of sessions that you might need to address your challenges. We recommend
+                        you buy a pack only after a discussion with the therapist.
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                        </div>
                     </div>
-                    <div class="downArrowq">
-                        <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue">
+                </details>
+                <details class="ques1">
+                    <summary class="ques">
+                        <div class="sid">
+                            How to book a 1 on 1 Therapy session?
+                        </div>
+                        <div class="downArrowq" id="dA5">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                    <div class="panel">
+                    Here’s how you can book a therapy session from the cure.fit app: Log into the cure.fit app From the bottom of the To-Do
+                    page, pick mind.fit Pick 1 on 1 therapy Pick a preferred center and time slot Make a payment That’s all!
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                        </div>
                     </div>
-                </div>
-                <div class="ques">
-                    <div class="sid">
-                        How to book a 1 on 1 Therapy session?
-                    </div>
-                    <div class="downArrowq">
-                        <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue">
-                    </div>
-                </div>
-                <div class="ques">
-                    <div class="sid">
+                </details>
+                <details class="ques1">
+                    <summary class="ques">
+                        <div class="sid">
                         Who all will have access to my medical data?
+                        </div>
+                        <div class="downArrowq" id="dA6">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                    <div class="panel">
+                    Only your assigned Therapist and/or assigned Psychiatrist will have access to your medical data until you provide
+                    explicit access to any other professional
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                        </div>
                     </div>
-                    <div class="downArrowq">
-                        <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue">
-                    </div>
-                </div>
-                <div class="ques">
-                    <div class="sid">
+                </details>
+                <details class="ques1">
+                    <summary class="ques">
+                        <div class="sid">
                         The information I share with my therapist is sensitive information, is this information safe?
+                        </div>
+                        <div class="downArrowq" id="dA7">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                    <div class="panel">
+                    Absolutely! We ensure none of your medical/psychiatric information is shared with anyone but your Therapist and
+                    Psychiatrist. All the information you share with us is completely safe and secure with us.
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                        </div>
                     </div>
-                    <div class="downArrowq">
-                        <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue">
-                    </div>
-                </div>
+                </details>
             </div>
         </div>
         <div id="slogan">
