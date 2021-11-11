@@ -180,7 +180,7 @@ function Clicked_Product(p) {
 //     console.log('cart_len:', cart_len)
 //     updateCart()
 // }
-updateCart()
+// updateCart()
 
 function updateCart() {
     let cart_data = JSON.parse(localStorage.getItem("Cart"));
@@ -190,7 +190,8 @@ function updateCart() {
 
 updateLocation()
 function updateLocation(){
-    let CurrentLocation = JSON.parse(localStorage.getItem("CurrentLocation"));
+    let Currentcity = JSON.parse(localStorage.getItem("currentcity"));
+    console.log('Currentcity:', Currentcity)
     
-    document.getElementById("shopping-cart-count").innerText = cart_len
+    document.getElementById("nameCity").innerText = Currentcity;
 }
