@@ -221,9 +221,8 @@
      transform: scale(1.09);  
  }
  
-
  .price_and_btn{
-     display: flex;
+    display: flex;
 align-items: center; 
  }
  .price_and_btn span{
