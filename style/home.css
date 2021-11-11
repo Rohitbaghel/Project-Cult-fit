@@ -831,6 +831,12 @@ line-height: 3vw;
     .v-txt2{
         display: none;
     }
+    #blur #footer {
+        display: none;
+    }
+    .login-icon{
+        margin-left: 50%;
+    }
 }
 
 #footer {
