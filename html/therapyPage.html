@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>therapy</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://static.cure.fit/assets/images/curefit-v-man.svg" />
+    <link rel="stylesheet" href="../style/therapyPage.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Filled">
+    <script src="../JsFiles/therapyPage.js" async></script>
+</head>
+
+<body >
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" class="imgMF">
+        </div>
+        <div id="mindFitImgBox" onclick="myFunction()">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/image/header-web/mindfit.svg" class="imgMF" >
+        </div>
+        
+        <div id="downArrowBox" onclick="myFunction()">
+            <img src="https://static.cure.fit/assets/images/arrow-clp.svg" class="imgMF" id="imgMf">
+        </div>
+        
+        <div class="icons">
+           <div id="therapyDiv">
+
+               <span id="th">Therapy</span> 
+
+           </div>
+           <div id="mindfulnessDiv">
+              <span id="mf">Mindfulness</span>  
+           </div>
+
+        </div>
+
+        <div class="login">
+
+            <div class="location">
+                <div class="dot"></div>
+                <div id="nameCity">jaipur</div>
+            </div>
+            <div id="loginBox">
+                <img src="https://static.cure.fit/assets/images/user-image.svg" alt="">
+                
+            </div>
+            <div id="addToCartBox">
+                <img src="https://static.cure.fit/assets/images/cart-image.svg" alt="" id="addToC">
+            </div>
+        </div>
+    </nav>
+    <div class="popuptext" id="myPopup">
+        <div id="allImgs">
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/cult-icon.svg" alt="" class="popImg1">
+                </a>
+                 
+                <div class="popText popText1 " >
+                    CULT
+                </div>
+            </div>
+            <div>
+               <a href="#">
+                <img src="https://static.cure.fit/assets/images/Livefit.svg" alt="" class="popImg2">
+               </a>
+                
+                <div class="popText popText2">
+                    LIVE
+                </div>
+            </div>
+            <div>
+               <a href="#">
+                    <img src="https://static.cure.fit/assets/images/eat-icon.svg" alt="" class="popImg1">
+               </a>
+                   
+                
+                <div class="popText popText3">
+                    EAT
+                </div>
+            </div>
+            <div>
+               <a href="therapyPage.html">
+                    <img src="https://static.cure.fit/assets/images/mind-hover-icon.svg" alt="" class="popImg1">
+               </a>
+                    
+                <div class="popText popText4">
+                    MIND
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/carefit-blk.svg" alt="" class="popImg1">
+                </a>
+                   
+                <div class="popText popText5">
+                    CARE
+                </div>
+            </div>
+            <div>
+               <a href="#">
+                    <img src="https://static.cure.fit/assets/images/store-icon.svg" alt="" class="popImg2">
+               </a>
+                   
+                <div class="popText">
+                    STORE
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+    
+
+<!-- SecondPart of my Page -->
+    <div id="secondPart">
+
+        <div id="careDiv">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:150/dpr_2/image/vm/af3ce901-2f83-49cc-934f-d01cf45ac69f.png" class="img" />
+        </div>
+
+        <div id="bestDealBox">
+           
+        </div>
+
+        <div id="timerBox">
+            <div id="tBox">
+                <div>
+                    <div class="timerDiv" id="hrDiv">
+
+                    </div>
+                    <div class="timerText">Hr</div>
+                </div>
+                <div class="dotText">:</div>
+                <div>
+                    <div class="timerDiv" id="minDiv">
+                    
+                    </div>
+                    <div class="timerText">Min</div>
+                </div>
+                <div class="dotText">:</div>
+                <div>
+                    <div class="timerDiv" id="secDiv">
+                    
+                    </div>
+                    <div class="timerText">Sec</div>
+                </div>
+            </div>
+            <div id="goArrow">
+               <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="arrowImg">
+            </div>
+        </div>
+
+        <div id="helpYouBox">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:100/dpr_2/image/vm/6b3f0355-7178-4898-b4e8-d68b07a43bd6.png" class="img" />
+        </div>
+
+        <div id="expertsDiv">
+
+            <div id="expertText">
+                EXPERTS TO HELP YOU
+            </div>
+            
+            <div id="allBoxes">
+                <div>
+
+                    <div class="textOnImgBox">
+
+                        <div class="headingTextBox">
+                            Therapy
+                        </div>
+
+                        <div class="line"></div>
+
+                        <div class="infoText">
+                                Experts who help solve emotional problems ₹499
+                        </div>
+
+                        <div class="timingBox">
+                            <div class="material-icons-outlined" style="color: #04635e; font-size: 1.3vw;">
+                                timer
+                            </div>
+                            <div class="timingSec" >50 Mins Session</div>
+                        </div>
+
+                    </div>
+
+                    <div class="priceBox">
+                        <span style="color: rgba(0,0,0,0.34);"> <s>₹ 1300</s></span> <span>₹ 499</span>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="textOnImgBox">
+                    
+                        <div class="headingTextBox">
+                            Couple Therapy
+                        </div>
+                    
+                        <div class="line"></div>
+                    
+                        <div class="infoText">
+                            Resolve emotional conflicts in relationships and marriage ₹750
+                        </div>
+                    
+                        <div class="timingBox">
+                            <div class="material-icons-outlined" style="color: #04635e; font-size: 1.3vw;">
+                                timer
+                            </div>
+                            <div class="timingSec">50 Mins Session</div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="priceBox">
+                        <span style="color: rgba(0,0,0,0.34);"> <s>₹ 1300</s></span> <span>₹ 750</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="textOnImgBox">
+                    
+                        <div class="headingTextBox">
+                            COVID Stress
+                        </div>
+                    
+                        <div class="line"></div>
+                    
+                        <div class="infoText">
+                            Seek expert help from our therapists for coping with isolation and COVID-related stress and worry ₹499
+                        </div>
+                    
+                        <div class="timingBox">
+                            <div class="material-icons-outlined" style="color: #04635e; font-size: 1.3vw;">
+                                timer
+                            </div>
+                            <div class="timingSec">50 Mins Session</div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="priceBox">
+                        <span style="color: rgba(0,0,0,0.34);"> <s>₹ 1300</s></span> <span>₹ 499</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="textOnImgBox">
+                    
+                        <div class="headingTextBox">
+                            Better Sleep
+                        </div>
+                    
+                        <div class="line"></div>
+                    
+                        <div class="infoText">
+                        Consult with experts to learn effective strategies for restful sleep and good sleep health ₹499
+                        </div>
+                    
+                        <div class="timingBox">
+                            <div class="material-icons-outlined" style="color: #04635e; font-size: 1.3vw;">
+                                timer
+                            </div>
+                            <div class="timingSec">50 Mins Session</div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="priceBox">
+                        <span style="color: rgba(0,0,0,0.34);"> <s>₹ 1300</s></span> <span>₹ 499</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="textOnImgBox">
+                    
+                        <div class="headingTextBox">
+                            Rise to Confidence
+                        </div>
+                    
+                        <div class="line"></div>
+                    
+                        <div class="infoText">
+                            Grow into a more confident and self-assured you by talking to our experts ₹499
+                        </div>
+                    
+                        <div class="timingBox">
+                            <div class="material-icons-outlined" style="color: #04635e; font-size: 1.3vw;">
+                                timer
+                            </div>
+                            <div class="timingSec">50 Mins Session</div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="priceBox">
+                        <span style="color: rgba(0,0,0,0.34);"> <s>₹ 1300</s></span> <span>₹ 499</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="textOnImgBox">
+                    
+                        <div class="headingTextBox">
+                            Thrive at work
+                        </div>
+                    
+                        <div class="line"></div>
+                    
+                        <div class="infoText">
+                            Make work fulfilling and meaningful with the help of our experts ₹499
+                        </div>
+                    
+                        <div class="timingBox">
+                            <div class="material-icons-outlined" style="color: #04635e; font-size: 1.3vw;">
+                                timer
+                            </div>
+                            <div class="timingSec">50 Mins Session</div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="priceBox">
+                        <span style="color: rgba(0,0,0,0.34);"> <s>₹ 1300</s></span> <span>₹ 499</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="textOnImgBox">
+                    
+                        <div class="headingTextBox">
+                            Healthy Relationships
+                        </div>
+                    
+                        <div class="line"></div>
+                    
+                        <div class="infoText">
+                            Understand your relationship patterns and exploring healthy ways of connecting ₹499
+                        </div>
+                    
+                        <div class="timingBox">
+                            <div class="material-icons-outlined" style="color: #04635e; font-size: 1.3vw;">
+                                timer
+                            </div>
+                            <div class="timingSec">50 Mins Session</div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="priceBox">
+                        <span style="color: rgba(0,0,0,0.34);"> <s>₹ 1300</s></span> <span>₹ 499</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="textOnImgBox">
+                    
+                        <div class="headingTextBox">
+                            Transform Your Thinking
+                        </div>
+                    
+                        <div class="line"></div>
+                    
+                        <div class="infoText">
+                            Manage negative or anxious thoughts or overthinking ₹499
+                        </div>
+                    
+                        <div class="timingBox">
+                            <div class="material-icons-outlined" style="color: #04635e; font-size: 1.3vw;">
+                                timer
+                            </div>
+                            <div class="timingSec">50 Mins Session</div>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="priceBox">
+                        <span style="color: rgba(0,0,0,0.34);"> <s>₹ 1300</s></span> <span>₹ 499</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="bookNowBox">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:200/dpr_2/image/vm/4cb47d66-ed1a-4d40-b42b-db27b77d2258.png" class="img" />
+        </div>
+
+        <div id="onlineCons">
+
+            <div id="onlineConsHeading">
+                    ONLINE CONSULTATION
+            </div>
+            <div id="ocText">
+                    ONLINE CONSULTATION
+            </div>
+
+            <div id="packBox">
+                    <div>
+                       <div style="height:.5px; background-color: rgb(145, 145, 145); margin: 3% 0 0 0;"></div>
+                    </div>
+                    <div id="whyPack">
+                        Why Buy a Pack ?
+                    </div>
+                    <div>
+                        <div style="height:.5px; background-color: rgb(145, 145, 145); margin: 3% 0 0 0;"></div>
+                    </div>
+            </div>
+
+            <div id="threeDiv">
+
+                <div>
+                    <div class="material-icons-outlined mr1" style="font-size: 1.5vw;">
+                        check_circle
+                    </div>
+                    <div class="threeText">Packs tailored to your needs</div> 
+
+                </div>
+
+                <div>
+                    <div class="material-icons-outlined mr2"   style="font-size: 1.5vw;">
+                        check_circle
+                    </div>
+                    <div class="threeText">Hassle-free regular care</div>
+                </div>
+
+                <div>
+                    <div class="material-icons-outlined mr3"  style="font-size: 1.5vw;">
+                        check_circle
+                    </div>
+                    <div class="threeText">Get professional guidance</div>
+                </div>
+
+            </div>
+
+            <div id="selectText">
+                Select a pack
+            </div>
+
+            <div id="priceBox">
+
+                <div class="monthsBox">
+                    <div class="monthText" >
+                        <div class="sessionText" >12 sessions valid for 12 months</div>
+                        <div class="prText"> <span class="colour1"><s>₹ 12000</s></span> ₹ 7750</div>
+                    </div>
+                    <div class="buyTextBox">BUY</div>
+                </div>
+
+                <div class="monthsBox">
+                    <div class="monthText">
+                        <div class="sessionText">8 sessions valid for 8 months</div>
+                        <div class="prText"> <span class="colour1"><s>₹ 8000</s></span> ₹ 5490</div>
+                    </div>
+                    <div class="buyTextBox">BUY</div>
+                </div>
+
+                <div class="monthsBox">
+                    <div class="monthText">
+                        <div class="sessionText">4 sessions valid for 4 months</div>
+                        <div class="prText"> <span class="colour1"><s>₹ 4000</s></span> ₹ 2990</div>
+                    </div>
+                    <div class="buyTextBox">BUY</div>
+                </div>
+
+            </div>
+
+            <div id="discBox">
+            
+                <div class="discTextBox">
+                    <div class="material-icons-outlined" style="font-size: 1.45vw; margin: 2.5% 0 0 5%;">
+                        local_offer
+                    </div>
+                    <div class="disc20">Get extra 20% instant discount using card during payment </div>
+                   
+                </div>
+            
+                <div class="discTextBox">
+                    <div class="material-icons-outlined" style="font-size: 1.45vw; margin: 2.5% 0 0 5%;">
+                        local_offer
+                    </div>
+                    <div class="disc20">Get extra 20% instant discount using card during payment </div>
+                
+                </div>
+            
+                <div class="discTextBox">
+                    <div class="material-icons-outlined" style="font-size: 1.45vw; margin: 2.5% 0 0 5%;">
+                        local_offer
+                    </div>
+                    <div class="disc20">Get extra 20% instant discount using card during payment </div>
+                
+                </div>
+            
+            </div>
+            
+
+
+        </div>
+
+        <div id="freeMed">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:150/dpr_2/image/vm/23f48c0c-8cca-46f7-bc49-5848459eb1df.png" class="img"/>
+        </div>
+
+        <div id="assure">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1440:240/dpr_2/image/vm/8d058e84-f098-4129-b107-dc81c19af2f1.png" class="img" />
+        </div>
+
+        <div id="helpWith">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1440:240/dpr_2/image/vm/7f7af73c-3ee3-46c1-9129-0df18dbb02ac.png" class="img">
+        </div>
+
+        <div id="FAQsBox">
+            
+            <div id="faqText">
+                <div id="ft"> FAQS</div>
+                <div id="seeText">SEE ALL</div>
+            </div>
+
+            <div id="sevenQue">
+                7 QUESTIONS
+            </div>
+
+            <div id="quesBox">
+                
+                <details class="ques1" >
+                    
+                    <summary class="ques">
+                        <div class="sid">
+                            Is therapy for me?
+                        </div>
+                        
+                        <div class="downArrowq" id="dA1" >
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)" >
+                        </div>
+                    </summary>
+                    
+                    <div class="panel" >
+                        Everyone goes through challenging situations in life, and while you may have successfully navigated through other
+                        difficulties you’ve faced, Therapy provides the extra support when you most need it. In fact, therapy is for people
+                        who
+                        have enough self-awareness to realize they need a helping hand, and that is something to be admired.
+
+                        <div class="yesNo" >
+                            Do you find this helpful? <span class="pinkC">  &nbsp;  Yes &nbsp; No</span>
+
+                        </div>
+                    </div>
+                    
+                </details> 
+
+                
+                                
+                <details class="ques1">
+                
+                    <summary class="ques">
+                        <div class="sid">
+                        What should I expect during my first 1 on 1 therapy session?
+                        </div>
+                
+                        <div class="downArrowq" id="dA2">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                
+                    <div class="panel">
+                    The first session is about building trust. Therapy works best when you can trust your Therapist and vice versa. We,
+                    therefore, use the first session to understand your problems better and define a goal based journey on what to expect
+                    from therapy and by when.
+                
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                
+                        </div>
+                    </div>
+                
+                </details>
+
+
+                <details class="ques1">
+                
+                    <summary class="ques">
+                        <div class="sid">
+                        What is the difference between a Therapist and a Psychiatrist?
+                        </div>
+                
+                        <div class="downArrowq" id="dA3">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                
+                    <div class="panel">
+                    A Therapists' goal is to help patients make decisions and clarify their feelings in order to solve problems without any
+                    medication. A Psychiatrist, on the other hand, helps diagnose mental health issues, and prescribes medicines if needed.
+                    However, Therapists often works in tandem with a Psychiatrist to provide comprehensive care as needed by any user.
+                
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                
+                        </div>
+                    </div>
+                
+                </details>
+
+                <details class="ques1">
+
+                    <summary class="ques">
+                        <div class="sid">
+                        What does a Therapy pack offer?
+                        </div>
+
+                        <div class="downArrowq" id="dA4">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+
+                    <div class="panel">
+                        A Therapy pack helps with continuity of your wellness journey, without having to bother about booking sessions one at a
+                        time. Your Therapist will recommend the number of sessions that you might need to address your challenges. We recommend
+                        you buy a pack only after a discussion with the therapist.
+
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+
+                        </div>
+                    </div>
+
+                </details>
+
+                <details class="ques1">
+                
+                    <summary class="ques">
+                        <div class="sid">
+                            How to book a 1 on 1 Therapy session?
+                        </div>
+                
+                        <div class="downArrowq" id="dA5">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                
+                    <div class="panel">
+                    Here’s how you can book a therapy session from the cure.fit app: Log into the cure.fit app From the bottom of the To-Do
+                    page, pick mind.fit Pick 1 on 1 therapy Pick a preferred center and time slot Make a payment That’s all!
+                
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                
+                        </div>
+                    </div>
+                
+                </details>
+
+
+                <details class="ques1">
+                
+                    <summary class="ques">
+                        <div class="sid">
+                        Who all will have access to my medical data?
+                        </div>
+                
+                        <div class="downArrowq" id="dA6">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                
+                    <div class="panel">
+                    Only your assigned Therapist and/or assigned Psychiatrist will have access to your medical data until you provide
+                    explicit access to any other professional
+                
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                
+                        </div>
+                    </div>
+                
+                </details>
+
+                <details class="ques1">
+                
+                    <summary class="ques">
+                        <div class="sid">
+                        The information I share with my therapist is sensitive information, is this information safe?
+                        </div>
+                
+                        <div class="downArrowq" id="dA7">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                        </div>
+                    </summary>
+                
+                    <div class="panel">
+                    Absolutely! We ensure none of your medical/psychiatric information is shared with anyone but your Therapist and
+                    Psychiatrist. All the information you share with us is completely safe and secure with us.
+                        <div class="yesNo">
+                            Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                
+                        </div>
+                    </div>
+                
+                </details>
+                
+            </div>
+
+
+
+        </div>
+
+        <div id="bluebigdiv">
+        
+            <div id="bigdi">
+                <div id="bluefirst">
+                    <h5>Online personal Training</h5>
+                    <p>More and more people are realizing the importance of staying fit and healthy. With a sedentary
+                        lifestyle becoming more of a norm these days, it has become essential to find time in your busy
+                        schedule for a physical workout. If you are on a time crunch, it might be difficult to squeeze
+                        out enough time to go to a training centre or a gym to get your workout done. This is where
+                        online personal training comes in handy. You do not need to waste any time commuting, yet still,
+                        get access to online personal training from the comfort of your home. An online personal
+                        training program constitutes undergoing training under the guidance of a certified personal
+                        trainer over a video call. The trainer will be able to guide you through the different workouts
+                        and keep an eye on whether or not you are following perfect form while working out. An Online
+                        Fitness Trainer is well versed in coaching clients online. You will be able to make the most of
+                        each session and burn a lot of calories as you put your body through a vigorous workout. One
+                        concern that most people have about joining an online personal training program is about
+                        investing in workout equipment. Fortunately, online fitness coaches are trained to design
+                        workout programs based on the workout equipment you have at home. Online training is a flexible
+                        and cost-effective way to reach your fitness targets without having to rely on the trainer’s
+                        location or availability.</p>
+                    <h5>How Online Personal Training Works?</h5>
+                    <p>Online personal training is a relatively new concept. Ever since its conception, more people have
+                        started switching to this type of training because of the many benefits it offers. Online
+                        training can be described as an exciting way to start training under the guidance of a certified
+                        personal trainer at a fraction of the cost without having to worry about the logistics or travel
+                        time. Most online coaching programs have different packages based on the difficulty level as
+                        well as the number of hours you will get with the coach. You can pick a package that meets your
+                        requirements. If you are a beginner, it is advisable to start with one of the basic packages and
+                        then top up as you get more proficient with the help of the online gym trainer. The packages
+                        will also give you an outline of what to expect, any equipment you might need, and so on. The
+                        number of sessions included in the package will also be mentioned. Once you choose a package,
+                        you can choose from the different time slots available. Log in on the chosen day and time and
+                        start working out. You will need to leave your video and microphone on in order to be able to
+                        communicate with the trainer during your sessions. The trainer will demonstrate the different
+                        workouts and keep a close eye on your posture and form. The trainer will also give you plenty of
+                        input on how you are doing. Basically, an online personal training program involves the
+                        following steps: Signing up for a Personal Training journey and choosing a pack of your choice.
+                        Setting your fitness goal and getting started accordingly. Choosing from the wide variety of
+                        available workouts. Following the guidance of the trainers. Achieving your goals with regular
+                        assessments and sessions. The initial sessions of most online personal training programs are
+                        less intense to help you ease your body into workout mode. As you attend more online sessions,
+                        you will notice that your body has built up stamina and can handle intense workout sessions with
+                        more ease. Since these Personal Training sessions are one on one, you can work out at your pace
+                        and benefit from the vast knowledge of the Online Personal Trainer you have chosen.</p>
+                    <h5>what are the Benefits of Online Personal training</h5>
+                    <p>If you are still sceptical about hiring an online fitness coach, take a close look at some of the
+                        benefits offered by online training: Convenience: Since you do not need to reach any location to
+                        go ahead with your workout, online training sessions offer a lot more convenience when it comes
+                        to managing your schedule. Affordable: One-on-one sessions by gym trainers in person are often
+                        expensive. If you are not able to afford in-person training, online personal training can be a
+                        godsend. The sessions are a lot more affordable and yet offer the complete benefit of an
+                        in-person training session. Communication: Online Personal Trainers are more open to
+                        communication throughout the day. You can drop a text, call, or video call. Online personal
+                        trainers often check up on their clients routinely to encourage them to stick to a healthy diet
+                        and continue working out. No Geographical Boundaries: Online personal training sessions open up
+                        the opportunity for you to train under any of the top personal training experts in the country.
+                        You are no longer bound by geographical proximities when it comes to looking for an Online
+                        Personal Trainer. Motivation &amp; Accountability: With your trainer just a click away, you will
+                        be motivated to stay on track and keep up with your workout routine and diet regime. You will
+                        also feel more accountable for your actions, helping you reach your fitness goals sooner rather
+                        than later. Tracking Results: Online Fitness Trainers will often track the different variables
+                        related to your body weight. This will give them a better idea of how to customize the program
+                        to help you achieve your target that does not harm your health.</p>
+                </div>
+        
+                <div id="bluesecond">
+        
+                    <h5>Online personal Training</h5>
+                    <p>More and more people are realizing the importance of staying fit and healthy. With a sedentary
+                        lifestyle becoming more of a norm these days, it has become essential to find time in your busy
+                        schedule for a physical workout. If you are on a time crunch, it might be difficult to squeeze
+                        out enough time to go to a training centre or a gym to get your workout done. This is where
+                        online personal training comes in handy. You do not need to waste any time commuting, yet still,
+                        get access to online personal training from the comfort of your home. An online personal
+                        training program constitutes undergoing training unle and cost-effective way to reach your
+                        fitness targets without having to rely on the trainer’s location or availability.</p>
+                    <h5>How Online Personal Training Works?</h5>
+                    <p>Online personal training is a relatively new concept. Ever since its conception, more people have
+                        started switching to this type of training because of the many benefits it offers. Online
+                        training can be described as an exciting way to start training under the guidance of a certified
+                        personal trainer at a fraction of the cost without having to worry about the logistics or travel
+                        time. Most online coaching programs have different packages based on the difficulty level as
+                        well as the number of hours you will get with the coach. You can pick a package that meets your
+                        requirements. If you are a beginner, it is advisable to start with one of the basic packages and
+                        then top up as you get more proficient with the help of the online gym trainer. The packages
+                        will also give you an outline of what ase. Since these Personal Training sessions are one on
+                        one, you can work out at your pace and benefit from the vast knowledge of the Online Personal
+                        Trainer you have chosen.</p>
+                    <h5>what are the Benefits of Online Personal training</h5>
+                    <p>If you are still sceptical about hiring an online fitness coach, take a close look at some of the
+                        benefits offered by online training: Convenience: Since you do not need to reach any location to
+                        go ahead with your workout, online training sessions offer a lot more convenience when it comes
+                        to managing your schedule. Affordable: One-on-one sessions by gym trainers in person are often
+                        expensive. If you are not able to afford in-person training, online personal training can be a
+                        godsend. The sessions are a lot more affordable and yet offer the complete benefit of an
+                        in-person training session. Communication: Online Personal Trainers are more open to
+                        communication throughout the day. You can drop a text, call, or video call. Online personal
+                        trainers often check up on their clients routinely to encourage them to stick to a healthy diet
+                        and continue working out. No Geographical Boundaries: Online personal training sessions open up
+                        the opportunity for you to train under any of the top personal training experts in the country.
+                        You are no longer bound by geographical proximities when it comes to looking for an Online
+                        Personal Trainer. Motivation &amp; Accountability: With your trainer just a click away, you will
+                        be motivated to stay on track and keep up with your workout routine and diet regime. You will
+                        also feel more accountable for your actions, helping you reach your fitness goals sooner rather
+                        than later. Tracking Results: Online Fitness Trainers will often track the different variables
+                        related to your body weight. This will give them a better idea of how to customize the program
+                        to help you achieve your target that does not harm your health.</p>
+                    <p>More and more people are realizing the importance of staying fit and healthy. With a sedentary
+                        lifestyle becoming more of a norm these days, it has become essential to find time in your busy
+                        schedule for a physical workout. If you are on a time crunch, it might be difficult to squeeze
+                        out enough time to go to a training centre or a gym to get your workout done. This is where
+                        online personal training comes in handy. You do not need to waste any time commuting, yet still,
+                        get access to online personal training from the comfort of your home. An online personal
+                        training program constitutes undergoing training unle and cost-effective way to reach your
+                        fitness targets without having to rely on the trainer’s location or availability.</p>
+                    <h5>Online personal Training</h5>
+                    <p>More and more people are realizing the importance of staying fit and healthy. With a sedentary
+                        lifestyle becoming more of a norm these days, it has become essential to find time in your busy
+                        schedule for a physical workout. If you are on a time crunch, it might be difficult to squeeze
+                        out enough time to go to a training centre or a gym to get your workout done. This is where
+                        online personal training comes in handy. You do not need to waste any time commuting, yet still,
+                        get access to online personal training from the comfort of your home. An online personal
+                        training program constitutes undergoing training unle and cost-effective way to reach your
+                        fitness targets without having to rely on the trainer’s location or availability.</p>
+        
+                </div>
+            </div>
+        
+        </div>
+
+
+        <div id="footer">
+            <div>.</div>
+            <div class="logo-footer">
+                <img src="https://static.cure.fit/assets/images/cult-logo-white.svg" />
+                <p class="text-Footer-P">
+                    At cult.fit, we make group workouts fun, daily food healthy & tasty,
+                    mental fitness easy with yoga & meditation, and medical & lifestyle
+                    care hassle-free. #BeBetterEveryDay
+                </p>
+            </div>
+            <div>.</div>
+            <div class="right">
+                <div class="links1">
+                    <p class="fText">CONTACT</p>
+                    <p class="fText">US</p>
+                    <p class="fText">BLOG</p>
+                    <p class="fText">TALKS</p>
+                    <p class="fText">CAREER</p>
+                </div>
+                <div class="links2">
+                    <p class="fText">CULTFIT FOR BUSINESSES</p>
+                    <p class="fText">CULT PASS</p>
+                    <p class="fText">NETWORK</p>
+                    <p class="fText">CORPORATE</p>
+                    <p class="fText">PARTNERSHIPS</p>
+                </div>
+                <div class="playStore">
+                    <img src="https://static.cure.fit/assets/images/app-store.svg" alt="" />
+                    <img src="https://static.cure.fit/assets/images/play-store.svg" alt="" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
