@@ -1,0 +1,104 @@
+*{
+    font-family: sans-serif;
+}
+/* div{
+    border: 1px solid black;
+} */
+.navbar{
+    display: flex;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-color:whitesmoke;
+    justify-content: space-between;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
+    box-sizing: border-box;
+}
+.navbar:hover{
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    gap: 10%;
+}
+.mid-box{
+    margin: auto;
+    margin-right: 45%;
+    font-weight: bold;
+    color: #FF0D9C;
+}
+.login-icon{
+    margin-right: 2%;
+    padding-top: 1%;
+}
+.choose{
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+}
+#a{
+    width: 10%;
+}
+.details{
+    display: flex;
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco/image/home/empty-cart%403x.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+.address{
+    width: 50%;
+}
+.payment{
+    padding: 2%;
+    width: 50%;
+}
+input{
+    width: 95%;
+    margin-bottom: 2%;
+}
+#alt{
+    background-color: #d3a3bf;
+    border-radius: 10px;
+    justify-content: space-around;
+    width: 30%;
+    margin-top: 300px;
+    margin: auto;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 5%;
+    margin-top: 20%;
+}
+#pay{
+    display: flex;
+    margin: auto;
+    width: 10%;
+    background-color: #FF0D9C;
+    color: white;
+    justify-content: center;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+}
+.address{
+    border-right: 1px solid #FF0D9C;
+
+}
+@media (min-width: 0px) and (max-width: 800px){
+    .details{
+        display: flex;
+        flex-direction:column;
+    }
+    .details>div{
+        width: 100%;
+    }
+    .address{
+        border: none;
+    }
+    .mid-box{
+        display: none;
+    }
+}
