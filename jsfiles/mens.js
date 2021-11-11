@@ -242,6 +242,7 @@ data.forEach((pr)=>{
 container.append(main_div)
 main_div.onclick = function() {
     addtocart(pr)
+   
 }
 let img = document.createElement("img")
 img.src = pr.img
@@ -277,9 +278,7 @@ if(localStorage.getItem("display_product") == null){
     localStorage.setItem("display_product",JSON.stringify([]))
 }
 
-if(localStorage.getItem("mens_store") == null){
-    localStorage.setItem("mens_store",JSON.stringify([]))
-}
+
 
 function addtocart(pr){
    
@@ -288,12 +287,8 @@ function addtocart(pr){
     display_product.push(pr)
     localStorage.setItem("display_product",JSON.stringify(display_product))
     console.log(display_product)
-
-    let product =JSON.parse(localStorage.getItem("mens_store")) 
-    // product= []
-    product.push(pr)
-    localStorage.setItem("mens_store",JSON.stringify(product))
-    console.log(product)
+    window.location.href ="../html/product_display.html"
+  
 
 }
 showproduct(data)
