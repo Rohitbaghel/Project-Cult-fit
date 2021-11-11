@@ -7,7 +7,6 @@
 }
 #care {
     width: 100%;
-    height: 4000px;
 }
 #care-1{
     height: 64px;
@@ -125,7 +124,7 @@
 }
 #care-5 {
     margin: 0px;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
@@ -920,37 +919,107 @@ margin: auto;
 }
 
 
-*{
-margin: 0;
-padding: 0;
-/* overflow: hidden; */
+
+#bestDealBox {
+    width: 50%;
+    height:200px;
 }
 
-/* slideshow  css start */
-#slider{
-width:150%;
-display: flex;
-transition: 0.7s ;
-
+#FAQsBox{
+    /* height: 680px; */
+    background-color: rgb(242, 244, 248);
+    padding: 3% 0 0 0;
+    box-sizing: border-box;
 }
-
-#slider img{
-width: 75%;
+#faqText{
+    margin:  auto ;
+    width: 79%;
+    display: flex;
 }
-
-.indicators{
-position: absolute;
-left: 50%;
-transform: translateX(-50%);
+#ft{
+    font-size: 1.65vw;
+    font-weight: 600;
 }
-.indicators span{
-display: inline-block;
-width: 10px;
-height: 10px;
-border-radius: 50%;
-background: rgba(119, 117, 117, 0.611);
-cursor: pointer;
+#seeText{
+    font-size: 1vw;
+    font-weight: 600;
+    color: rgb(255, 50, 120);
+    margin: 0 0 0  88.5%;
+    padding: 7px 0 0 0;
+    box-sizing: border-box;
 }
-.active{
-background: black !important;
+#seeText:hover{
+    cursor: pointer;
+}
+#sevenQue{
+    width: 79%;
+    margin: 1.5% auto auto auto;
+    font-weight: 600;
+    color: rgb(106,106,106);
+    font-size: 1.1vw;
+}
+#quesBox{
+    width: 77.5%;
+    margin: 2% auto auto 12%;
+}
+div{
+    /* border: 1px solid black; */
+}
+.ques{
+    display: grid;
+    height: 70px;
+    cursor: pointer;
+    grid-template-columns: 90% 8%;
+    /* grid-gap: 20%; */
+}
+.ques1{
+border-bottom: 1px solid rgb(212, 212, 212) ;
+}
+.panel{
+    font-size: .9vw;
+    color: rgb(136, 142, 158);
+    font-weight: 500;
+    width: 55%;
+    margin: 0 0 0 2.5%;
+    line-height: 20px;
+    padding-bottom: 20px;
+    }
+   details>summary{
+       list-style: none;
+   }
+    .yesNo{
+        font-weight: 300;
+        font-size: 1.1vw;
+        margin: 20px 0 0 0;
+    }
+    .pinkC{
+        color: rgb(255, 50, 120);
+        cursor: pointer;
+    }
+.sid{
+    width: 100%;
+    display: list-item;
+    margin: 0 0 0 2%;
+    color:rgb(106,106,106) ;
+    box-sizing: border-box;
+    font-size: 1.2vw;
+    padding: 2.3% 0 0 0 ;
+}
+.sid::before{
+    content: "\2022";
+    font-size: 1.75vw;
+    color: rgb(106,106,106);
+    position: relative;
+    left: -1rem;
+    top: .2rem;
+}
+.downArrowQue{
+    width: 70%;
+   /* transform: rotateZ(270deg); */
+    margin: 0 0 0 2px;
+}
+.downArrowq{
+     margin: 0 0 0 85%;
+     box-sizing: border-box;
+     padding: 25px 0  0 0 ;
 }
