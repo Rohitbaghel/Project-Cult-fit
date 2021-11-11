@@ -9,11 +9,11 @@
 </head>
 <body>
     <div class="container">
-   <div class="grid grid-cols-2" id="flex">
+   <div class="md:grid grid-cols-2 ml-4" id="flex">
        <div id="grid1"></div>
 
        <!-- grid2 -->
-       <div id="grid2" class="ml-2">
+       <div id="grid2" class=" md:mx-4 xl:-ml-24 xl:mr-20">
            <div>
            <h4 id="brand" class="font-normal text-sm"></h4>
            <h1 id="name" class="font-semibold text-3xl"></h1>
@@ -29,62 +29,68 @@
         <!-- button div -->
         <div >
             <div class="text-xs my-2"> Choose Size <span class="text-red-800" >(Size Guide)</span> </div>
-            <div class="grid grid-cols-5 gap-1 my-2 ml-3">
-                <button class="" style="border: 1px solid yellow ;">S</button>
-                <button class="rounded hover:border-yellow-400 border">M</button>
-                <button class="rounded hover:border-yellow-400 border">L</button>
-                <button class="rounded hover:border-yellow-400 border">XL</button>
-                <button class="rounded hover:border-yellow-400 border">XXl</button>
+            <div class="grid grid-cols-4 sm:grid-cols-5 gap-1 my-2 ml-3 " >
+                <button onclick="category()" class="rounded-full w-full border-yellow-400" style="border: 1px solid yellow ;" id="s">S</button>
+                <button onclick="category()" class="rounded hover:border-yellow-400 border" id="m">M</button>
+                <button onclick="category1()" class="rounded hover:border-yellow-400 border" id="l">L</button>
+                <button onclick="category()" class="rounded hover:border-yellow-400 border" id="xl">XL</button>
+                <button onclick="category1()" class="rounded hover:border-yellow-400 border" id="xxl">XXl</button>
             </div>
         </div>
-        <div class="grid grid-cols-2 gap-2">
-            <button class="border text-white bg-red-700 rounded">Add to cart</button>
-            <button class="border text-white bg-red-700 rounded">Buy Now</button>
+        <div class="grid grid-cols-2 gap-2 my-5">
+            <button class="border text-white bg-red-700 rounded-xl text-base font-bold" id="addtocart">Add to cart</button>
+            <button class="border text-white bg-red-700 rounded-xl text-base font-bold">Buy Now</button>
         </div>
         <!-- button div -->
 
         <!-- product -->
-        <div>
-            <h4>product</h4>
-            <p>&#8594; Color: Black</p>
-            <p>&#8594; Fabric: 95% Cotton, 5% Spandex</p>
-            <p>&#8594; Breathable fabric</p>
-            <p>&#8594; Supersoft</p>
-            <p>&#8594; Branded Elastic at Back Waistband</p>
+        <div class="my-4 border-b-2">
+            <h4 class="text-sm font-bold text-gray-700">Product</h4>
+            <p  class="ml-4">&#8594; Color: Black</p>
+            <p class="ml-4">&#8594; Fabric: 95% Cotton, 5% Spandex</p>
+            <p class="ml-4">&#8594; Breathable fabric</p>
+            <p class="ml-4">&#8594; Supersoft</p>
+            <p class="ml-4">&#8594; Branded Elastic at Back Waistband</p>
         </div>
          <!-- product -->
        
          <!-- pincode -->
-         <div class="">
-        <input type="text" placeholder="Enter pincode">
-        <input type="submit" >
+         <div class="my-4  flex justify-between">
+        <input type="number" placeholder="Enter pincode" id="pincode">
+       <div class="flex">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt text-red-600" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+          <button class="text-lg ml-2 text-red-600" onclick="checkpincode()">check</button>
+       </div>
     </div>
           <!-- pincode -->
 
           <!-- delivery -->
-        <div>
+        <div class="ml-4">
             <p>&#8594;  Free delivery within 5-7 days</p> 
             <p>&#8594;  Easy 30 days return available</p> 
             <p>&#8594;   30 days exchange available</p> 
-            <p>&#8594;  To minimise contact between you and the delivery partner, Pay on Delivery option is temporarily disabled.</p> 
+            <p class="text-xs font-normal">&#8594;  To minimise contact between you and the delivery partner, Pay on Delivery option is temporarily disabled.</p> 
         </div>
            <!-- delivery -->
  
            <!-- fabric -->
-         <div>
+         <!-- <div class="">
              <h4>Fabric</h4>
             <p>&#8594;  95% Cotton 5% Spandex</p> 
-         </div>
+         </div> -->
                <!-- fabric -->
 
                <!-- material and care -->
-            <div>
-                <h4>material and care</h4>
-                <p>&#8594; Color: Black</p>
-                <p>&#8594; Fabric: 95% Cotton, 5% Spandex</p>
-                <p>&#8594; Breathable fabric</p>
-                <p>&#8594; Supersoft</p>
-                <p>&#8594; Branded Elastic at Back Waistband</p>
+            <div  class="my-4 border-b-2">
+                <h4 class="text-sm font-bold text-gray-700">Material and Care</h4>
+                <p class="ml-4">&#8594; Color: Black</p>
+                <p class="ml-4">&#8594; Fabric: 95% Cotton, 5% Spandex</p>
+                <p class="ml-4">&#8594; Breathable fabric</p>
+                <p class="ml-4">&#8594; Supersoft</p>
+                <p class="ml-4">&#8594; Branded Elastic at Back Waistband</p>
             </div>
 
                  <!-- material and care -->
