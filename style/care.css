@@ -8,15 +8,120 @@
 #care {
     width: 100%;
 }
-#care-1{
-    height: 64px;
+div{
+    border: 1px solid black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 1%;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    z-index: 100;
+    position: sticky;
+    top:0;
+    left: 0;
+    background-color: white;
+    padding: .5rem;
+}
+.logo{
+    margin: 0 0 0 1%;
+    width: 2.5%;
+    box-sizing: border-box;
+}
+
+#FitImgBox{
+    width: 5.3%;
+    margin: 0 0 0 .65%;
+    box-sizing: border-box;
+    
+}
+.imgMF{
     width: 100%;
-    margin-bottom: 0px;
-    border: 1px solid lightsteelblue;
+    height: 100%;
+}
+#downArrowBox{
+    box-sizing: border-box;
+    padding: 0 0 0 .3%;
+}
+
+.eat_section{
+    display: flex;
+    width:50%;
+   
+    font-weight: 500;
+    margin: 0 0 0 18%;
+    align-items: center;
+}
+
+#orderDiv a{
+    color: rgb(252, 46, 113);
+    box-sizing: border-box;
+    padding: 5.6% 0 0 81% ;
+    text-decoration: none ;
+    align-self: center;
+    
+}
+#mealDiv a{
+    color: #404040; 
+    box-sizing: border-box;
+    padding: 5.6% 0 0 31.5% ;
+    text-decoration: none ;
+}
+
+.head{
+    margin: 0;
+}
+.images{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.login{
+    display: flex;
+    width: 14%;
+    /* justify-content: space-between; */
+    padding: 10px;
+    margin: 0 0 0 20%;
+}
+.location{
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-gap: 5%;
+    width: 40%;
+    align-items: center;
+}
+
+.dot{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: rgb(15, 209, 255);
+   
+    box-sizing: border-box;
+    
+}
+#nameCity{
+    margin: 0 0 0 2%;
+   
+}
+
+#loginBox{
+    margin: 0 0 0 10%;
+}
+
+#addToCartBox{
+    margin: 0 0 0 10%;
+}
+
+/* #care-1{
+    width: 100%;
+    margin-left: 1%;
+    display: flex;
 }
 #care-1 > div {
-    float: left;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 
 #care-1 > div:nth-child(1){
@@ -105,7 +210,7 @@
 #care-1 > div:nth-child(11) > img {
     height:24px;
     width:24px;
-}
+} */
 #care-2 {
     margin-top: 0px;
 }
