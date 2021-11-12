@@ -146,13 +146,15 @@ body {
 }
 
 /* arrow=> */
+
+
 #myPopup{
   position: absolute;
   display: none;
   width: 250px;   
   height: 165px;
-  margin-left:10%;
-  margin-top: 4.5%;
+  margin-left:6%;
+  margin-top: 7%;
   background-color: white;
   box-shadow: rgb(0 0 0 / 15%) 0px 4px 7px 9px;
   z-index: 100;
@@ -212,7 +214,7 @@ transform: rotateZ(180deg);
 }
 
 .popText1{
-  margin: 0 0 0 7%;
+  margin: 0 0 0 9%;
 }
 
 .popText2{
@@ -242,7 +244,107 @@ transform: rotateZ(180deg);
   height: 100%;
 }
 
+/* qna */
+#FAQsBox{
+  /* height: 680px; */
+  background-color: rgb(242, 244, 248);
+  padding: 3% 0 0 0;
+  box-sizing: border-box;
+  margin-top: 4%;
+}
+#faqText{
+  margin:  auto ;
+  width: 79%;
+  display: flex;
+}
+#ft{
+  font-size: 1.65vw;
+  font-weight: 600;
+}
+#seeText{
+  font-size: 1vw;
+  font-weight: 600;
+  color: rgb(255, 50, 120);
+  margin: 0 0 0  88.5%;
+  padding: 7px 0 0 0;
+  box-sizing: border-box;
+}
+#seeText:hover{
+  cursor: pointer;
+}
+#sevenQue{
+  width: 79%;
+  margin: 1.5% auto auto auto;
+  font-weight: 600;
+  color: rgb(106,106,106);
+  font-size: 1.1vw;
+}
+#quesBox{
+  width: 77.5%;
+  margin: 2% auto auto 12%;
+}
 
+.ques{
+  display: grid;
+  height: 70px;
+  cursor: pointer;
+  grid-template-columns: 90% 8%;
+  /* grid-gap: 20%; */
+}
+.ques1{
+border-bottom: 1px solid rgb(212, 212, 212) ;
+}
+.panel{
+  font-size: .9vw;
+  color: rgb(136, 142, 158);
+  font-weight: 500;
+  width: 55%;
+  margin: 0 0 0 2.5%;
+  line-height: 20px;
+  padding-bottom: 20px;
+  }
+ details>summary{
+     list-style: none;
+ }
+  .yesNo{
+      font-weight: 300;
+      font-size: 1.1vw;
+      margin: 20px 0 0 0;
+  }
+  .pinkC{
+      color: rgb(255, 50, 120);
+      cursor: pointer;
+  }
+.sid{
+  width: 100%;
+  display: list-item;
+  margin: 0 0 0 2%;
+  color:rgb(106,106,106) ;
+  box-sizing: border-box;
+  font-size: 1.2vw;
+  padding: 2.3% 0 0 0 ;
+}
+.sid::before{
+  content: "\2022";
+  font-size: 1.75vw;
+  color: rgb(106,106,106);
+  position: relative;
+  left: -1rem;
+  top: .2rem;
+}
+.downArrowQue{
+  width: 70%;
+ /* transform: rotateZ(270deg); */
+  margin: 0 0 0 2px;
+}
+.downArrowq{
+   margin: 0 0 0 85%;
+   box-sizing: border-box;
+   padding: 25px 0  0 0 ;
+}
+
+
+/* qna */
 
 /* .imgMF{
   width: 100%;

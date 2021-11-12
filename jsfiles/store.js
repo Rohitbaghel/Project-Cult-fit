@@ -101,3 +101,27 @@ function myFunction() {
 }
 
 // arrow=>
+
+
+// FAQs
+const ques = document.querySelectorAll(".sid");
+var count = 0;
+ques.forEach((el) => {
+    el.addEventListener("click", event =>{
+        count += 180
+        const downArrow = el.nextElementSibling;
+                downArrow.style.transform = `rotate(${count}deg)`
+        // downArrow.style.transition = " 0.2s ease-in-out";
+    })
+})
+//feedback=>
+let yes = document.querySelectorAll(".pinkC");
+yes.forEach((el) => {
+    el.addEventListener("click", event =>{
+        el.style.opacity =  "0.2";
+        el.style.cursor= "not-allowed";
+        alert("Thanks for your feedback")
+    })
+})
+
+// FAQs
