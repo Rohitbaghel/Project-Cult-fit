@@ -153,13 +153,12 @@ body {
   display: none;
   width: 250px;   
   height: 165px;
-<<<<<<< HEAD
+
   margin-left:6%;
   margin-top: 7%;
-=======
+
   margin-left:3.5%;
   margin-top: 4.5%;
->>>>>>> 95a81e10021e560633c5b357c15646f7d57d1915
   background-color: white;
   box-shadow: rgb(0 0 0 / 15%) 0px 4px 7px 9px;
   z-index: 100;
