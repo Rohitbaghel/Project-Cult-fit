@@ -56,7 +56,7 @@ function ch(otp, str, btn) {
         document.getElementById("phn").style.display = "none";
         alertbox.textContent = null;
         btn.textContent = "Logout";
-        document.getElementById("login-txt").textContent="logout";
+        document.getElementById("login-txt").textContent = "logout";
         a.href = "../html/home.html"
         condition();
         cancel();
@@ -68,9 +68,9 @@ function ch(otp, str, btn) {
 function condition() {
     let a = document.getElementById("continue");
     let b = a.textContent;
-    
+
     if (b === "Logout") {
-       
+
         if (localStorage.getItem("checklogin") === null) {
             localStorage.setItem("checklogin", JSON.stringify([]));
             let c = [];
@@ -78,6 +78,12 @@ function condition() {
             console.log(c)
             localStorage.setItem("checklogin", JSON.stringify(c));
         }
+
+        // let logOut_btn = document.getElementById("continue");
+
+        // logOut_btn.onclick = () => {
+        //     dlt();
+        // }
     }
 }
 
@@ -88,6 +94,7 @@ function dlt() {
     localStorage.setItem("checklogin", JSON.stringify([]));
     let e = [];
     localStorage.setItem("checklogin", JSON.stringify(e));
+    window.location.href = "home.html"
 }
 
 //main 
@@ -316,8 +323,8 @@ function locate_cancel() {
 }
 
 let a = JSON.parse(localStorage.getItem("currentcity"));
-let location_div =document.getElementById("login-location");
-location_div.textContent=a[0];
+let location_div = document.getElementById("login-location");
+location_div.textContent = a[0];
 console.log(location_div)
 
 function txt_select(e) {

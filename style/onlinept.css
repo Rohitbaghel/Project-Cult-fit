@@ -13,7 +13,7 @@
     box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    padding: 9px;
+    padding-top: .5%;
  
 }
 .logo{
@@ -94,7 +94,7 @@
 
 .popText1{
     margin: 0 0 0 7%;
-    color: #ff0d9c;
+   
 }
 
 .popText2{
@@ -107,7 +107,7 @@
 
 .popText4{
      margin: 0 0 0 11%;
-     color: #ff0d9c;
+     
 }
 
 .popText5{
@@ -548,7 +548,6 @@ a{
     background-color: black;
     display: flex;
     gap: 100px;
-   
     width: 100%;
     /* margin-top: 140px; */
     height:350px;
@@ -692,7 +691,6 @@ a{
 /* -----big para section colour sky blue */
 #bluebigdiv{
     width:100%;
-    height:1200px;
     background-color: rgb(242, 244, 248);
     display: flex;
     justify-content: space-around;

@@ -124,4 +124,6 @@ imgMf.addEventListener("click", () => {
     dAB.style.transition = " 0.2s linear";
 })
 
-
+let a = JSON.parse(localStorage.getItem("currentcity"));
+let location_div =document.getElementById("nameCity");
+location_div.textContent=a[0];
