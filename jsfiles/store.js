@@ -34,3 +34,9 @@ let a = JSON.parse(localStorage.getItem("currentcity"));
 let location_div =document.getElementById("location");
 location_div.textContent=a[0];
 // console.log(location_div)
+
+
+
+function backtohome(){
+    window.location.href = "../html/home.html"
+}
