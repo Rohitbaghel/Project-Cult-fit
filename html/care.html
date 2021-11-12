@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png" data-rh="true">
+    <title>cult.fit - health food | fitness | meditaion</title>
     <link rel="stylesheet" href="../style/care.css">
+    <link rel="stylesheet" href="../style/ArrowDropDown.css">
     <script src="..\JsFiles\care.js" async></script>
+    <script rel="preload" src="..\JsFiles\ArrowDropDown.js" async></script>
 </head>
 <body>
-    <div id="care">
+    <!-- <div id="care"> -->
+
+        <!-- navbar -->
         <nav class="navbar">
             <div class="logo">
             <a href="../html/home.html">
@@ -17,21 +22,21 @@
                 </a>
             </div>
             <div id="FitImgBox" onclick="myFunction()">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/image/header-web/eat-fit.svg"
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/image/header-web/carefit.svg"
                     class="imgMF">
             </div>
             <div id="downArrowBox" onclick="myFunction()">
                 <img src="https://static.cure.fit/assets/images/arrow-clp.svg" class="imgMF" id="imgMf">
             </div>
-            <div class="eat_section">
-                <div id="orderDiv">
-                   <a  href="../html/eat_order.html">Online Consult</a>
+            <div class="care_section">
+                <div id="onlineDiv">
+                   <a href="../html/care.html"> Online Consult</a>
                 </div>
                 <div id="mealDiv">
-                    <a href="../html/eat_meal.html">Lab Tests </a>
+                    <a href="#">Lab Tests</a>
                 </div>
                 <div id="mealDiv">
-                    <a href="../html/eat_meal.html">Dietician</a>
+                    <a href="#">Dietician</a>
                 </div>
     
             </div>
@@ -53,6 +58,72 @@
                 </div>
             </div>
         </nav>
+
+        <!-- navbar -->
+
+          <!-- arrow=> -->
+     <div class="popuptext" id="myPopup">
+        <div id="allImgs">
+            <div>
+                <a href="onlinept.html">
+                    <img src="https://static.cure.fit/assets/images/cult-icon.svg" alt="" class="popImg1">
+                </a>
+                 
+                <div class="popText popText1 " >
+                    CULT
+                </div>
+            </div>
+            <div>
+               <a href="#">
+                <img src="https://static.cure.fit/assets/images/Livefit.svg" alt="" class="popImg2">
+               </a>
+                
+                <div class="popText popText2">
+                    LIVE
+                </div>
+            </div>
+            <div>
+               <a href="eat_order.html">
+                    <img src="https://static.cure.fit/assets/images/eat-icon.svg" alt="" class="popImg1">
+               </a>
+                   
+                
+                <div class="popText  Text3">
+                    EAT
+                </div>
+            </div>
+            <div>
+               <a href="mindfulnessPage.html">
+                    <img src="https://static.cure.fit/assets/images/mind-icon.svg" alt="" class="popImg1">
+               </a>
+                    
+                <div class="popText popText4">
+                    MIND
+                </div>
+            </div>
+            <div>
+                <a href="care.html">
+                    <img src="https://static.cure.fit/assets/images/carefit-pink.svg" alt="" class="popImg1">
+                </a>
+                   
+                <div class="popText popText5">
+                    CARE
+                </div>
+            </div>
+            <div>
+               <a href="store.html">
+                    <img src="https://static.cure.fit/assets/images/store-icon.svg" alt="" class="popImg2">
+               </a>
+                   
+                <div class="popText">
+                    STORE
+                </div>
+            </div>
+
+        </div>
+       
+    </div> 
+    <!-- arrow=> -->
     
         <div id="care-2">
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:150/dpr_2/image/vm/56d1fd51-41b0-40a3-8ba3-9a33094e49a3.png">
@@ -459,6 +530,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    <!-- </div> -->
 </body>
 </html>

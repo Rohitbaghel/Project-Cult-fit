@@ -3,13 +3,19 @@
     padding: 0;
     line-height: 1.25;
     letter-spacing: 0.1px;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sans-serif;
 }
 #care {
     width: 100%;
 }
-div{
+/* div{
     border: 1px solid black;
+} */
+
+/* nav bar  */
+a{
+    text-decoration: none;
+    color: black;
 }
 .navbar{
     display: flex;
@@ -47,28 +53,18 @@ div{
     padding: 0 0 0 .3%;
 }
 
-.eat_section{
+.care_section{
     display: flex;
-    width:50%;
-   
+    width:35%;
+    justify-content: space-around;
     font-weight: 500;
     margin: 0 0 0 18%;
-    align-items: center;
+    align-items: center;     
+    font-weight: 700;
 }
 
-#orderDiv a{
-    color: rgb(252, 46, 113);
-    box-sizing: border-box;
-    padding: 5.6% 0 0 81% ;
-    text-decoration: none ;
-    align-self: center;
-    
-}
-#mealDiv a{
-    color: #404040; 
-    box-sizing: border-box;
-    padding: 5.6% 0 0 31.5% ;
-    text-decoration: none ;
+#onlineDiv a{
+    color: #fc2e71;
 }
 
 .head{
@@ -115,6 +111,12 @@ div{
     margin: 0 0 0 10%;
 }
 
+.Text3{
+    margin: 0 0 0 15%;
+}
+.popText5{
+    color: #ff0d9c;
+}
 /* #care-1{
     width: 100%;
     margin-left: 1%;
@@ -122,7 +124,7 @@ div{
 }
 #care-1 > div {
     /* margin-left: 25px; */
-}
+
 
 #care-1 > div:nth-child(1){
     margin-top: 10px;
@@ -1065,9 +1067,7 @@ margin: auto;
     width: 77.5%;
     margin: 2% auto auto 12%;
 }
-div{
-    /* border: 1px solid black; */
-}
+
 .ques{
     display: grid;
     height: 70px;
