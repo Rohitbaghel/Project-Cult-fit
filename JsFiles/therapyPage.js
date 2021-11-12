@@ -79,7 +79,7 @@ function mindPage() {
     window.location.href = "mindfulnessPage.html";
 }
 
-
+// faqBox =>
 //accordion=>
 
 const ques = document.querySelectorAll(".sid");
@@ -107,6 +107,8 @@ yes.forEach((el) => {
         alert("Thanks for your feedback")
     })
 })
+
+// faqBox =>
 
 
 // arrow=>

@@ -612,7 +612,7 @@ div{
 }
 
 
-
+/* faqBox=> */
 #FAQsBox{
     /* height: 680px; */
     background-color: rgb(242, 244, 248);
@@ -740,6 +740,8 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
      box-sizing: border-box;
      padding: 25px 0  0 0 ;
 }
+/* faqBox=> */
+
 
 div{
     /* border: 1px solid black; */
