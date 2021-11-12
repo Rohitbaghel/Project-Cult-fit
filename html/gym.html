@@ -11,43 +11,111 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" alt="">
-            <p class="htext">CULT</p>
+            <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" class="imgMF">
+        </div>
+        <div id="mindFitImgBox" onclick="myFunction()">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/image/header-web/cult2.svg"
+                class="imgMF">
+        </div>
+        <div id="downArrowBox" onclick="myFunction()">
+            <img src="https://static.cure.fit/assets/images/arrow-clp.svg" class="imgMF" id="imgMf">
         </div>
         <div class="icons">
+            <div id="gymsDiv">
+                <span id="th">Gyms</span>
 
-            <div class="icons-div">
-
-                <p class="head icolor">Gyms</p>
             </div>
 
-            <div class="icons-div">
-
-                <a href="onlinept.html"><p class="head">Online PT</p></a>
+            <div id="onlineptDiv">
+            <a href="onlinept.html"><span id="mf">Online PT</span></a>
             </div>
 
-            <div class="icons-div">
+            <div id="cultspotDiv">
+                <a href="#"><span id="mf">cultsport</span></a>
+                </div>
+            
 
-                <p class="head">cultsport</p>
-            </div>
-
-<!-- <p>vevgevujgeu</p> -->
         </div>
 
         <div class="login">
 
             <div class="location">
                 <div class="dot"></div>
-                <div>jaipur</div>
+                <div id="nameCity">jaipur</div>
             </div>
-            <div>
+            <div id="loginBox">
                 <img src="https://static.cure.fit/assets/images/user-image.svg" alt="">
+
             </div>
-            <div>
+            <div id="addToCartBox">
                 <img src="https://static.cure.fit/assets/images/cart-image.svg" alt="">
             </div>
         </div>
     </nav>
+
+    <div class="popuptext" id="myPopup">
+        <div id="allImgs">
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/cult-icon.svg" alt="" class="popImg1">
+                </a>
+    
+                <div class="popText popText1 ">
+                    CULT
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/Livefit.svg" alt="" class="popImg2">
+                </a>
+    
+                <div class="popText popText2">
+                    LIVE
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/eat-icon.svg" alt="" class="popImg1">
+                </a>
+    
+    
+                <div class="popText popText3">
+                    EAT
+                </div>
+            </div>
+            <div>
+                <a href="#" class="pinklogo">
+                    <img src="https://static.cure.fit/assets/images/mind-hover-icon.svg" alt="" class="popImg1">
+                </a>
+    
+                <div class="popText popText4">
+                    MIND
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/carefit-blk.svg" alt="" class="popImg1">
+                </a>
+    
+                <div class="popText popText5">
+                    CARE
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/store-icon.svg" alt="" class="popImg2">
+                </a>
+    
+                <div class="popText">
+                    STORE
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+
+    <div id="rel">.</div>
     <!-- navbar closed-- -->
 
 
@@ -702,66 +770,4 @@
 </body>
 </html>
 
-<script>
-    //Timer Part =>
-//Set the date we're counting down to
-var countDownDate = new Date("Nov 3, 2021 15:37:25").getTime();
-// console.log(countDownDate);
-//Update the count down every 1 sec
-var x = setInterval(function () {
-    //get today's date and time
-    var now = new Date().getTime();
-    // console.log(now);
-    //find the distance net now and tne count down date
-    var distance = countDownDate - now;
-    // console.log(distance);
-    //time calculations for hours,min,sec
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    //output the result in an element
-    let hr = document.getElementById("hrDiv");
-    hr.textContent = hours;
-    let min = document.getElementById("minDiv");
-    min.textContent = minutes;
-    let sec = document.getElementById("secDiv");
-    sec.textContent = seconds;
-}, 1000)
-
-
-// -----video onj hover
-const clip = document.querySelectorAll('.clip')
-for(let i=0;i<clip.length;i++){
-    clip[i].addEventListener('mouseenter',function(e){
-        clip[i].play()
-    })
-
-    clip[i].addEventListener('mouseout',function(e){
-        clip[i].pause()
-    })
-}
-
-
-
-// ------faq scipt--
-
-const ques = document.querySelectorAll(".sid");
-var count = 0;
-ques.forEach((el) => {
-    el.addEventListener("click", event =>{
-        count += 180
-        const downArrow = el.nextElementSibling;
-                downArrow.style.transform = `rotate(${count}deg)`
-        // downArrow.style.transition = " 0.2s ease-in-out";
-    })
-})
-//feedback=>
-let yes = document.querySelectorAll(".pinkC");
-yes.forEach((el) => {
-    el.addEventListener("click", event =>{
-        el.style.opacity =  "0.2";
-        el.style.cursor= "not-allowed";
-        alert("Thanks for your feedback")
-    })
-})
-</script>
+<script src="gym.js"></script>
