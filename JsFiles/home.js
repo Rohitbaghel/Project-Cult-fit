@@ -56,6 +56,7 @@ function ch(otp, str, btn) {
         document.getElementById("phn").style.display = "none";
         alertbox.textContent = null;
         btn.textContent = "Logout";
+        document.getElementById("login-txt").textContent="logout";
         a.href = "../html/home.html"
         condition();
         cancel();
@@ -67,8 +68,9 @@ function ch(otp, str, btn) {
 function condition() {
     let a = document.getElementById("continue");
     let b = a.textContent;
-    console.log(b);
+    
     if (b === "Logout") {
+       
         if (localStorage.getItem("checklogin") === null) {
             localStorage.setItem("checklogin", JSON.stringify([]));
             let c = [];
