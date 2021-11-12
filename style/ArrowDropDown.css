@@ -1,0 +1,121 @@
+/* arrow=> */
+#myPopup{
+        position: absolute;
+        display: none;
+        width: 250px;   
+        height: 165px;
+        margin: 0 0 0 38px;
+        background-color: white;
+        box-shadow: rgb(0 0 0 / 15%) 0px 4px 7px 9px;
+        z-index: 100;
+        animation: fadeIn  1s;
+    }
+    @-webkit-keyframes fadeIn {
+      from {opacity: 0;} 
+      to {opacity: 1;}
+    }
+    
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity:1 ;}
+    }
+    
+    #myPopup::before{
+         content: "";
+      position: absolute;
+      bottom: 99.9999%;
+      left: 45%;
+      margin-left: -14px;
+    
+      border-width: 14px;
+     
+      border-left: 15px;
+      border-right: 15px; 
+      border-style: solid;
+      border-color: white transparent transparent transparent;
+      transform: rotateZ(180deg);
+    }
+    
+    
+    #allImgs>div{
+        box-sizing: border-box;
+        padding: 22% 0 0 18%;
+        cursor: pointer;
+    }
+    
+    #allImgs>div:hover{
+        opacity: 0.6;
+    }
+    
+    
+    .popImg1{
+        width: 50%;
+        height: 50%;
+    }
+    
+    .popImg2{
+       margin: 11.5% 0 0 15%;
+    }
+    
+    .popText{
+        font-size: .75vw;
+        font-weight: 600;
+    
+    }
+    
+    .popText1{
+        margin: 0 0 0 7%;
+    }
+    
+    .popText2{
+        margin: 0 0 0 11%;
+    }
+    
+    .popText3{
+        margin: 0 0 0 11%;
+        color: #ff0d9c;
+    }
+    
+    .popText4{
+         margin: 0 0 0 11%;
+         color: #ff0d9c;
+    }
+    
+    .popText5{
+        margin: 0 0 0 7%;
+    }
+    
+    
+    
+   
+    #allImgs{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        height: 100%;
+    }
+    
+    
+    
+    .imgMF{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    #downArrowBox{
+        box-sizing: border-box;
+        padding: 0 0 0 .3%;
+    
+    }
+    /* #downArrowBox:hover{
+        transform: rotateX(150deg);
+    }
+     */
+    
+     a{
+        text-decoration: none;
+        color: black;
+    }
+
+    
+    /* arrow=> */
+    
