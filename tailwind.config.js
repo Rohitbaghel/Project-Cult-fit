@@ -6,7 +6,11 @@ module.exports = {
     extend: {
       fontFamily:{
         'cultfitFont':['BrandonTextWeb-Medium','Helvetica Neue','Helvetica','Roboto','Arial','sans-serif']
-      }
+      },
+      transform:{
+        'rotate-half':" transform: rotateZ(180deg);"
+      },
+      visibility: ['hover', 'focus']
     },
   },
   variants: {

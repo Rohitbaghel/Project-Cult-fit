@@ -53,7 +53,7 @@ a{
     grid-template-columns: 50% 50%;
     font-weight: 500;
     margin: 0 0 0 18%;
-    align-items: center;
+    align-items: center;     
 }
 
 #orderDiv a{
