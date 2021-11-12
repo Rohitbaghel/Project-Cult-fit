@@ -5,13 +5,17 @@
  line-height: normal !important;
     font-family: sans-serif;
     box-sizing: border-box;
-    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding:.5rem px;
+    padding-left: 2%;
+    padding-right: 1%;
     box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -23,12 +27,12 @@
     padding: .5rem;
 }
 .logo{
-    margin: 0 0 0 .5%;
+    margin: 0 0 0 1%;
     width: 2.5%;
     box-sizing: border-box;
 }
 
-#eatFitImgBox{
+#FitImgBox{
     width: 5.3%;
     margin: 0 0 0 .65%;
     box-sizing: border-box;
@@ -48,7 +52,6 @@
     width:35%;
     grid-template-columns: 50% 50%;
     font-weight: 500;
-    font-size: 1vw;
     margin: 0 0 0 18%;
     align-items: center;
 }
@@ -87,7 +90,9 @@
     grid-template-columns: 10% auto;
     grid-gap: 5%;
     width: 40%;
+    align-items: center;
 }
+
 .dot{
     height: 9px;
     width: 9px;
@@ -99,8 +104,7 @@
 }
 #nameCity{
     margin: 0 0 0 2%;
-    font-size: 1vw;
-    font-weight: rgb(51, 51, 51);
+   
 }
 
 #loginBox{
