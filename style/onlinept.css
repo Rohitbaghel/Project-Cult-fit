@@ -1,30 +1,173 @@
 *{
     margin:0;
+   
 }
+
+
 
 .navbar{
     display: flex;
-    justify-content: space-between;
-    padding: 3px;
+    /* justify-content: space-between; */
+    width: 100%;
+    /* padding: 5px; */
     box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
     box-sizing: border-box;
-    margin-bottom: 5px;
-    height:68px;
-    /* position: fixed; */
-}
-.icons{
-    display: flex;
-    width:20%;
-    justify-content: space-between;
     font-family: sans-serif;
-    margin-left: 10%;
+    padding: 9px;
+ 
 }
-.icons-div{
+.logo{
+    margin: 0 0 0 .5%;
+    width: 2.5%;
+}
+
+#mindFitImgBox{
+    width: 5.3%;
+    margin: 0 0 0 .65%;
     box-sizing: border-box;
-    font-size: 17px;
-    margin-top: 10%;
     
 }
+
+#myPopup{
+    position: absolute;
+    display: none;
+    width: 250px;
+    height: 165px;
+    margin: 0 0 0 38px;
+    background-color:white;
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 7px 9px;
+    
+    animation: fadeIn  1s;
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+#myPopup::before{
+     content: "";
+  position: absolute;
+  bottom: 99.9999%;
+  left: 45%;
+  margin-left: -14px;
+
+  border-width: 14px;
+ 
+  border-left: 15px;
+  border-right: 15px; 
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+  transform: rotateZ(180deg);
+}
+
+
+#allImgs>div{
+    box-sizing: border-box;
+    padding: 22% 0 0 18%;
+    cursor: pointer;
+}
+
+#allImgs>div:hover{
+    opacity: 0.6;
+}
+
+
+.popImg1{
+    width: 50%;
+    height: 50%;
+}
+
+.popImg2{
+   margin: 11.5% 0 0 15%;
+}
+
+.popText{
+    font-size: .75vw;
+    font-weight: 600;
+
+}
+
+.popText1{
+    margin: 0 0 0 7%;
+    color: #ff0d9c;
+}
+
+.popText2{
+    margin: 0 0 0 11%;
+}
+
+.popText3{
+    margin: 0 0 0 13%;
+}
+
+.popText4{
+     margin: 0 0 0 11%;
+     color: #ff0d9c;
+}
+
+.popText5{
+    margin: 0 0 0 7%;
+}
+
+
+
+
+#allImgs{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    height: 100%;
+}
+.imgMF{
+    width: 100%;
+    height: 70%;
+}
+#downArrowBox{
+    box-sizing: border-box;
+    padding: 0 0 0 .3%;
+}
+
+
+
+/* div{
+    border: 1px solid black;
+} */
+.icons{
+    display: flex;
+    width:30%;
+    /* grid-template-columns: 50% 50%; */
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    /* margin: 0 0 0 18%; */
+    /* border: 1px solid blue; */
+    margin-left: 24%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gymsDiv{
+    color: #404040; 
+    box-sizing: border-box;
+    /* padding: 5.6% 0 0 81% ; */
+    
+}
+#onlineptDiv{
+    
+    color: rgb(252, 46, 113);
+    box-sizing: border-box;
+    /* padding: 5.6% 0 0 31.5% ; */
+}
+#cultspotDiv{
+    color: #404040; 
+    box-sizing: border-box;
+    /* padding: 5.6% 0 0 81% ; */
+}
+
 .head{
     margin: 0;
 }
@@ -34,28 +177,91 @@
 }
 .login{
     display: flex;
-    width: 10%;
-    justify-content: space-between;
+    width: 14%;
+    /* justify-content: space-between; */
     padding: 10px;
-    margin-top: 10px;
+    margin: 0 0 0 20%;
 }
 .location{
-    display: flex;
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-gap: 5%;
+    width: 40%;
 }
 .dot{
     height: 9px;
     width: 9px;
     border-radius: 50%;
     background-color: rgb(15, 209, 255);
-    vertical-align: sub;
-} 
+   
+    box-sizing: border-box;
+    
+}
+#nameCity{
+    margin: 0 0 0 2%;
+    font-size: 1vw;
+    font-weight: rgb(51, 51, 51);
+}
+
+#loginBox{
+    margin: 0 0 0 10%;
+}
+
+#addToCartBox{
+    margin: 0 0 0 10%;
+}
+
+#th:hover , #mindFitImgBox:hover, #downArrowBox:hover{
+    cursor: pointer;
+}
+
+#secondPart{
+    overflow: scroll;
+    height: 642px;
+    margin: 8px -8px 0px -8px;
+   
+}
+
+#grayBox{
+    background-color: rgb(243, 243, 250);
+    width: 100%;
+    height: 6200px;
+    padding-top:45px;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+   display: none;
+}
+
+
+
+#mindLibText{
+    width: 80%;
+    margin: auto;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+}
+
+#preRecText{
+    width: 80%;
+    margin: 4px auto auto auto;
+    font-size: .9vw;
+    font-weight: 200;
+    color: rgb(144, 142, 142);
+}
+
+
+/* ------------- */
+/* .icolor{
+    color: red;
+} */
 a{
     text-decoration: none;
 }
-
-/* ------------- */
-.icolor{
-    color: red;
+.mfgrey{
+   color: rgb(144, 142, 142);
 }
 .htext{
     display:inline-block;
@@ -64,6 +270,7 @@ a{
 
     #bodycontent{
         width:100%;
+        margin-top: -1%;
     }
     .dimg{
         width: 100%;
