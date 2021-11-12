@@ -115,9 +115,7 @@ a{
 
 
 
-div{
-    /* border: 1px solid black; */
-}
+
 #allImgs{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
@@ -136,9 +134,7 @@ div{
     padding: 0 0 0 .3%;
 
 }
-#downArrowBox:hover{
-    /* transform: rotateX(150deg); */
-}
+
 
 
 /* arrow=> */
@@ -252,9 +248,7 @@ SecondPart of my Page */
 }
 
 
-div{
-    /* border: 1px solid black; */
-}
+
 #tBox{
     width: 12%;
     height: 80%;
@@ -661,9 +655,7 @@ div{
     margin: 2% auto auto 12%;
 
 }
-div{
-    /* border: 1px solid black; */
-}
+
 .ques{
     display: grid;
     height: 70px;
@@ -747,9 +739,6 @@ border-bottom: 1px solid rgb(212, 212, 212) ;
 /* faqBox=> */
 
 
-div{
-    /* border: 1px solid black; */
-}
 
    #bluebigdiv{
     width:100%;
@@ -912,9 +901,7 @@ div{
       font-size: 14px;
   }
 
-  div{
-      /* border: 1px solid wheat; */
-  }
+ 
   .authorname{
     font-size: 18px;
     color: rgb(0, 0, 0);
