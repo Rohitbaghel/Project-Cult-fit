@@ -598,10 +598,9 @@ padding: 25px 0  0 0 ;
 #footer {
 background-color: black;
 display: flex;
-gap: 100px;
 width: 100%;
 /* margin-top: 140px; */
-height:350px;
+/* height:350px; */
 }
 .logo-footer {
 width: 800px;
@@ -822,11 +821,10 @@ color: rgb(0, 0, 0);
 margin-top: 30px;}
 #bluebigdiv{
 width:100%;
-height:1200px;
+padding-bottom: 10%;
 background-color: rgb(242, 244, 248);
 display: flex;
 justify-content: space-around;
-margin-bottom: 0px;
 }
 
 #bigdi{
