@@ -251,6 +251,7 @@ align-items: center;
      font-weight: bold;
      font-size: 16px;
      margin-left: 37%;
+     cursor: pointer;
  }
 
  .food_item h2{

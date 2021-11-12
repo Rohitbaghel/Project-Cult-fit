@@ -171,6 +171,7 @@ a{
       /* border-bottom: 3px solid #ff316d; */
       font-size: 17px;
         padding: .5rem 1rem;
+        cursor: pointer;
     }
     .MealContent span:nth-child(1){
         border-bottom: 3px solid #ff316d;
@@ -190,6 +191,7 @@ a{
          width: 100%;
          border-radius: 7px;
          transition: .5s ease;
+         cursor: pointer;
     }
 
     .Breakfast img:hover{
