@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png" data-rh="true">
+    <title>cult.fit - health food | fitness | meditaion</title>
+    <link rel="stylesheet" href="../style/gym.css">
+    <script src="../JsFiles/gym.js" async ></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" class="imgMF">
+        </div>
+        <div id="mindFitImgBox" onclick="myFunction()">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/image/header-web/cult2.svg"
+                class="imgMF">
+        </div>
+        <div id="downArrowBox" onclick="myFunction()">
+            <img src="https://static.cure.fit/assets/images/arrow-clp.svg" class="imgMF" id="imgMf">
+        </div>
+        <div class="icons">
+            <div id="gymsDiv">
+                <span id="th">Gyms</span>
+
+            </div>
+
+            <div id="onlineptDiv">
+            <a href="onlinept.html"><span id="mf">Online PT</span></a>
+            </div>
+
+            <div id="cultspotDiv">
+                <a href="../html/store.html"><span id="mf">cultsport</span></a>
+                </div>
+            
+
+        </div>
+
+        <div class="login">
+
+            <div class="location">
+                <div class="dot"></div>
+                <div id="nameCity">jaipur</div>
+            </div>
+            <div id="loginBox">
+                <img src="https://static.cure.fit/assets/images/user-image.svg" alt="">
+
+            </div>
+            <div id="addToCartBox">
+                <img src="https://static.cure.fit/assets/images/cart-image.svg" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <div class="popuptext" id="myPopup">
+        <div id="allImgs">
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/cult-icon.svg" alt="" class="popImg1">
+                </a>
+    
+                <div class="popText popText1 ">
+                    CULT
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/Livefit.svg" alt="" class="popImg2">
+                </a>
+    
+                <div class="popText popText2">
+                    LIVE
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/eat-icon.svg" alt="" class="popImg1">
+                </a>
+    
+    
+                <div class="popText popText3">
+                    EAT
+                </div>
+            </div>
+            <div>
+                <a href="#" class="pinklogo">
+                    <img src="https://static.cure.fit/assets/images/mind-hover-icon.svg" alt="" class="popImg1">
+                </a>
+    
+                <div class="popText popText4">
+                    MIND
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/carefit-blk.svg" alt="" class="popImg1">
+                </a>
+    
+                <div class="popText popText5">
+                    CARE
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://static.cure.fit/assets/images/store-icon.svg" alt="" class="popImg2">
+                </a>
+    
+                <div class="popText">
+                    STORE
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+
+    <div id="rel">.</div>
+    <!-- navbar closed-- -->
+
+
+    <div class="saleimg">
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:595/dpr_2/image/vm/c014f8bc-5b0b-40fb-9c15-47424eb7a668.png" alt="">
+    </div>
+
+        <div class="timediv">
+        <div class="timerimgdiv">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:100/dpr_2/image/vm/372a23c8-187f-4f63-bf9a-51737865f8ae.png" alt="">
+        </div>
+
+        <div id="timerBox">
+            <div id="tBox">
+                <div>
+                    <div class="timerDiv" id="hrDiv">
+                    </div>
+                    <div class="timerText">Hr</div>
+                </div>
+                <div class="dotText">:</div>
+                <div>
+                    <div class="timerDiv" id="minDiv">
+                    </div>
+                    <div class="timerText">Min</div>
+                </div>
+                <div class="dotText">:</div>
+                <div>
+                    <div class="timerDiv" id="secDiv">
+                    </div>
+                    <div class="timerText">Sec</div>
+                </div>
+            </div>
+            <div id="goArrow">
+               <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="arrowImg">
+            </div>
+        </div>
+
+        </div>
+
+        <!-- ---video  -->
+        <div class="videocont">
+            <h2 class="gymtext">GYMS IN PUNE</h2>
+            <div class="videoflex">
+                <div class="box">
+                       <video width="320" height="240"  class="clip">
+                             <source src="../images/vid1.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="tryfreesec">
+                            <h3>Apple Fitness Narhe</h3>
+                            <div class="tryfree">
+                                <div class="narhep">Narhe</div>
+                                <div class="tryp">TRY FOR FREE</div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="spanitem">
+                            <span class="ulsp">Unlimited access with cultpass</span>
+                            <span class="bsp">BlACK</span>
+                            <span class="amsp">and</span>
+                            <span class="gsp">GOLD</span>
+                        </div>
+                </div>
+                <div class="box">
+                    <video width="320" height="240"  class="clip">
+                        <source src="../images/vid2.mp4" type="video/mp4">
+                   </video>
+
+                   <div class="tryfreesec">
+                    <h3>Avengers Fitness Studios</h3>
+                    <div class="tryfree">
+                        <div class="narhep">Hadapsar</div>
+                        <div class="tryp">TRY FOR FREE</div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="spanitem">
+                    <span class="ulsp">Unlimited access with cultpass</span>
+                    <span class="bsp">BlACK</span>
+                    <span class="amsp">and</span>
+                    <span class="gsp">GOLD</span>
+                </div>
+
+                </div>
+         </div>
+        </div>
+
+        <!-- ----above video section end -->
+
+
+        <!-- memebershipbox 1 -->
+
+        <div id="membershipcontent">
+            <div>.</div>
+
+            <div id="firstcontent">
+                <div class="member col-w">cultpass BLACK</div>
+                <div>.</div>
+                <div class="col-grey">unlimited access to all cult centers, gyms and live workout</div>
+                <div>.</div>
+                <div class="enjoy">
+                    <h3 class="hh"></h3>
+                    <div>ENJOY THE BENEFITS OF</div>
+                    <h3 class="hh"></h3>
+                </div>
+
+            </div>
+
+            <div id="place">
+
+
+                <div class="a">
+                    <div class="material-icons iw">home</div>
+                    <div class="col-w"> Buy now start anytime</div>
+                </div>
+                <div class="a">
+                    <div class="material-icons md-48 iw">directions_run</div>
+                    <div class="col-w">Pause pack anytime</div>
+                </div>
+                <div class="a">
+                    <div class="material-icons iw">inventory</div>
+                    <div class="col-w"> safest gyms in town</div>
+                </div>
+                <div class="a">
+                    <div class="material-icons iw">inventory</div>
+                    <div class="col-w"> Now-cost EMI-available</div>
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="subscription">
+                Choose Your Subscription
+            </div>
+
+            <!-- --------coupon box start -->
+
+            <div id="coupon">
+
+                <div id="fir">
+                    <div id="firbox">
+                        <div class="firflex">
+                            <div>
+                                <p class="paratext par">100+10 sessions</p>
+                            </div>
+                            <div class="linethr">
+                                <p class="paratext  linethrough">₹ 29990</p>
+                                <p class="paratext bla">₹ 29990</p>
+                            </div>
+                            <div>
+                                <p class="gre"> 240 days validity</p>
+                            </div>
+                        </div>
+
+                        <div class="secflex">
+                            <h3>Buy</h3>
+                        </div>
+
+                    </div>
+
+                    <div id="tag">
+                        <div class="material-icons mlef">
+                            local_offer
+                        </div>
+                        <div>
+                            <p class="free">Get Fress 3 Month Extension</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="fir">
+                    <div id="firbox">
+                        <div class="firflex">
+                            <div>
+                                <p class="paratext par">100+10 sessions</p>
+                            </div>
+                            <div class="linethr">
+                                <p class="paratext  linethrough">₹ 29990</p>
+                                <p class="paratext bla">₹ 29990</p>
+                            </div>
+                            <div>
+                                <p class="gre"> 240 days validity</p>
+                            </div>
+                        </div>
+
+                        <div class="secflex">
+                            <h3>Buy</h3>
+                        </div>
+
+                    </div>
+
+                    <div id="tag">
+                        <div class="material-icons mlef">
+                            local_offer
+                        </div>
+                        <div>
+                            <p class="free">Get Fress 2 Month Extension</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="fir">
+                    <div id="firbox">
+                        <div class="firflex">
+                            <div>
+                                <p class="paratext par">100+10 sessions</p>
+                            </div>
+                            <div class="linethr">
+                                <p class="paratext  linethrough">₹ 29990</p>
+                                <p class="paratext bla">₹ 29990</p>
+                            </div>
+                            <div>
+                                <p class="gre"> 240 days validity</p>
+                            </div>
+                        </div>
+
+                        <div class="secflex">
+                            <h3>Buy</h3>
+                        </div>
+
+                    </div>
+
+                    <div id="tag">
+                        <div class="material-icons mlef">
+                            local_offer
+                        </div>
+                        <div>
+                            <p class="free">Get Fress 2 Month Extension</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+           
+
+        </div>
+
+        <!-- memebersghip second box -->
+         <!-- memebershipbox 1 -->
+
+         <div id="membershipcontent " class="colimp">
+            <div>.</div>
+
+            <div id="firstcontent">
+                <div class="member col-w">cultpass GOLD</div>
+                <div>.</div>
+                <div class="col-grey">unlimited access to all cult centers, gyms and live workout</div>
+                <div>.</div>
+                <div class="enjoy">
+                    <h3 class="hh"></h3>
+                    <div>ENJOY THE BENEFITS OF</div>
+                    <h3 class="hh"></h3>
+                </div>
+
+            </div>
+
+            <div id="place">
+
+
+                <div class="a">
+                    <div class="material-icons iw">home</div>
+                    <div class="col-w"> Buy now start anytime</div>
+                </div>
+                <div class="a">
+                    <div class="material-icons md-48 iw">directions_run</div>
+                    <div class="col-w">Pause pack anytime</div>
+                </div>
+                <div class="a">
+                    <div class="material-icons iw">inventory</div>
+                    <div class="col-w"> safest gyms in town</div>
+                </div>
+                <div class="a">
+                    <div class="material-icons iw">inventory</div>
+                    <div class="col-w"> Now-cost EMI-available</div>
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="subscription">
+                Choose Your Subscription
+            </div>
+
+            <!-- --------coupon box start -->
+
+            <div id="coupon">
+
+                <div id="fir">
+                    <div id="firbox">
+                        <div class="firflex">
+                            <div>
+                                <p class="paratext par">100+10 sessions</p>
+                            </div>
+                            <div class="linethr">
+                                <p class="paratext  linethrough">₹ 29990</p>
+                                <p class="paratext bla">₹ 29990</p>
+                            </div>
+                            <div>
+                                <p class="gre"> 240 days validity</p>
+                            </div>
+                        </div>
+
+                        <div class="secflex">
+                            <h3>Buy</h3>
+                        </div>
+
+                    </div>
+
+                    <div id="tag">
+                        <div class="material-icons mlef">
+                            local_offer
+                        </div>
+                        <div>
+                            <p class="free">Get Fress 3 Month Extension</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="fir">
+                    <div id="firbox">
+                        <div class="firflex">
+                            <div>
+                                <p class="paratext par">100+10 sessions</p>
+                            </div>
+                            <div class="linethr">
+                                <p class="paratext  linethrough">₹ 29990</p>
+                                <p class="paratext bla">₹ 29990</p>
+                            </div>
+                            <div>
+                                <p class="gre"> 240 days validity</p>
+                            </div>
+                        </div>
+
+                        <div class="secflex">
+                            <h3>Buy</h3>
+                        </div>
+
+                    </div>
+
+                    <div id="tag">
+                        <div class="material-icons mlef">
+                            local_offer
+                        </div>
+                        <div>
+                            <p class="free">Get Fress 2 Month Extension</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="fir">
+                    <div id="firbox">
+                        <div class="firflex">
+                            <div>
+                                <p class="paratext par">100+10 sessions</p>
+                            </div>
+                            <div class="linethr">
+                                <p class="paratext  linethrough">₹ 29990</p>
+                                <p class="paratext bla">₹ 29990</p>
+                            </div>
+                            <div>
+                                <p class="gre"> 240 days validity</p>
+                            </div>
+                        </div>
+
+                        <div class="secflex">
+                            <h3>Buy</h3>
+                        </div>
+
+                    </div>
+
+                    <div id="tag">
+                        <div class="material-icons mlef">
+                            local_offer
+                        </div>
+                        <div>
+                            <p class="free">Get Fress 2 Month Extension</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            </div>
+<!-- ---------------------- -->
+           <!-- <div class="vidlong">
+
+           </div> -->
+
+<!-- faqpage --------------------------------------------------------------------------->
+<div id="FAQsBox">
+    <div id="faqText">
+        <div id="ft"> FAQS</div>
+        <div id="seeText">SEE ALL</div>
+    </div>
+    <div id="sevenQue">
+        7 QUESTIONS
+    </div>
+    <div id="quesBox">
+        <details class="ques1" >
+            <summary class="ques">
+                <div class="sid">
+                    Is therapy for me?
+                </div>
+                <div class="downArrowq" id="dA1" >
+                    <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)" >
+                </div>
+            </summary>
+            <div class="panel" >
+                Everyone goes through challenging situations in life, and while you may have successfully navigated through other
+                difficulties you’ve faced, Therapy provides the extra support when you most need it. In fact, therapy is for people
+                who
+                have enough self-awareness to realize they need a helping hand, and that is something to be admired.
+                <div class="yesNo" >
+                    Do you find this helpful? <span class="pinkC">  &nbsp;  Yes &nbsp; No</span>
+                </div>
+            </div>
+        </details>
+        <details class="ques1">
+            <summary class="ques">
+                <div class="sid">
+                What should I expect during my first 1 on 1 therapy session?
+                </div>
+                <div class="downArrowq" id="dA2">
+                    <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                </div>
+            </summary>
+            <div class="panel">
+            The first session is about building trust. Therapy works best when you can trust your Therapist and vice versa. We,
+            therefore, use the first session to understand your problems better and define a goal based journey on what to expect
+            from therapy and by when.
+                <div class="yesNo">
+                    Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                </div>
+            </div>
+        </details>
+        <details class="ques1">
+            <summary class="ques">
+                <div class="sid">
+                What is the difference between a Therapist and a Psychiatrist?
+                </div>
+                <div class="downArrowq" id="dA3">
+                    <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                </div>
+            </summary>
+            <div class="panel">
+            A Therapists' goal is to help patients make decisions and clarify their feelings in order to solve problems without any
+            medication. A Psychiatrist, on the other hand, helps diagnose mental health issues, and prescribes medicines if needed.
+            However, Therapists often works in tandem with a Psychiatrist to provide comprehensive care as needed by any user.
+                <div class="yesNo">
+                    Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                </div>
+            </div>
+        </details>
+        <details class="ques1">
+            <summary class="ques">
+                <div class="sid">
+                What does a Therapy pack offer?
+                </div>
+                <div class="downArrowq" id="dA4">
+                    <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                </div>
+            </summary>
+            <div class="panel">
+                A Therapy pack helps with continuity of your wellness journey, without having to bother about booking sessions one at a
+                time. Your Therapist will recommend the number of sessions that you might need to address your challenges. We recommend
+                you buy a pack only after a discussion with the therapist.
+                <div class="yesNo">
+                    Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                </div>
+            </div>
+        </details>
+        <details class="ques1">
+            <summary class="ques">
+                <div class="sid">
+                    How to book a 1 on 1 Therapy session?
+                </div>
+                <div class="downArrowq" id="dA5">
+                    <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                </div>
+            </summary>
+            <div class="panel">
+            Here’s how you can book a therapy session from the cure.fit app: Log into the cure.fit app From the bottom of the To-Do
+            page, pick mind.fit Pick 1 on 1 therapy Pick a preferred center and time slot Make a payment That’s all!
+                <div class="yesNo">
+                    Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                </div>
+            </div>
+        </details>
+        <details class="ques1">
+            <summary class="ques">
+                <div class="sid">
+                Who all will have access to my medical data?
+                </div>
+                <div class="downArrowq" id="dA6">
+                    <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                </div>
+            </summary>
+            <div class="panel">
+            Only your assigned Therapist and/or assigned Psychiatrist will have access to your medical data until you provide
+            explicit access to any other professional
+                <div class="yesNo">
+                    Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                </div>
+            </div>
+        </details>
+        <details class="ques1">
+            <summary class="ques">
+                <div class="sid">
+                The information I share with my therapist is sensitive information, is this information safe?
+                </div>
+                <div class="downArrowq" id="dA7">
+                    <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" class="downArrowQue" style="transform: rotateZ(270deg)">
+                </div>
+            </summary>
+            <div class="panel">
+            Absolutely! We ensure none of your medical/psychiatric information is shared with anyone but your Therapist and
+            Psychiatrist. All the information you share with us is completely safe and secure with us.
+                <div class="yesNo">
+                    Do you find this helpful? <span class="pinkC"> &nbsp; Yes &nbsp; No</span>
+                </div>
+            </div>
+        </details>
+    </div>
+</div>
+
+
+<!-- ---quick link section -->
+<div id="quicklink">
+    <h1 class="quick">Quick Links</h1>
+    <h3 class="help">Help & Support</h3>
+    <hr class="line">
+    <h3 class="term">Term and Conditions</h3>
+    <hr class="line">
+
+</div>
+
+
+<!-- ----sprit div--- -->
+<div class="sprcont">
+    <div class="sprdiv">
+        <div class="spr">BE SPIRITED</div>
+        <div class="fear">FEARLESS</div>
+        <div class="ever">AN EVERYDAY ATHLETE</div>
+    </div>
+</div>
+
+
+
+<!-- ----big blue div -->
+<div id="bluebigdiv">
+
+    <div id="bigdi">
+        <div id="bluefirst">
+            <h5>Online personal Training</h5>
+            <p>More and more people are realizing the importance of staying fit and healthy. With a sedentary
+                lifestyle becoming more of a norm these days, it has become essential to find time in your busy
+                schedule for a physical workout. If you are on a time crunch, it might be difficult to squeeze
+                out enough time to go to a training centre or a gym to get your workout done. This is where
+                and cost-effective way to reach your fitness targets without having to rely on the trainer’s
+                location or availability.</p>
+            <h5>How Online Personal Training Works?</h5>
+            <p>Online personal training is a relatively new concept. Ever since its conception, more people have
+                started switching to this type of training because of the many benefits it offers. Online
+                
+                more ease. Since these Personal Training sessions are one on one, you can work out at your pace
+                and benefit from the vast knowledge of the Online Personal Trainer you have chosen.</p>
+            
+           
+        </div>
+
+        <div id="bluesecond">
+
+            <h5>Online personal Training</h5>
+            <p>More and more people are realizing the importance of staying fit and healthy. With a sedentary
+                lifestyle becoming more of a norm these days, it has become essential to find time in your busy
+                schedule for a physical workout. If you are on a time crunch, it might be difficult to squeeze
+                out enough time to go to a training centre or a gym to get your workout done. This is where
+                online personal training comes in handy. You do not need to waste any time commuting, yet still,
+                get access to online personal training from the comfort of your home. An online personal
+                training program constitutes undergoing training unle and cost-effective way to reach your
+                fitness targets without having to rely on the trainer’s location or availability.</p>
+            <h5>How Online Personal Training Works?</h5>
+            <p>Online personal training is a relatively new concept. Ever since its conception, more people have
+                started switching to this type of training because of the many benefits it offers. Online
+                training can be described as an exciting way to start training under the guidance of a certified
+                personal trainer at a fraction of the cost without having to worry about the logistics or travel
+                time. Most online coaching programs have different packages based on the difficulty level as
+                
+           </div>
+    </div>
+
+</div>
+
+<!-- ---footer section start -->
+
+<div id="footer">
+    <div>.</div>
+    <div class="logo-footer">
+        <img src="https://static.cure.fit/assets/images/cult-logo-white.svg" />
+
+        <p class="text-Footer-P">
+            At cult.fit, we make group workouts fun, daily food healthy & tasty,
+            mental fitness easy with yoga & meditation, and medical & lifestyle
+            care hassle-free. #BeBetterEveryDay
+        </p>
+    </div>
+    <div>.</div>
+    <div class="right">
+        <div class="links1">
+            <p class="fText">CONTACT</p>
+            <p class="fText">US</p>
+            <p class="fText">BLOG</p>
+            <p class="fText">TALKS</p>
+            <p class="fText">CAREER</p>
+        </div>
+
+        <div class="links2">
+            <p class="fText">CULTFIT FOR BUSINESSES</p>
+            <p class="fText">CULT PASS</p>
+            <p class="fText">NETWORK</p>
+            <p class="fText">CORPORATE</p>
+            <p class="fText">PARTNERSHIPS</p>
+        </div>
+
+        <div class="playStore">
+            <img src="https://static.cure.fit/assets/images/app-store.svg" alt="" />
+            <img src="https://static.cure.fit/assets/images/play-store.svg" alt="" />
+        </div>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>
+

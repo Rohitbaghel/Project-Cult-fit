@@ -34,3 +34,94 @@ let a = JSON.parse(localStorage.getItem("currentcity"));
 let location_div =document.getElementById("location");
 location_div.textContent=a[0];
 // console.log(location_div)
+
+
+
+function backtohome(){
+    window.location.href = "../html/home.html"
+}
+
+// arrow=>
+let mindFitBox = document.getElementById("FitImgBox")
+var c = 0;
+mindFitBox.addEventListener("click", () => {
+    
+    let dAB = document.getElementById("imgMf");
+        c += 180;
+    dAB.style.transform = `rotate(${c}deg)`;
+    dAB.style.transition = " 0.2s linear";
+    
+    
+})
+
+let imgMf = document.getElementById("imgMf")
+
+imgMf.addEventListener("click", () => {
+
+    let dAB = document.getElementById("imgMf")
+    c += 180
+    dAB.style.transform = `rotate(${c}deg)`
+    dAB.style.transition = " 0.1s linear";
+})
+
+
+
+
+// popUp=>
+var d = 0;
+
+function myFunction() {
+   
+    let popup = document.getElementById("myPopup");
+    d++;
+    if(d%2==1){
+        popup.style.display = "block"
+        
+    }
+    if (d % 2 == 0) {
+        popup.style.display = "none"
+    }
+    
+    
+}
+
+function myFunction() {
+
+    let popup = document.getElementById("myPopup");
+    d++;
+    if (d % 2 == 1) {
+        popup.style.display = "block"
+
+    }
+    if (d % 2 == 0) {
+        popup.style.display = "none"
+    }
+
+
+}
+
+// arrow=>
+
+
+// FAQs
+const ques = document.querySelectorAll(".sid");
+var count = 0;
+ques.forEach((el) => {
+    el.addEventListener("click", event =>{
+        count += 180
+        const downArrow = el.nextElementSibling;
+                downArrow.style.transform = `rotate(${count}deg)`
+        // downArrow.style.transition = " 0.2s ease-in-out";
+    })
+})
+//feedback=>
+let yes = document.querySelectorAll(".pinkC");
+yes.forEach((el) => {
+    el.addEventListener("click", event =>{
+        el.style.opacity =  "0.2";
+        el.style.cursor= "not-allowed";
+        alert("Thanks for your feedback")
+    })
+})
+
+// FAQs

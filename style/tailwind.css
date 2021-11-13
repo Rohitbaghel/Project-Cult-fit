@@ -15,6 +15,7 @@ Use a better box model (opinionated).
 ::before,
 ::after {
   box-sizing: border-box;
+  font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /**
@@ -82,6 +83,8 @@ body {
 }
 #cart-div{
   visibility: hidden;
+  overflow:scroll;
+  
 }
 .cart-div-title{
   font-size: 1.5vw;
@@ -107,6 +110,272 @@ body {
   background-color: rgb(15, 209, 255);
   vertical-align: sub;
 }
+#f_div1{
+  display:flex;
+  height:30%;
+  margin-bottom:2%;
+}
+#f_div1>img{
+  width:100%;
+}
+#f_div1 div:nth-child(1){
+  width:30%;
+}
+#total_btn{
+  display:flex;
+  width:40%;
+  justify-content:center;
+  border-radius:10px;
+  margin:auto;
+  background-color: #ff0d9c;
+  color:white;
+}
+#plus_minus{
+  display:flex;
+  gap:1%;
+  justify-content:center;
+}
+#plus_minus div{
+  width:15%;
+  border:0.2px solid black;
+  text-align:center;
+  font-weight:bold;
+}
+#plus_minus div:nth-child(2){
+  width:28%;
+}
+
+/* arrow=> */
+
+
+#myPopup{
+  position: absolute;
+  display: none;
+  width: 250px;   
+  height: 165px;
+
+  margin-left:3%;
+  margin-top: 4%;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 7px 9px;
+  z-index: 100;
+  animation: fadeIn  1s;
+}
+@-webkit-keyframes fadeIn {
+from {opacity: 0;} 
+to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity:1 ;}
+}
+
+#myPopup::before{
+   content: "";
+position: absolute;
+bottom: 99.9999%;
+left: 45%;
+margin-left: -14px;
+
+border-width: 14px;
+
+border-left: 15px;
+border-right: 15px; 
+border-style: solid;
+border-color: white transparent transparent transparent;
+transform: rotateZ(180deg);
+}
+
+
+#allImgs>div{
+  box-sizing: border-box;
+  padding: 22% 0 0 18%;
+  cursor: pointer;
+}
+
+#allImgs>div:hover{
+  opacity: 0.6;
+}
+
+
+.popImg1{
+  width: 50%;
+  height: 50%;
+}
+
+.popImg2{
+ margin: 11.5% 0 0 15%;
+}
+
+.popText{
+  font-size: .75vw;
+  font-weight: 600;
+
+}
+
+.popText1{
+  margin: 0 0 0 9%;
+}
+
+.popText2{
+  margin: 0 0 0 11%;
+}
+
+.popText3{
+  margin: 0 0 0 17%;
+  /* color: #ff0d9c; */
+}
+
+.popText4{
+   margin: 0 0 0 11%;
+  
+}
+
+.popText5{
+  margin: 0 0 0 7%;
+ 
+}
+.popText6{
+  margin: 0 0 0 7%;
+  color: #ff0d9c;
+}
+
+
+
+
+#allImgs{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  height: 100%;
+}
+
+/* qna */
+#FAQsBox{
+  /* height: 680px; */
+  background-color: rgb(242, 244, 248);
+  padding: 3% 0 0 0;
+  box-sizing: border-box;
+  margin-top: 4%;
+}
+#faqText{
+  margin:  auto ;
+  width: 79%;
+  display: flex;
+}
+#ft{
+  font-size: 1.65vw;
+  font-weight: 600;
+}
+#seeText{
+  font-size: 1vw;
+  font-weight: 600;
+  color: rgb(255, 50, 120);
+  margin: 0 0 0  88.5%;
+  padding: 7px 0 0 0;
+  box-sizing: border-box;
+}
+#seeText:hover{
+  cursor: pointer;
+}
+#sevenQue{
+  width: 79%;
+  margin: 1.5% auto auto auto;
+  font-weight: 600;
+  color: rgb(106,106,106);
+  font-size: 1.1vw;
+}
+#quesBox{
+  width: 77.5%;
+  margin: 2% auto auto 12%;
+}
+
+.ques{
+  display: grid;
+  height: 70px;
+  cursor: pointer;
+  grid-template-columns: 90% 8%;
+  /* grid-gap: 20%; */
+}
+.ques1{
+border-bottom: 1px solid rgb(212, 212, 212) ;
+}
+.panel{
+  font-size: .9vw;
+  color: rgb(136, 142, 158);
+  font-weight: 500;
+  width: 55%;
+  margin: 0 0 0 2.5%;
+  line-height: 20px;
+  padding-bottom: 20px;
+  }
+ details>summary{
+     list-style: none;
+ }
+  .yesNo{
+      font-weight: 300;
+      font-size: 1.1vw;
+      margin: 20px 0 0 0;
+  }
+  .pinkC{
+      color: rgb(255, 50, 120);
+      cursor: pointer;
+  }
+.sid{
+  width: 100%;
+  display: list-item;
+  margin: 0 0 0 2%;
+  color:rgb(106,106,106) ;
+  box-sizing: border-box;
+  font-size: 1.2vw;
+  padding: 2.3% 0 0 0 ;
+}
+.sid::before{
+  content: "\2022";
+  font-size: 1.75vw;
+  color: rgb(106,106,106);
+  position: relative;
+  left: -1rem;
+  top: .2rem;
+}
+.downArrowQue{
+  width: 70%;
+ /* transform: rotateZ(270deg); */
+  margin: 0 0 0 2px;
+}
+.downArrowq{
+   margin: 0 0 0 85%;
+   box-sizing: border-box;
+   padding: 25px 0  0 0 ;
+}
+
+
+/* qna */
+
+/* .imgMF{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+} */
+#downArrowBox{
+  box-sizing: border-box;
+  padding: 0 0 0 .3%;
+
+}
+/* #downArrowBox:hover{
+  transform: rotateX(150deg);
+}
+*/
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* arrow=> */
+
+
 /*
 Grouping content
 ================

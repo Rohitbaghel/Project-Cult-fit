@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
  line-height: normal !important;
-    /* overflow-x: hidden; */
+   
     font-family: sans-serif;
-    /* border: 1px dotted black; */
+
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 .navbar{
         display: flex;
         justify-content: space-between;
@@ -24,11 +28,11 @@
        
     }
     .logo{
-        margin: 0 0 0 .5%;
+        margin: 0 0 0 1%;
         width: 2.5%;
     }
     
-    #eatFitImgBox{
+    #FitImgBox{
         width: 5.3%;
         margin: 0 0 0 .65%;
         box-sizing: border-box;
@@ -48,7 +52,6 @@
         width:35%;
         grid-template-columns: 50% 50%;
         font-weight: 500;
-        font-size: 1vw;
         margin: 0 0 0 18%;
         align-items: center;
     }
@@ -88,20 +91,18 @@
         grid-template-columns: 10% auto;
         grid-gap: 5%;
         width: 40%;
+        align-items: center;
     }
     .dot{
         height: 9px;
         width: 9px;
         border-radius: 50%;
-        background-color: rgb(15, 209, 255);
-       
+        background-color: rgb(15, 209, 255);   
         box-sizing: border-box;
         
     }
     #nameCity{
         margin: 0 0 0 2%;
-        font-size: 1vw;
-        font-weight: rgb(51, 51, 51);
     }
     
     #loginBox{
@@ -170,6 +171,7 @@
       /* border-bottom: 3px solid #ff316d; */
       font-size: 17px;
         padding: .5rem 1rem;
+        cursor: pointer;
     }
     .MealContent span:nth-child(1){
         border-bottom: 3px solid #ff316d;
@@ -189,6 +191,7 @@
          width: 100%;
          border-radius: 7px;
          transition: .5s ease;
+         cursor: pointer;
     }
 
     .Breakfast img:hover{

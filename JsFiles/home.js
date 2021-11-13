@@ -41,7 +41,7 @@ function num() {
         btn.textContent = "Confirm";
         btn.onclick = () => {
             let a = document.getElementById("otp").value;
-            ch(a, str, btn);
+            ch(a, str);
         }
     } else {
         alertbox.textContent = "Phone number must be at least 10 characters";
@@ -49,14 +49,23 @@ function num() {
     }
 }
 
-function ch(otp, str, btn) {
+function ch(otp, str) {
 
     if (otp === str) {
+        let div = document.getElementById("continue");
+        div.innerHTML = null;
+        let btn = document.createElement("button");
+        div.appendChild(btn);
+        btn.setAttribute("class", "continue");
+        btn.textContent = "Logout";
+        let b= document.getElementById("login-txt");
+        b.textContent = "Logout"
+        btn.onclick = () => {
+            dlt();
+        }
         let a = document.createElement("a");
         document.getElementById("phn").style.display = "none";
         alertbox.textContent = null;
-        btn.textContent = "Logout";
-        a.href = "../html/home.html"
         condition();
         cancel();
     } else {
@@ -65,10 +74,12 @@ function ch(otp, str, btn) {
 }
 
 function condition() {
+    
     let a = document.getElementById("continue");
     let b = a.textContent;
-    console.log(b);
+
     if (b === "Logout") {
+
         if (localStorage.getItem("checklogin") === null) {
             localStorage.setItem("checklogin", JSON.stringify([]));
             let c = [];
@@ -76,6 +87,12 @@ function condition() {
             console.log(c)
             localStorage.setItem("checklogin", JSON.stringify(c));
         }
+
+        // let logOut_btn = document.getElementById("continue");
+
+        // logOut_btn.onclick = () => {
+        //     dlt();
+        // }
     }
 }
 
@@ -86,6 +103,7 @@ function dlt() {
     localStorage.setItem("checklogin", JSON.stringify([]));
     let e = [];
     localStorage.setItem("checklogin", JSON.stringify(e));
+    window.location.href = "home.html"
 }
 
 //main 
@@ -314,8 +332,8 @@ function locate_cancel() {
 }
 
 let a = JSON.parse(localStorage.getItem("currentcity"));
-let location_div =document.getElementById("login-location");
-location_div.textContent=a[0];
+let location_div = document.getElementById("login-location");
+location_div.textContent = a[0];
 console.log(location_div)
 
 function txt_select(e) {
@@ -346,3 +364,17 @@ function cart_null() {
     let btn = document.getElementById("cart-icon");
     btn.onclick = () => { cart() };
 }
+
+// function v() {
+//     let logOut_btn = document.getElementById("continue");
+
+//     if (logOut_btn.textContent === "Logout") {
+//         logOut_btn.onclick = () => {
+//             dlt();
+//         }
+//     }
+// }
+
+// let set_int=setInterval(v,1000);
+
+
