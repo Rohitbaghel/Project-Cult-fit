@@ -41,7 +41,7 @@ function num() {
         btn.textContent = "Confirm";
         btn.onclick = () => {
             let a = document.getElementById("otp").value;
-            ch(a, str, btn);
+            ch(a, str);
         }
     } else {
         alertbox.textContent = "Phone number must be at least 10 characters";
@@ -49,15 +49,21 @@ function num() {
     }
 }
 
-function ch(otp, str, btn) {
+function ch(otp, str) {
 
     if (otp === str) {
+        let div = document.getElementById("continue");
+        div.innerHTML = null;
+        let btn = document.createElement("button");
+        div.appendChild(btn);
+        btn.setAttribute("class", "continue");
+        btn.textContent = "Logout";
+        btn.onclick = () => {
+            dlt();
+        }
         let a = document.createElement("a");
         document.getElementById("phn").style.display = "none";
         alertbox.textContent = null;
-        btn.textContent = "Logout";
-        document.getElementById("login-txt").textContent = "logout";
-        a.href = "../html/home.html"
         condition();
         cancel();
     } else {
@@ -66,6 +72,7 @@ function ch(otp, str, btn) {
 }
 
 function condition() {
+    
     let a = document.getElementById("continue");
     let b = a.textContent;
 
@@ -355,3 +362,17 @@ function cart_null() {
     let btn = document.getElementById("cart-icon");
     btn.onclick = () => { cart() };
 }
+
+// function v() {
+//     let logOut_btn = document.getElementById("continue");
+
+//     if (logOut_btn.textContent === "Logout") {
+//         logOut_btn.onclick = () => {
+//             dlt();
+//         }
+//     }
+// }
+
+// let set_int=setInterval(v,1000);
+
+

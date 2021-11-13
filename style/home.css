@@ -835,7 +835,10 @@ line-height: 3vw;
         display: none;
     }
     .login-icon{
-        margin-left: 50%;
+        margin-left: 60%;
+    }
+    .login-icon>div{
+        margin: 5%;
     }
 }
 
