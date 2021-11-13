@@ -1,7 +1,7 @@
 # Project-Cult-fit
 Cult fit website
 
-This project is about copying the famous workout fitness center chain cult.fit,
+This project is about copying the famous workout fitness center chain cult.fit.
 # <a href="https://www.cult.fit/">Cult Fit</a>
 <h2>About Project</h2>
 <p>
