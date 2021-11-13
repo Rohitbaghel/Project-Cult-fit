@@ -2,7 +2,7 @@
 Cult fit website
 
 This project is about copying the famous workout fitness center chain cult.fit,
-# <a href="">Cult Fit</a>
+# <a href="https://www.cult.fit/">Cult Fit</a>
 <h2>About Project</h2>
 <p>
     This Project has been assigned to us during our construct week in 3nd unit at masai school. The Project is about to clone the Cult.fit. Cult.fit is a chain of group workout fitness centres across Bengaluru, Hyderabad, Delhi and Gurugram. It comprises different workout formats such as Zumba, Yoga, Boxing, Strength & Conditioning, Sports Conditioning, HRX by Hrithik Roshan, Prowl by Tiger Shroff, Football and Running. Cult also offers do-it-yourself packs on the cure.fit app. </p>
