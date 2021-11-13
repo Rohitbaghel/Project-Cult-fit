@@ -207,7 +207,13 @@ function showProduct() {
     bt.id="total_btn"
     cart_items.append(bt);
     bt.onclick=()=>{
-        window.location.href="pay.html"
+        let d = JSON.parse(localStorage.getItem("checklogin"));
+        if(d[0] ==="Logout"){
+            window.location.href = "pay.html";
+        }else{
+            alert("Please Login");
+            window.location.href = "home.html"
+        }
     }
 }
 
