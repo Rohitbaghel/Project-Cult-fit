@@ -36,4 +36,4 @@ This project is about copying the famous workout fitness center chain cult.fit.
 
 
     
-we split our task between three of us. Mahesh designed the landing page along with signIn ans signUp function with all mandatory and necessary authentication for visiting   the Pull&Bear website,
+we split our task between three of us. Mahesh designed the landing page along with signIn ans signUp function with all mandatory and necessary authentication for visiting   the website,
