@@ -20,19 +20,19 @@ This project is about copying the famous workout fitness center chain cult.fit,
 <h2>Project Statements</h2>
 <p>
     We are  team of 7 members working on this project.<br>
-1- Rohit Baghel
+1- <a href="https://github.com/Rohitbaghel">Rohit Baghel</a>
 
-2- Pummy Sharma
+2- <a href="https://github.com/pummysh">Pummy Sharma</a>
 
-3- Manthan Gaikwad
+3- <a href="https://github.com/ManthanG369">Manthan Gaikwad</a>
 
-4-Abhijeet Kumar
+4-<a href="https://github.com/Abhijeet9242">Abhijeet Kumar</a>
 
-5-Siddesh Patil
+5-<a href="https://github.com/Coolasid">Siddesh Patil</a>
 
-6-Swaraj Jadhav
+6-<a href="https://github.com/swaraj54">Swaraj Jadhav</a>
 
-7-Yogesh Ashok Bogar
+7-<a href="https://github.com/yogeshbogar099">Yogesh Ashok Bogar</a>
 
 
     
