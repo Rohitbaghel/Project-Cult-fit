@@ -1,5 +1,5 @@
 // arrow=>
-let mindFitBox = document.getElementById("eatFitImgBox")
+let mindFitBox = document.getElementById("FitImgBox")
 var c = 0;
 mindFitBox.addEventListener("click", () => {
     

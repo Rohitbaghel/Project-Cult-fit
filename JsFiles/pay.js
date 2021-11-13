@@ -42,9 +42,18 @@ function makepay() {
             parent.append(div);
             div.setAttribute("id", "alt");
 
-            setInterval(function () {
+            setTimeout(function () {
+                let img1 = document.createElement("img")
+                img1.src = "https://i.pinimg.com/originals/32/b6/f2/32b6f2aeeb2d21c5a29382721cdc67f7.gif";
+                div.append(img1)
+                parent.append(div);
+                div.setAttribute("id", "alt");
+            },2000);
+
+            setTimeout(function () {
+
                 window.location.href = "../html/home.html";
-            }, 3000);
+            }, 4000);
         }
     } else if (btn.innerText == "ORDER") {
         let div = document.createElement('div');
@@ -56,9 +65,19 @@ function makepay() {
         div.setAttribute("id", "alt");
         //   div.textContent="PAYMENT SUCESSFUL"
 
+        setTimeout(function () {
+            div.innerHTML= null;
+            let img1 = document.createElement("img")
+            img1.src = "https://i.pinimg.com/originals/32/b6/f2/32b6f2aeeb2d21c5a29382721cdc67f7.gif";
+            div.append(img1)
+            parent.append(div);
+            div.setAttribute("id", "alt1");
+        },2000);
+
+
         setInterval(function () {
             window.location.href = "../html/home.html";
-        }, 3000);
+        }, 4000);
     } else {
         alert("Chose the payment option")
     }

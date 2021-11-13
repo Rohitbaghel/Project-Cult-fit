@@ -66,6 +66,9 @@ input{
     margin-top: 3%;
     margin: auto;
 }
+#alt1{
+    margin-left:18% ;
+}
 #pay{
     display: flex;
     margin: auto;

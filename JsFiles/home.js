@@ -58,6 +58,8 @@ function ch(otp, str) {
         div.appendChild(btn);
         btn.setAttribute("class", "continue");
         btn.textContent = "Logout";
+        let b= document.getElementById("login-txt");
+        b.textContent = "Logout"
         btn.onclick = () => {
             dlt();
         }
